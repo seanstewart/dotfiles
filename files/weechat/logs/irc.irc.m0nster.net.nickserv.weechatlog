@@ -1,0 +1,345 @@
+2013-01-29 01:07:54	sean	help
+2013-01-29 01:07:54	⇄	NickServ: NickServ allows you to register a nickname and
+2013-01-29 01:07:54	⇄	NickServ: prevent others from using it. The following
+2013-01-29 01:07:54	⇄	NickServ: commands allow for registration and maintenance of
+2013-01-29 01:07:54	⇄	NickServ: nicknames; to use them, type /msg NickServ command.
+2013-01-29 01:07:54	⇄	NickServ: For more information on a specific command, type
+2013-01-29 01:07:54	⇄	NickServ: /msg NickServ HELP command.
+2013-01-29 01:07:54	⇄	NickServ: 
+2013-01-29 01:07:54	⇄	NickServ:     ACCESS         Modify the list of authorized addresses
+2013-01-29 01:07:54	⇄	NickServ:     ALIST          List channels you have access on
+2013-01-29 01:07:54	⇄	NickServ:     CONFIRM        Confirm an auth code
+2013-01-29 01:07:54	⇄	NickServ:     DROP           Cancel the registration of a nickname
+2013-01-29 01:07:54	⇄	NickServ:     GLIST          Lists all nicknames in your group
+2013-01-29 01:07:54	⇄	NickServ:     GROUP          Join a group
+2013-01-29 01:07:54	⇄	NickServ:     HELP           Displays this list and give information about commands
+2013-01-29 01:07:54	⇄	NickServ:     IDENTIFY       Identify yourself with your password
+2013-01-29 01:07:54	⇄	NickServ:     INFO           Displays information about a given nickname
+2013-01-29 01:07:54	⇄	NickServ:     LIST           List all registered nicknames that match a given pattern
+2013-01-29 01:07:54	⇄	NickServ:     LOGOUT         Reverses the effect of the IDENTIFY command
+2013-01-29 01:07:54	⇄	NickServ:     RECOVER        Regains control of your nick
+2013-01-29 01:07:54	⇄	NickServ:     REGISTER       Register a nickname
+2013-01-29 01:07:55	⇄	NickServ:     SET            Set options, including kill protection
+2013-01-29 01:07:55	⇄	NickServ:     STATUS         Returns the owner status of the given nickname
+2013-01-29 01:07:55	⇄	NickServ:     UNGROUP        Remove a nick from a group
+2013-01-29 01:07:55	⇄	NickServ:     UPDATE         Updates your current status, i.e. it checks for new memos
+2013-01-29 01:07:55	⇄	NickServ: 
+2013-01-29 01:07:55	⇄	NickServ: Accounts that are not used anymore are subject to
+2013-01-29 01:07:55	⇄	NickServ: the automatic expiration, i.e. they will be deleted
+2013-01-29 01:07:55	⇄	NickServ: after 365 days if not used.
+2013-01-29 01:07:55	⇄	NickServ: 
+2013-01-29 01:07:55	⇄	NickServ: NOTICE: This service is intended to provide a way for
+2013-01-29 01:07:55	⇄	NickServ: IRC users to ensure their identity is not compromised.
+2013-01-29 01:07:55	⇄	NickServ: It is NOT intended to facilitate "stealing" of
+2013-01-29 01:07:55	⇄	NickServ: nicknames or other malicious actions. Abuse of NickServ
+2013-01-29 01:07:55	⇄	NickServ: will result in, at minimum, loss of the abused
+2013-01-29 01:07:55	⇄	NickServ: nickname(s).
+2013-01-29 01:08:03	sean	update
+2013-01-29 01:08:03	⇄	NickServ: Status updated (memos, vhost, chmodes, flags).
+2013-01-29 01:22:09	⇄	irc: disconnected from server
+2013-01-29 01:22:29	⇄	NickServ: This nickname is registered and protected.  If it is your
+2013-01-29 01:22:29	⇄	NickServ: nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-01-29 01:22:29	⇄	NickServ: please choose a different nick.
+2013-01-29 01:22:47	sean	identify redhat
+2013-01-29 01:22:47	⇄	NickServ: Password accepted - you are now recognized.
+2013-01-29 01:25:12	sean	help
+2013-01-29 01:25:12	⇄	NickServ: NickServ allows you to register a nickname and
+2013-01-29 01:25:12	⇄	NickServ: prevent others from using it. The following
+2013-01-29 01:25:12	⇄	NickServ: commands allow for registration and maintenance of
+2013-01-29 01:25:12	⇄	NickServ: nicknames; to use them, type /msg NickServ command.
+2013-01-29 01:25:12	⇄	NickServ: For more information on a specific command, type
+2013-01-29 01:25:12	⇄	NickServ: /msg NickServ HELP command.
+2013-01-29 01:25:12	⇄	NickServ: 
+2013-01-29 01:25:12	⇄	NickServ:     ACCESS         Modify the list of authorized addresses
+2013-01-29 01:25:12	⇄	NickServ:     ALIST          List channels you have access on
+2013-01-29 01:25:12	⇄	NickServ:     CONFIRM        Confirm an auth code
+2013-01-29 01:25:12	⇄	NickServ:     DROP           Cancel the registration of a nickname
+2013-01-29 01:25:12	⇄	NickServ:     GLIST          Lists all nicknames in your group
+2013-01-29 01:25:12	⇄	NickServ:     GROUP          Join a group
+2013-01-29 01:25:12	⇄	NickServ:     HELP           Displays this list and give information about commands
+2013-01-29 01:25:12	⇄	NickServ:     IDENTIFY       Identify yourself with your password
+2013-01-29 01:25:12	⇄	NickServ:     INFO           Displays information about a given nickname
+2013-01-29 01:25:12	⇄	NickServ:     LIST           List all registered nicknames that match a given pattern
+2013-01-29 01:25:12	⇄	NickServ:     LOGOUT         Reverses the effect of the IDENTIFY command
+2013-01-29 01:25:12	⇄	NickServ:     RECOVER        Regains control of your nick
+2013-01-29 01:25:12	⇄	NickServ:     REGISTER       Register a nickname
+2013-01-29 01:25:14	⇄	NickServ:     SET            Set options, including kill protection
+2013-01-29 01:25:14	⇄	NickServ:     STATUS         Returns the owner status of the given nickname
+2013-01-29 01:25:14	⇄	NickServ:     UNGROUP        Remove a nick from a group
+2013-01-29 01:25:14	⇄	NickServ:     UPDATE         Updates your current status, i.e. it checks for new memos
+2013-01-29 01:25:14	⇄	NickServ: 
+2013-01-29 01:25:14	⇄	NickServ: Accounts that are not used anymore are subject to
+2013-01-29 01:25:14	⇄	NickServ: the automatic expiration, i.e. they will be deleted
+2013-01-29 01:25:14	⇄	NickServ: after 365 days if not used.
+2013-01-29 01:25:14	⇄	NickServ: 
+2013-01-29 01:25:14	⇄	NickServ: NOTICE: This service is intended to provide a way for
+2013-01-29 01:25:14	⇄	NickServ: IRC users to ensure their identity is not compromised.
+2013-01-29 01:25:14	⇄	NickServ: It is NOT intended to facilitate "stealing" of
+2013-01-29 01:25:14	⇄	NickServ: nicknames or other malicious actions. Abuse of NickServ
+2013-01-29 01:25:14	⇄	NickServ: will result in, at minimum, loss of the abused
+2013-01-29 01:25:14	⇄	NickServ: nickname(s).
+2013-01-29 01:25:35	sean	help set
+2013-01-29 01:25:35	⇄	NickServ: Syntax: set option parameters
+2013-01-29 01:25:35	⇄	NickServ: 
+2013-01-29 01:25:35	⇄	NickServ: Sets various nickname options.  option can be one of:
+2013-01-29 01:25:35	⇄	NickServ:     SET AUTOOP     Should services op you automatically.
+2013-01-29 01:25:35	⇄	NickServ:     SET DISPLAY    Set the display of your group in Services
+2013-01-29 01:25:35	⇄	NickServ:     SET EMAIL      Associate an E-mail address with your nickname
+2013-01-29 01:25:35	⇄	NickServ:     SET GREET      Associate a greet message with your nickname
+2013-01-29 01:25:35	⇄	NickServ:     SET HIDE       Hide certain pieces of nickname information
+2013-01-29 01:25:35	⇄	NickServ:     SET KILL       Turn protection on or off
+2013-01-29 01:25:35	⇄	NickServ:     SET LANGUAGE   Set the language Services will use when messaging you
+2013-01-29 01:25:35	⇄	NickServ:     SET PASSWORD   Set your nickname password
+2013-01-29 01:25:35	⇄	NickServ:     SET PRIVATE    Prevent the nickname from appearing in a /msg NickServ LIST
+2013-01-29 01:25:35	⇄	NickServ:     SET SECURE     Turn nickname security on or off
+2013-01-29 01:25:35	⇄	NickServ:     SET URL        Associate a URL with your account
+2013-01-29 01:25:35	⇄	NickServ: Type /msg NickServ HELP SET URL option for more information
+2013-01-29 01:25:35	⇄	NickServ: on a specific option.
+2013-01-29 01:25:48	sean	set display
+2013-01-29 01:25:48	⇄	NickServ: Syntax: SET DISPLAY new-display
+2013-01-29 01:25:48	⇄	NickServ: /msg NickServ HELP SET DISPLAY for more information.
+2013-01-29 01:25:51	sean	help set display
+2013-01-29 01:25:51	⇄	NickServ: Syntax: set display new-display
+2013-01-29 01:25:51	⇄	NickServ: 
+2013-01-29 01:25:51	⇄	NickServ: Changes the display used to refer to your nickname group in
+2013-01-29 01:25:51	⇄	NickServ: Services. The new display MUST be a nick of your group.
+2013-01-29 01:26:20	sean	help set hide
+2013-01-29 01:26:20	⇄	NickServ: Syntax: set hide {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}
+2013-01-29 01:26:20	⇄	NickServ: 
+2013-01-29 01:26:20	⇄	NickServ: Allows you to prevent certain pieces of information from
+2013-01-29 01:26:20	⇄	NickServ: being displayed when someone does a NickServ INFO on your
+2013-01-29 01:26:20	⇄	NickServ: nick.  You can hide your E-mail address (EMAIL), last seen
+2013-01-29 01:26:20	⇄	NickServ: user@host mask (USERMASK), your services access status
+2013-01-29 01:26:20	⇄	NickServ: (STATUS) and  last quit message (QUIT).
+2013-01-29 01:26:20	⇄	NickServ: The second parameter specifies whether the information should
+2013-01-29 01:26:20	⇄	NickServ: be displayed (OFF) or hidden (ON).
+2013-01-29 01:26:32	sean	set hide usermask on
+2013-01-29 01:26:32	⇄	NickServ: The last seen user@host mask of Sean will now be hidden from NickServ INFO displays.
+2013-01-29 01:26:49	sean	info sean
+2013-01-29 01:26:49	⇄	NickServ: Sean is sean
+2013-01-29 01:26:49	⇄	NickServ: Sean is a services operator of type Human.
+2013-01-29 01:26:49	⇄	NickServ:       Online from: ~sean@c-98-239-180-196.hsd1.pa.comcast.net
+2013-01-29 01:26:49	⇄	NickServ:       Online from: ~sean@72.19-246-81.adsl-static.isp.belgacom.be
+2013-01-29 01:26:49	⇄	NickServ:   Time registered: Jan 27 16:06:03 2013 EST (1 day, 9 hours, 20 minutes ago)
+2013-01-29 01:26:49	⇄	NickServ: Last quit message: "WeeChat 0.3.9.2 on Darwin"
+2013-01-29 01:26:49	⇄	NickServ:     Email address: seanstewart@gmail.com
+2013-01-29 01:26:49	⇄	NickServ:             VHost: 72.19-246-81.adsl-static.isp.belgacom.be
+2013-01-29 01:26:49	⇄	NickServ:           Options: Security, Private, Auto-op
+2013-01-29 01:26:49	⇄	NickServ:           Expires: Jan 29 01:24:56 2014 EST (364 days, 23 hours, 58 minutes from now)
+2013-01-29 01:27:37	sean	set autoop off
+2013-01-29 01:27:37	⇄	NickServ: Services will no longer autoop Sean in channels.
+2013-01-29 01:27:42	sean	set autoop on
+2013-01-29 01:27:42	⇄	NickServ: Services will now autoop Sean in channels.
+2013-01-29 01:27:46	sean	set autoop off
+2013-01-29 01:27:46	⇄	NickServ: Services will no longer autoop Sean in channels.
+2013-01-29 01:40:10	⇄	NickServ: This nickname is registered and protected.  If it is your
+2013-01-29 01:40:10	⇄	NickServ: nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-01-29 01:40:10	⇄	NickServ: please choose a different nick.
+2013-01-29 01:40:49	sean	identify redhat
+2013-01-29 01:40:49	⇄	NickServ: Password accepted - you are now recognized.
+2013-01-29 01:46:33	sean	info patrik
+2013-01-29 01:46:33	⇄	NickServ: patrik is Patrik Natali
+2013-01-29 01:46:33	⇄	NickServ: patrik is a services operator of type Human.
+2013-01-29 01:46:33	⇄	NickServ: Last seen address: ~patrik@c-24-3-232-77.hsd1.pa.comcast.net
+2013-01-29 01:46:33	⇄	NickServ: Last seen address: ~patrik@c-24-3-232-77.hsd1.pa.comcast.net
+2013-01-29 01:46:33	⇄	NickServ:   Time registered: Jan 27 17:10:03 2013 EST (1 day, 8 hours, 36 minutes ago)
+2013-01-29 01:46:33	⇄	NickServ:         Last seen: Jan 29 01:22:46 2013 EST (23 minutes ago)
+2013-01-29 01:46:33	⇄	NickServ:     Email address: patnatali@gmail.com
+2013-01-29 01:46:33	⇄	NickServ:           Options: Security, Private, Auto-op
+2013-01-29 01:46:33	⇄	NickServ:           Expires: Jan 29 01:22:46 2014 EST (364 days, 23 hours, 36 minutes from now)
+2013-01-29 01:48:30	sean	help
+2013-01-29 01:48:30	⇄	NickServ: NickServ allows you to register a nickname and
+2013-01-29 01:48:30	⇄	NickServ: prevent others from using it. The following
+2013-01-29 01:48:30	⇄	NickServ: commands allow for registration and maintenance of
+2013-01-29 01:48:30	⇄	NickServ: nicknames; to use them, type /msg NickServ command.
+2013-01-29 01:48:30	⇄	NickServ: For more information on a specific command, type
+2013-01-29 01:48:30	⇄	NickServ: /msg NickServ HELP command.
+2013-01-29 01:48:30	⇄	NickServ: 
+2013-01-29 01:48:30	⇄	NickServ:     ACCESS         Modify the list of authorized addresses
+2013-01-29 01:48:30	⇄	NickServ:     ALIST          List channels you have access on
+2013-01-29 01:48:30	⇄	NickServ:     CONFIRM        Confirm an auth code
+2013-01-29 01:48:30	⇄	NickServ:     DROP           Cancel the registration of a nickname
+2013-01-29 01:48:30	⇄	NickServ:     GLIST          Lists all nicknames in your group
+2013-01-29 01:48:30	⇄	NickServ:     GROUP          Join a group
+2013-01-29 01:48:30	⇄	NickServ:     HELP           Displays this list and give information about commands
+2013-01-29 01:48:30	⇄	NickServ:     IDENTIFY       Identify yourself with your password
+2013-01-29 01:48:30	⇄	NickServ:     INFO           Displays information about a given nickname
+2013-01-29 01:48:30	⇄	NickServ:     LIST           List all registered nicknames that match a given pattern
+2013-01-29 01:48:30	⇄	NickServ:     LOGOUT         Reverses the effect of the IDENTIFY command
+2013-01-29 01:48:30	⇄	NickServ:     RECOVER        Regains control of your nick
+2013-01-29 01:48:30	⇄	NickServ:     REGISTER       Register a nickname
+2013-01-29 01:48:31	⇄	NickServ:     SET            Set options, including kill protection
+2013-01-29 01:48:31	⇄	NickServ:     STATUS         Returns the owner status of the given nickname
+2013-01-29 01:48:31	⇄	NickServ:     UNGROUP        Remove a nick from a group
+2013-01-29 01:48:31	⇄	NickServ:     UPDATE         Updates your current status, i.e. it checks for new memos
+2013-01-29 01:48:31	⇄	NickServ: 
+2013-01-29 01:48:31	⇄	NickServ: Services Operator commands
+2013-01-29 01:48:31	⇄	NickServ:   GETEMAIL, SASET, SUSPEND, UNSUSPEND
+2013-01-29 01:48:31	⇄	NickServ: 
+2013-01-29 01:48:32	⇄	NickServ: Use the HELP ALL command to list all command descriptions.
+2013-01-29 01:48:32	⇄	NickServ: 
+2013-01-29 01:48:32	⇄	NickServ: Services Operators can also drop any nickname without needing
+2013-01-29 01:48:32	⇄	NickServ: to identify for the nick, and may view the access list for
+2013-01-29 01:48:32	⇄	NickServ: any nickname.
+2013-01-29 01:48:32	⇄	NickServ: 
+2013-01-29 01:48:32	⇄	NickServ: Accounts that are not used anymore are subject to
+2013-01-29 01:48:32	⇄	NickServ: the automatic expiration, i.e. they will be deleted
+2013-01-29 01:48:32	⇄	NickServ: after 365 days if not used.
+2013-01-29 01:48:32	⇄	NickServ: 
+2013-01-29 01:48:32	⇄	NickServ: NOTICE: This service is intended to provide a way for
+2013-01-29 01:48:32	⇄	NickServ: IRC users to ensure their identity is not compromised.
+2013-01-29 01:48:32	⇄	NickServ: It is NOT intended to facilitate "stealing" of
+2013-01-29 01:48:32	⇄	NickServ: nicknames or other malicious actions. Abuse of NickServ
+2013-01-29 01:48:32	⇄	NickServ: will result in, at minimum, loss of the abused
+2013-01-29 01:48:32	⇄	NickServ: nickname(s).
+2013-01-29 01:48:33	sean	logout
+2013-01-29 01:48:33	⇄	NickServ: Your nick has been logged out.
+2013-01-29 01:49:00	⇄	irc: disconnected from server
+2013-01-29 01:49:10	⇄	NickServ: This nickname is registered and protected.  If it is your
+2013-01-29 01:49:10	⇄	NickServ: nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-01-29 01:49:10	⇄	NickServ: please choose a different nick.
+2013-01-29 01:49:23	sean	identify redhat
+2013-01-29 01:49:23	⇄	NickServ: Password accepted - you are now recognized.
+2013-01-29 01:50:29	sean	set autoop
+2013-01-29 01:50:29	⇄	NickServ: Syntax: SET AUTOOP {ON | OFF}
+2013-01-29 01:50:29	⇄	NickServ: /msg NickServ HELP SET AUTOOP for more information.
+2013-01-29 01:50:31	sean	set autoop on
+2013-01-29 01:50:31	⇄	NickServ: Services will now autoop Sean in channels.
+2013-01-29 01:51:34	sean	set autoop #m0nster-net on
+2013-01-29 01:51:34	⇄	NickServ: Syntax: SET AUTOOP {ON | OFF}
+2013-01-29 01:51:34	⇄	NickServ: /msg NickServ HELP SET AUTOOP for more information.
+2013-01-29 01:51:58	sean	help
+2013-01-29 01:51:58	⇄	NickServ: NickServ allows you to register a nickname and
+2013-01-29 01:51:58	⇄	NickServ: prevent others from using it. The following
+2013-01-29 01:51:58	⇄	NickServ: commands allow for registration and maintenance of
+2013-01-29 01:51:58	⇄	NickServ: nicknames; to use them, type /msg NickServ command.
+2013-01-29 01:51:58	⇄	NickServ: For more information on a specific command, type
+2013-01-29 01:51:58	⇄	NickServ: /msg NickServ HELP command.
+2013-01-29 01:51:58	⇄	NickServ: 
+2013-01-29 01:51:58	⇄	NickServ:     ACCESS         Modify the list of authorized addresses
+2013-01-29 01:51:58	⇄	NickServ:     ALIST          List channels you have access on
+2013-01-29 01:51:58	⇄	NickServ:     CONFIRM        Confirm an auth code
+2013-01-29 01:51:58	⇄	NickServ:     DROP           Cancel the registration of a nickname
+2013-01-29 01:51:58	⇄	NickServ:     GLIST          Lists all nicknames in your group
+2013-01-29 01:51:58	⇄	NickServ:     GROUP          Join a group
+2013-01-29 01:51:58	⇄	NickServ:     HELP           Displays this list and give information about commands
+2013-01-29 01:51:58	⇄	NickServ:     IDENTIFY       Identify yourself with your password
+2013-01-29 01:51:58	⇄	NickServ:     INFO           Displays information about a given nickname
+2013-01-29 01:51:58	⇄	NickServ:     LIST           List all registered nicknames that match a given pattern
+2013-01-29 01:51:58	⇄	NickServ:     LOGOUT         Reverses the effect of the IDENTIFY command
+2013-01-29 01:51:58	⇄	NickServ:     RECOVER        Regains control of your nick
+2013-01-29 01:51:58	⇄	NickServ:     REGISTER       Register a nickname
+2013-01-29 01:51:59	⇄	NickServ:     SET            Set options, including kill protection
+2013-01-29 01:51:59	⇄	NickServ:     STATUS         Returns the owner status of the given nickname
+2013-01-29 01:51:59	⇄	NickServ:     UNGROUP        Remove a nick from a group
+2013-01-29 01:51:59	⇄	NickServ:     UPDATE         Updates your current status, i.e. it checks for new memos
+2013-01-29 01:51:59	⇄	NickServ: 
+2013-01-29 01:51:59	⇄	NickServ: Accounts that are not used anymore are subject to
+2013-01-29 01:51:59	⇄	NickServ: the automatic expiration, i.e. they will be deleted
+2013-01-29 01:51:59	⇄	NickServ: after 365 days if not used.
+2013-01-29 01:51:59	⇄	NickServ: 
+2013-01-29 01:51:59	⇄	NickServ: NOTICE: This service is intended to provide a way for
+2013-01-29 01:51:59	⇄	NickServ: IRC users to ensure their identity is not compromised.
+2013-01-29 01:51:59	⇄	NickServ: It is NOT intended to facilitate "stealing" of
+2013-01-29 01:51:59	⇄	NickServ: nicknames or other malicious actions. Abuse of NickServ
+2013-01-29 01:51:59	⇄	NickServ: will result in, at minimum, loss of the abused
+2013-01-29 01:51:59	⇄	NickServ: nickname(s).
+2013-01-29 01:52:00	sean	update
+2013-01-29 01:52:00	⇄	NickServ: Status updated (memos, vhost, chmodes, flags).
+2013-01-29 01:52:23	⇄	irc: disconnected from server
+2013-01-29 01:52:31	⇄	NickServ: This nickname is registered and protected.  If it is your
+2013-01-29 01:52:31	⇄	NickServ: nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-01-29 01:52:31	⇄	NickServ: please choose a different nick.
+2013-01-29 01:52:39	sean	identify redhat
+2013-01-29 01:52:39	⇄	NickServ: Password accepted - you are now recognized.
+2013-01-30 03:39:24	sean	help
+2013-01-30 03:39:24	⇄	NickServ: NickServ allows you to register a nickname and
+2013-01-30 03:39:24	⇄	NickServ: prevent others from using it. The following
+2013-01-30 03:39:24	⇄	NickServ: commands allow for registration and maintenance of
+2013-01-30 03:39:24	⇄	NickServ: nicknames; to use them, type /msg NickServ command.
+2013-01-30 03:39:24	⇄	NickServ: For more information on a specific command, type
+2013-01-30 03:39:24	⇄	NickServ: /msg NickServ HELP command.
+2013-01-30 03:39:24	⇄	NickServ: 
+2013-01-30 03:39:24	⇄	NickServ:     ACCESS         Modify the list of authorized addresses
+2013-01-30 03:39:24	⇄	NickServ:     ALIST          List channels you have access on
+2013-01-30 03:39:24	⇄	NickServ:     CONFIRM        Confirm an auth code
+2013-01-30 03:39:24	⇄	NickServ:     DROP           Cancel the registration of a nickname
+2013-01-30 03:39:24	⇄	NickServ:     GLIST          Lists all nicknames in your group
+2013-01-30 03:39:24	⇄	NickServ:     GROUP          Join a group
+2013-01-30 03:39:24	⇄	NickServ:     HELP           Displays this list and give information about commands
+2013-01-30 03:39:24	⇄	NickServ:     IDENTIFY       Identify yourself with your password
+2013-01-30 03:39:24	⇄	NickServ:     INFO           Displays information about a given nickname
+2013-01-30 03:39:24	⇄	NickServ:     LIST           List all registered nicknames that match a given pattern
+2013-01-30 03:39:24	⇄	NickServ:     LOGOUT         Reverses the effect of the IDENTIFY command
+2013-01-30 03:39:24	⇄	NickServ:     RECOVER        Regains control of your nick
+2013-01-30 03:39:24	⇄	NickServ:     REGISTER       Register a nickname
+2013-01-30 03:39:25	⇄	NickServ:     SET            Set options, including kill protection
+2013-01-30 03:39:25	⇄	NickServ:     STATUS         Returns the owner status of the given nickname
+2013-01-30 03:39:25	⇄	NickServ:     UNGROUP        Remove a nick from a group
+2013-01-30 03:39:25	⇄	NickServ:     UPDATE         Updates your current status, i.e. it checks for new memos
+2013-01-30 03:39:25	⇄	NickServ: 
+2013-01-30 03:39:25	⇄	NickServ: Accounts that are not used anymore are subject to
+2013-01-30 03:39:25	⇄	NickServ: the automatic expiration, i.e. they will be deleted
+2013-01-30 03:39:25	⇄	NickServ: after 365 days if not used.
+2013-01-30 03:39:25	⇄	NickServ: 
+2013-01-30 03:39:25	⇄	NickServ: NOTICE: This service is intended to provide a way for
+2013-01-30 03:39:25	⇄	NickServ: IRC users to ensure their identity is not compromised.
+2013-01-30 03:39:25	⇄	NickServ: It is NOT intended to facilitate "stealing" of
+2013-01-30 03:39:25	⇄	NickServ: nicknames or other malicious actions. Abuse of NickServ
+2013-01-30 03:39:25	⇄	NickServ: will result in, at minimum, loss of the abused
+2013-01-30 03:39:25	⇄	NickServ: nickname(s).
+2013-01-30 03:39:35	sean	help access
+2013-01-30 03:39:35	⇄	NickServ: Syntax: access ADD [user] mask
+2013-01-30 03:39:35	⇄	NickServ:         access DEL [user] mask
+2013-01-30 03:39:35	⇄	NickServ:         access LIST [user]
+2013-01-30 03:39:35	⇄	NickServ: 
+2013-01-30 03:39:35	⇄	NickServ: Modifies or displays the access list for your nick.  This
+2013-01-30 03:39:35	⇄	NickServ: is the list of addresses which will be automatically
+2013-01-30 03:39:35	⇄	NickServ: recognized by NickServ as allowed to use the nick.  If
+2013-01-30 03:39:35	⇄	NickServ: you want to use the nick from a different address, you
+2013-01-30 03:39:35	⇄	NickServ: need to send an IDENTIFY command to make NickServ
+2013-01-30 03:39:35	⇄	NickServ: recognize you. Services operators may provide a nick
+2013-01-30 03:39:35	⇄	NickServ: to modify other users' access lists.
+2013-01-30 03:39:35	⇄	NickServ: 
+2013-01-30 03:39:35	⇄	NickServ: Examples:
+2013-01-30 03:39:35	⇄	NickServ: 
+2013-01-30 03:39:35	⇄	NickServ:     ACCESS ADD anyone@*.bepeg.com
+2013-01-30 03:39:35	⇄	NickServ:         Allows access to user anyone from any machine in
+2013-01-30 03:39:35	⇄	NickServ:         the bepeg.com domain.
+2013-01-30 03:39:35	⇄	NickServ: 
+2013-01-30 03:39:35	⇄	NickServ:     ACCESS DEL anyone@*.bepeg.com
+2013-01-30 03:39:35	⇄	NickServ:         Reverses the previous command.
+2013-01-30 03:39:36	⇄	NickServ: 
+2013-01-30 03:39:36	⇄	NickServ:     ACCESS LIST
+2013-01-30 03:39:36	⇄	NickServ:         Displays the current access list.
+2013-01-30 03:39:42	sean	access list
+2013-01-30 03:39:42	⇄	NickServ: Access list for Sean:
+2013-01-30 03:39:42	⇄	NickServ:     *~Sean@*.hsd1.pa.comcast.net
+2013-01-30 03:43:55	⇄	NickServ: This nickname is registered and protected.  If it is your
+2013-01-30 03:43:55	⇄	NickServ: nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-01-30 03:43:55	⇄	NickServ: please choose a different nick.
+2013-01-30 03:44:03	sean	identify redhat
+2013-01-30 03:44:03	⇄	NickServ: Password accepted - you are now recognized.
+2013-01-30 03:50:33	⇄	irc: disconnected from server
+2013-01-30 04:17:45	⇄	irc: disconnected from server
+2013-01-30 04:18:14	⇄	NickServ: This nickname is registered and protected.  If it is your
+2013-01-30 04:18:14	⇄	NickServ: nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-01-30 04:18:14	⇄	NickServ: please choose a different nick.
+2013-01-30 04:18:32	sean	identify redhat
+2013-01-30 04:18:32	⇄	NickServ: Password accepted - you are now recognized.
+2013-01-30 04:26:46	sean	identify redhat
+2013-01-30 04:26:46	⇄	nickserv: No such nick or channel name
+2013-01-30 04:27:04	⇄	irc: disconnected from server
+2013-01-30 04:27:47	sean	help
+2013-01-30 04:27:47	⇄	nickserv: No such nick or channel name
+2013-01-30 04:28:26	⇄	irc: disconnected from server
+2013-01-30 04:37:26	⇄	irc: disconnected from server
+2013-01-30 04:44:05	⇄	irc: disconnected from server
+2013-01-30 04:44:42	⇄	irc: disconnected from server
+2013-01-30 04:45:49	⇄	irc: disconnected from server
+2013-01-30 04:46:02	⇄	NickServ: This nickname is registered and protected.  If it is your
+2013-01-30 04:46:02	⇄	NickServ: nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2013-01-30 04:46:02	⇄	NickServ: please choose a different nick.
+2013-01-30 04:46:28	sean	identify redhat
+2013-01-30 04:46:28	⇄	NickServ: Password accepted - you are now recognized.
+2013-01-30 10:17:39	⇄	irc: disconnected from server

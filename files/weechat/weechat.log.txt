@@ -1,0 +1,26 @@
+[2013-03-02 00:49:42] weechat 0.3.9.2 (compiled on Jan 28 2013 08:25:28)
+[2013-03-02 00:49:42] Reading configuration file weechat.conf
+[2013-03-02 00:49:42] Reading configuration file plugins.conf
+[2013-03-02 00:49:42] Reading configuration file alias.conf
+[2013-03-02 00:49:42] Reading configuration file irc.conf
+[2013-03-02 00:49:42] Reading configuration file logger.conf
+[2013-03-02 00:49:42] Reading configuration file buffers.conf
+[2013-03-02 00:49:42] Reading configuration file iset.conf
+[2013-03-02 00:49:43] Reading configuration file wg.conf
+[2013-03-02 00:49:43] Reading configuration file relay.conf
+[2013-03-02 00:49:43] Reading configuration file rmodifier.conf
+[2013-03-02 00:49:43] Reading configuration file script.conf
+[2013-03-02 00:49:43] Reading configuration file xfer.conf
+[2013-03-02 00:49:50] Writing configuration file plugins.conf 
+[2013-03-02 00:49:50] Writing configuration file xfer.conf 
+[2013-03-02 00:49:50] Writing configuration file script.conf 
+[2013-03-02 00:49:50] Writing configuration file rmodifier.conf 
+[2013-03-02 00:49:50] Writing configuration file relay.conf 
+[2013-03-02 00:49:50] Writing configuration file wg.conf 
+[2013-03-02 00:49:50] Writing configuration file wg.conf 
+[2013-03-02 00:49:50] Writing configuration file buffers.conf 
+[2013-03-02 00:49:50] Writing configuration file iset.conf 
+[2013-03-02 00:49:50] Writing configuration file logger.conf 
+[2013-03-02 00:49:50] Writing configuration file irc.conf 
+[2013-03-02 00:49:50] Writing configuration file alias.conf 
+[2013-03-02 00:49:50] Writing configuration file weechat.conf 

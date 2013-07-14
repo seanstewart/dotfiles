@@ -1,0 +1,23 @@
+[2013-06-19 09:30:44] WeeChat 0.4.1 (compiled on Jun  4 2013 12:09:31)
+[2013-06-19 09:30:44] Reading configuration file weechat.conf
+[2013-06-19 09:30:44] Reading configuration file plugins.conf
+[2013-06-19 09:30:44] Reading configuration file alias.conf
+[2013-06-19 09:30:44] Writing configuration file charset.conf (default options)
+[2013-06-19 09:30:44] Reading configuration file charset.conf
+[2013-06-19 09:30:44] Reading configuration file irc.conf
+[2013-06-19 09:30:44] Reading configuration file logger.conf
+[2013-06-19 09:30:44] Reading configuration file relay.conf
+[2013-06-19 09:30:44] Reading configuration file rmodifier.conf
+[2013-06-19 09:30:44] Reading configuration file script.conf
+[2013-06-19 09:30:44] Reading configuration file xfer.conf
+[2013-06-19 09:30:56] irc: connecting to server m0nster.net/6667...
+[2013-06-19 09:31:07] Writing configuration file plugins.conf 
+[2013-06-19 09:31:07] Writing configuration file xfer.conf 
+[2013-06-19 09:31:07] Writing configuration file script.conf 
+[2013-06-19 09:31:07] Writing configuration file rmodifier.conf 
+[2013-06-19 09:31:07] Writing configuration file relay.conf 
+[2013-06-19 09:31:07] Writing configuration file logger.conf 
+[2013-06-19 09:31:07] Writing configuration file irc.conf 
+[2013-06-19 09:31:07] Writing configuration file charset.conf 
+[2013-06-19 09:31:07] Writing configuration file alias.conf 
+[2013-06-19 09:31:07] Writing configuration file weechat.conf 

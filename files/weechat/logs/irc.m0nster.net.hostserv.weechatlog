@@ -1,0 +1,21 @@
+2013-01-30 13:56:53	sean	help
+2013-01-30 13:56:53	⇄	HostServ:     GROUP          Syncs the vhost for all nicks in a group
+2013-01-30 13:56:53	⇄	HostServ:     HELP           Displays this list and give information about commands
+2013-01-30 13:56:53	⇄	HostServ:     OFF            Deactivates your assigned vhost
+2013-01-30 13:56:53	⇄	HostServ:     ON             Activates your assigned vhost
+2013-01-30 13:56:55	sean	on
+2013-01-30 14:00:37	sean	off
+2013-01-30 14:00:37	⇄	HostServ: Your vhost was removed and the normal cloaking restored.
+2013-01-30 14:00:40	sean	grpi[
+2013-01-30 14:00:40	⇄	HostServ: Unknown command grpi[. "/msg HostServ HELP" for help.
+2013-01-30 14:00:41	sean	group
+2013-01-30 14:00:42	⇄	HostServ: All vhost's in the group Sean have been set to 72.19-246-81.adsl-static.isp.belgacom.be
+2013-01-30 14:01:57	sean	help
+2013-01-30 14:01:57	⇄	HostServ:     GROUP          Syncs the vhost for all nicks in a group
+2013-01-30 14:01:57	⇄	HostServ:     HELP           Displays this list and give information about commands
+2013-01-30 14:01:57	⇄	HostServ:     OFF            Deactivates your assigned vhost
+2013-01-30 14:01:57	⇄	HostServ:     ON             Activates your assigned vhost
+2013-01-30 14:06:50	sean	vop #m0nster-net del sean
+2013-01-30 14:06:50	⇄	HostServ: Unknown command vop #m0nster-net del sean. "/msg HostServ HELP" for help.
+2013-01-30 14:06:57	sean	help vop
+2013-01-30 14:06:57	⇄	HostServ: No help available for vop.

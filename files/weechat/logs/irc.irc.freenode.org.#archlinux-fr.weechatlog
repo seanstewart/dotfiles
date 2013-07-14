@@ -1,0 +1,147 @@
+2013-01-29 13:17:46	→	sean-s3 (~sean@hl-wireless-pittnet-150-212-66-71.wireless.pitt.edu) has joined #archlinux-fr
+2013-01-29 13:17:46	⇄	Topic for #archlinux-fr is "Bienvenue sur #archlinux-fr | Mises à jour, lisez les news : http://archlinux.fr | UTF-8 | HS: #arch-fr-off | Log public | Paste: http://pastebin.archlinux.fr"
+2013-01-29 13:17:46	⇄	Topic set by CalimeroTeknik on Sun, 15 Jul 2012 11:57:34
+2013-01-29 13:17:46	⇄	Nicks #archlinux-fr: [@arch_ange @ChanServ _5moufl _Andrei_ _eko _r1_ acieroid allblack Almtesh alub AnCaRioN ArawN Arcaik Arcanexil ark-- Armael ArthurD avd` avelldiroll bacardi55 barul benpro Biganon bobbyblues BombStrike Bonstra br-r bris brunto CalimeroTeknik Chipster1 choupydance claime coincoin4ever companion_cube contempt Coolgeek cooltrane coyotus Crako Cubox Cytheria deap deasy defane donch druff druid Dvilguar1 ealexp elaoin-ng Elfix Enjolras Enjolras_ Fastolph felipe` Feufochmar fhh flem77-- foohey froumi garrik ghilan Gloomy gogoprog golgoth42 goodbox gormux Guest62258 gwenn Hobbestigrou Hydraze Iiiak illovae Ishido ivanoooov jahman jben1 jesuislibre jpec JYS kanor kevin06 kewin Khady Kooothor kraft Kriegy krion launchy Le_9 lidstah lordheavy Luriz maatunix Mahoru`Tsunemi Majax` malangot marcelius matael mathieui maxou56800 McPeter Merou methyl_ minna Minos mirelsol_ mmalter Mo0O mortalius mouche N4th4 nadley Neozaru nexraf Nic0 nil0x42 nimred nodame Olaff olafkewl oloP Ool Opiumozor ordiclic OxHaK P-l pad` Papey_ Peuc piti Poussin psych0pat Puckel_ pyrotecnix ravomavain RedoXyde Refuznik Reihar Reventlov Rikle_S Rogdham saorel schoewilliam sean-s3 shinra_ sigma_g Skunnyk Skurlat Slym Sp4rKy Spike29 Spydemon srm` Storm survietamine svinkels Tam^ tazzon telex TheRealBobi thisirs tibs tomarch tosh ToTaKoKo trigger Tux-Tn tuxce valcom valraven2 vamps vian-ney Vlavv Vlavv_ Warnaud WillyKaze WiPo wisthler Woz Wxcafe xouillet xrogaan Ymage Youbi z3bra Z4rk zead Zekah]
+2013-01-29 13:17:46	⇄	Channel #archlinux-fr: 190 nicks (2 ops, 0 halfops, 0 voices, 188 normals)
+2013-01-29 13:17:46	⇄	URL for #archlinux-fr: http://www.archlinux.fr
+2013-01-29 13:17:48	⇄	Mode #archlinux-fr [+cgntzjf 5:10 #overflow]
+2013-01-29 13:17:48	⇄	Channel created on Sun, 26 Nov 2006 01:42:44
+2013-01-29 13:18:50	Biganon	mmmh je vois rien sur Atheros AR8161 ou le pilote alx...
+2013-01-29 13:19:04	Biganon	et pourtant il est plus fourni dans les derniers compat-drivers
+2013-01-29 13:19:52	Biganon	où est-il o_ô
+2013-01-29 13:20:22	→	yeahpla (~yeahpla@unaffiliated/yeahpla) has joined #archlinux-fr
+2013-01-29 13:20:56	oloP	bon je susi trop con
+2013-01-29 13:21:06	oloP	j'avais juste oublié de redémarrer le serveur…
+2013-01-29 13:21:24	oloP	enfin il me semblait bien l'avoir fait, mais j'ai recommencé et ça fonctionne
+2013-01-29 13:22:23	→	ocbn4 (~ocbn4@AClermont-Ferrand-257-1-139-50.w86-200.abo.wanadoo.fr) has joined #archlinux-fr
+2013-01-29 13:22:43	←	WiPo (5a0225ed@gateway/web/freenode/ip.90.2.37.237) has quit (Quit: Page closed)
+2013-01-29 13:22:51	→	liUms (~liUms@AMontpellier-652-1-317-201.w81-251.abo.wanadoo.fr) has joined #archlinux-fr
+2013-01-29 13:23:01	oloP	désolé pour le dérangement
+2013-01-29 13:23:46	liUms	Hello
+2013-01-29 13:24:44	sean-s3	salut qui de neuf
+2013-01-29 13:26:55	⇄	ocbn4 is now known as TechDesk
+2013-01-29 13:27:11	TechDesk	hi
+2013-01-29 13:27:34	←	schoewilliam (~william@41.213.157.35) has quit (Ping timeout: 248 seconds)
+2013-01-29 13:28:22	←	ToTaKoKo (~Thunderbi@ip-39.net-81-220-214.henin.rev.numericable.fr) has quit (Quit: ToTaKoKo)
+2013-01-29 13:28:37	→	Titus (~MikHaddo@chc71-3-83-154-97-83.fbx.proxad.net) has joined #archlinux-fr
+2013-01-29 13:29:03	⇄	Wxcafe is now known as wxcafe
+2013-01-29 13:35:11	→	tchiroux (~tchiroux@97.208.19.93.rev.sfr.net) has joined #archlinux-fr
+2013-01-29 13:40:18	←	gogoprog (~gogoprog@109.236.142.245) has left #archlinux-fr
+2013-01-29 13:40:21	→	gogoprog (~gogoprog@109.236.142.245) has joined #archlinux-fr
+2013-01-29 13:40:55	→	bioman (~bioman@aux89-3-83-157-129-185.fbx.proxad.net) has joined #archlinux-fr
+2013-01-29 13:40:57	bioman	plop
+2013-01-29 13:40:57	@arch_ange	plop bioman
+2013-01-29 13:41:32	bioman	Quelqu'un sait-il si il existe un patch noyau 3.8-rc5 pour vmware workstation 9.0.1 ?
+2013-01-29 13:42:36	Z4rk	avec les nouveau nom de connection reseau systemd 197, il faut utiliser ces nom partout ? (ifconfig, netcfg, etc..?)
+2013-01-29 13:43:47	←	AnCaRioN (~ancarion@78.193.26.104) has quit (Quit: WeeChat 0.4.0)
+2013-01-29 13:46:31	Reventlov	Z4rk: quels noms ?
+2013-01-29 13:46:54	Reventlov	sinon, ifconfig est déprécié
+2013-01-29 13:48:57	←	ivanoooov (~ivanov@192.192.0.109.rev.sfr.net) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-01-29 13:49:29	Z4rk	Reventlov: les nom d'interface réseua (http://archlinux.fr/news/systemd-197-et-les-interfaces-reseau )
+2013-01-29 13:49:55	Z4rk	Reventlov: ouai j'ai vu, maintenant on est sensé utiliser ip, mais les vieux préfèrent les anciens trucs, donc je continue :p
+2013-01-29 13:51:16	Reventlov	Z4rk: bah, tu auras plus d'interface nommée eth0 si son nouveau nom est par exemple enp0s4f0
+2013-01-29 13:51:22	Reventlov	donc, forcément, les programmes devraient gueuler
+2013-01-29 13:52:33	←	svinkels (~svinkels@sph44-1-88-184-244-1.fbx.proxad.net) has quit (Ping timeout: 264 seconds)
+2013-01-29 13:55:06	←	maatunix (~MaatUNIX@unaffiliated/maatunix) has quit (Quit: Zoubi, zoubi !)
+2013-01-29 13:55:22	→	ocbn4 (~ocbn4@AClermont-Ferrand-257-1-133-109.w86-200.abo.wanadoo.fr) has joined #archlinux-fr
+2013-01-29 13:56:31	→	remy_tel (~remy_tel@80.214.0.120) has joined #archlinux-fr
+2013-01-29 13:57:04	→	svinkels (~svinkels@sph44-1-88-184-244-1.fbx.proxad.net) has joined #archlinux-fr
+2013-01-29 13:57:32	←	OxHaK (~oxhak@lns-bzn-51f-62-147-243-58.adsl.proxad.net) has quit (Read error: Connection reset by peer)
+2013-01-29 13:58:55	←	TechDesk (~ocbn4@AClermont-Ferrand-257-1-139-50.w86-200.abo.wanadoo.fr) has quit (Ping timeout: 264 seconds)
+2013-01-29 14:00:04	←	coyotus (~coyotus@unaffiliated/coyotus) has quit (Remote host closed the connection)
+2013-01-29 14:03:06	←	remy_tel (~remy_tel@80.214.0.120) has quit (Ping timeout: 252 seconds)
+2013-01-29 14:03:41	→	coyotus (~coyotus@unaffiliated/coyotus) has joined #archlinux-fr
+2013-01-29 14:03:48	→	OxHaK (~oxhak@lns-bzn-51f-62-147-243-58.adsl.proxad.net) has joined #archlinux-fr
+2013-01-29 14:08:32	Reventlov	?help
+2013-01-29 14:08:35	Reventlov	?sprunge
+2013-01-29 14:08:53	jpec	plop! lors de l'installation avec la dernière image c'est normal que le fichier /etc/hostname ne soit pas présent dans /mnt ?
+2013-01-29 14:09:20	→	mo_hand (~mo_hand@gai27-1-78-247-196-143.fbx.proxad.net) has joined #archlinux-fr
+2013-01-29 14:09:22	→	Olivaw (~Olivaw@37.26.241.199) has joined #archlinux-fr
+2013-01-29 14:09:25	Reventlov	jpec: oui.
+2013-01-29 14:09:37	→	Moviuro (~quassel@LCaen-151-92-22-106.w217-128.abo.wanadoo.fr) has joined #archlinux-fr
+2013-01-29 14:09:39	jpec	ok
+2013-01-29 14:09:42	jpec	merci
+2013-01-29 14:10:03	Reventlov	https://wiki.archlinux.org/index.php/Network_Configuration#Set_the_hostname
+2013-01-29 14:10:16	Reventlov	ça a changé, le wiki français est comme toujours pas à jour
+2013-01-29 14:10:55	jpec	ok !
+2013-01-29 14:20:10	→	Anne` (~Anne@s8z68-1-88-121-16-228.fbx.proxad.net) has joined #archlinux-fr
+2013-01-29 14:25:47	→	gormux_ (~gormux@rei.gormotte.info) has joined #archlinux-fr
+2013-01-29 14:28:33	←	gormux (~gormux@rei.gormotte.info) has quit (Ping timeout: 255 seconds)
+2013-01-29 14:30:28	←	bioman (~bioman@aux89-3-83-157-129-185.fbx.proxad.net) has quit (Quit: Lost terminal)
+2013-01-29 14:31:46	→	nicoulaj (~nicoulaj@pas38-5-82-244-59-208.fbx.proxad.net) has joined #archlinux-fr
+2013-01-29 14:31:58	→	eexez (~eexez@91.179.17.8) has joined #archlinux-fr
+2013-01-29 14:31:58	←	eexez (~eexez@91.179.17.8) has quit (Changing host)
+2013-01-29 14:31:58	→	eexez (~eexez@unaffiliated/eexez) has joined #archlinux-fr
+2013-01-29 14:32:10	eexez	soir
+2013-01-29 14:34:09	→	Guest86832 (~aymeric@mek33-3-82-227-200-162.fbx.proxad.net) has joined #archlinux-fr
+2013-01-29 14:34:33	⇄	Guest86832 is now known as _0bscur_
+2013-01-29 14:34:58	_0bscur_	hello
+2013-01-29 14:36:03	→	mydjey (~djy@unaffiliated/mydjey) has joined #archlinux-fr
+2013-01-29 14:36:47	→	blacksad (~blacksad@ANantes-156-1-72-93.w90-12.abo.wanadoo.fr) has joined #archlinux-fr
+2013-01-29 14:41:03	←	Z4rk (~onix@19.92.102.84.rev.sfr.net) has left #archlinux-fr
+2013-01-29 14:43:59	→	ben2morrow (~ben2morro@unaffiliated/ben2morrow) has joined #archlinux-fr
+2013-01-29 14:47:04	←	eexez (~eexez@unaffiliated/eexez) has quit (Quit: Konversation terminated!)
+2013-01-29 14:47:32	←	methyl_ (~methyl@2a01:e34:ee93:4510:8e89:a5ff:fec7:e1f7) has quit (Read error: No route to host)
+2013-01-29 14:47:35	⇄	ocbn4 is now known as TechDesk
+2013-01-29 14:50:35	→	gmx (~jc@epx51-1-82-236-167-126.fbx.proxad.net) has joined #archlinux-fr
+2013-01-29 14:51:18	←	_0bscur_ (~aymeric@mek33-3-82-227-200-162.fbx.proxad.net) has quit (Quit: leaving)
+2013-01-29 14:53:05	→	spider-mario (~spidermar@geeks-896039.dsl.quantic-telecom.net) has joined #archlinux-fr
+2013-01-29 14:53:17	→	Rn0 (~Rn0@unaffiliated/rn0) has joined #archlinux-fr
+2013-01-29 14:57:48	→	methyl_ (~methyl@2a01:e34:ee93:4510:8e89:a5ff:fec7:e1f7) has joined #archlinux-fr
+2013-01-29 14:58:39	→	flem77- (~flem77@ALagny-152-1-34-99.w83-112.abo.wanadoo.fr) has joined #archlinux-fr
+2013-01-29 15:01:02	←	coyotus (~coyotus@unaffiliated/coyotus) has quit (Remote host closed the connection)
+2013-01-29 15:02:11	←	flem77-- (~flem77@ALagny-152-1-16-46.w83-112.abo.wanadoo.fr) has quit (Ping timeout: 276 seconds)
+2013-01-29 15:04:33	→	TheRealB1bi (~bobi@ks3098765.kimsufi.com) has joined #archlinux-fr
+2013-01-29 15:04:33	←	TheRealB1bi (~bobi@ks3098765.kimsufi.com) has quit (Client Quit)
+2013-01-29 15:09:08	→	TepeyaK (~sebr@ANantes-156-1-98-94.w90-12.abo.wanadoo.fr) has joined #archlinux-fr
+2013-01-29 15:11:02	→	gilles74 (~gilles74@AAnnecy-551-1-384-42.w90-27.abo.wanadoo.fr) has joined #archlinux-fr
+2013-01-29 15:11:17	←	liUms (~liUms@AMontpellier-652-1-317-201.w81-251.abo.wanadoo.fr) has quit (Ping timeout: 276 seconds)
+2013-01-29 15:18:16	blacksad	bonsoir
+2013-01-29 15:18:37	Moviuro	psalut blacksad
+2013-01-29 15:18:44	Moviuro	-p
+2013-01-29 15:19:02	Olaff	salut les noobs
+2013-01-29 15:19:43	Olaff	mes fichiers journaux de systemd sont systematiquement corrompus au reboote , ca se soigne ?
+2013-01-29 15:21:09	Moviuro	un PC dont la diode Verr Maj clignote avant même le BIOS, ça pue ?
+2013-01-29 15:21:37	blacksad	Olaff, ta v?rifier que ta pas des secteur defectueux ?
+2013-01-29 15:21:53	TechDesk	oui Moviuro
+2013-01-29 15:21:57	TechDesk	vérifie les ram
+2013-01-29 15:21:57	Olaff	ou que c'est noel , Moviuro
+2013-01-29 15:22:17	Olaff	blacksad, j'ai un nouveau SSD (mais ca le faisait deja a l'epoque du dd)
+2013-01-29 15:22:26	Moviuro	c'est de la ddr2 ern plus :/
+2013-01-29 15:22:37	blacksad	et tes fichier journeaux sont sur le ssd ???
+2013-01-29 15:22:38	→	maatunix (~MaatUNIX@unaffiliated/maatunix) has joined #archlinux-fr
+2013-01-29 15:22:53	Olaff	oui blacksad , j'ai qu'un disque dans le portable
+2013-01-29 15:23:08	blacksad	ok
+2013-01-29 15:23:24	blacksad	sur ssd sa peut pas etre des secteur defectueux
+2013-01-29 15:24:23	Moviuro	en fait, la *RAM était mal placée faut croire
+2013-01-29 15:24:36	TechDesk	:D
+2013-01-29 15:24:55	Olaff	blacksad, c'est pas bien grave , mais ca me fait des centaines de fichiers dans /var/log/journal
+2013-01-29 15:25:01	blacksad	Olaff, c'est bizarre ton truc
+2013-01-29 15:25:06	Olaff	et ca doit couver un truc qui va pas
+2013-01-29 15:25:13	blacksad	non
+2013-01-29 15:25:31	TechDesk	bon allez hop douche et lit
+2013-01-29 15:25:32	TechDesk	cya all
+2013-01-29 15:25:33	blacksad	juste que les ssd sont pas dou? en lecture ecriture de petit fichier c'est pas fait pour sa
+2013-01-29 15:25:41	blacksad	bn TechDesk
+2013-01-29 15:26:07	blacksad	sur le ssd tu as qu'un os ?
+2013-01-29 15:26:10	Olaff	mon petit doigt me dit que c'est un probleme de poweroff ... il est honteusement trop rapide je trouve
+2013-01-29 15:26:19	jpec	quelqu'un sait comment copier la configuration de gnome-shell d'un user pour les autres utilisateurs locaux ? (extensions, thème, paramètres)
+2013-01-29 15:26:23	blacksad	non c'est del amemoire !
+2013-01-29 15:26:45	blacksad	je met 1 seconde pour turnoff off moi et encore parceq'uil demonte 4 autre dd
+2013-01-29 15:26:53	Olaff	ha
+2013-01-29 15:26:57	blacksad	j'ai deux SSD la + 6 DD
+2013-01-29 15:27:20	Reventlov	tu veux un biscuit
+2013-01-29 15:27:22	Reventlov	?
+2013-01-29 15:27:35	blacksad	donc soit ta un probleme d'alignement ? soit sa fait longtemps que tu as ton ssd et il arrive plus a trouver de cellule vide
+2013-01-29 15:28:00	Olaff	bha ca le faisait deja avant que je remplace mon DD par un SSD
+2013-01-29 15:28:14	blacksad	Olaff,  marque du ssd et combien de temps ?
+2013-01-29 15:28:22	Olaff	et j'ai copier les paritions de mon DD a mon SSD
+2013-01-29 16:04:18	⇄	irc: disconnected from server
+2013-01-30 00:26:38	→	sean1 (~sean@c-24-3-232-77.hsd1.pa.comcast.net) has joined #archlinux-fr
+2013-01-30 00:26:38	⇄	Topic for #archlinux-fr is "Bienvenue sur #archlinux-fr | Mises à jour, lisez les news : http://archlinux.fr | UTF-8 | HS: #arch-fr-off | Log public | Paste: http://pastebin.archlinux.fr"
+2013-01-30 00:26:38	⇄	Topic set by CalimeroTeknik on Sun, 15 Jul 2012 11:57:34
+2013-01-30 00:26:38	⇄	Nicks #archlinux-fr: [@arch_ange @ChanServ _5moufl _eko _r1_ acieroid allblack Almtesh ArawN Arcaik Arcanexil ark-- Armael ArthurD avd` avelldiroll bacardi55 barul benpro Biganon bobbyblues BombStrike Bonstra br-r brunto CalimeroTeknik captainigloo Chipster1 choupydance claime coincoin4ever companion_cube contempt Coolgeek cooltrane Crako Cubox Cytheria deap defane donch druff druid Dvilguard ealexp elaoin-ng Elfix Enjolras Enjolras_ Fastolph felipe` fhh flem77-- foohey froumi garrik ghilan gogoprog golgoth42 goodbox gormux_ Guest62258 gwenn Hobbestigrou Hydraze Iiiak illovae J-Orion jahman jben1 jpec JYS kanor kevin06 kewin Khady kraft Kriegy krion launchy Le_9 lidstah lordheavy Luriz Mahoru`Tsunemi Majax` malangot marcelius matael mathieui maxou56800 McPeter Merou methyl_ minna Minos mirelsol_ mmalter Mo0O mortalius mouche N4th4 nadley Nic0 nimred nodame Olaff olafkewl Olivaw oloP Ool Opiumozor ordiclic OxHaK P-l pad` Papey_ piti Poussin Puckel_ pyrotecnix ravomavain RedoXyde Refuznik Reihar Reventlov Rikle_S Rogdham saorel sean1 sigma_g Skunnyk Skurlat Slym Sp4rKy Spydemon srm` Storm survietamine svinkels Tam^ tazzon tchiroux telex TheRealBobi tibs tomarch Tux-Tn tuxce valraven2 vamps vian-ney Vlavv Warnaud webshinra WillyKaze wisthler Woz wxcafe xouillet xrogaan Ymage Youbi z3bra zead Zekah]
+2013-01-30 00:26:38	⇄	Channel #archlinux-fr: 166 nicks (2 ops, 0 halfops, 0 voices, 164 normals)
+2013-01-30 00:26:38	⇄	URL for #archlinux-fr: http://www.archlinux.fr
+2013-01-30 00:26:41	⇄	Mode #archlinux-fr [+cgntzjf 5:10 #overflow]
+2013-01-30 00:26:41	⇄	Channel created on Sun, 26 Nov 2006 01:42:44

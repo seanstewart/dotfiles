@@ -1,0 +1,36 @@
+2013-01-28 16:02:08	→	sean (~sean@c-98-239-180-196.hsd1.pa.comcast.net) has joined #infogroep
+2013-01-28 16:02:08	⇄	Topic for #infogroep is "Welkom op #infogroep, het kanaal van de studentenkring voor computerwetenschappers op de VUB. 1ste bachelors: kijk ook eens op #igperma voor specifieke studiehulp."
+2013-01-28 16:02:08	⇄	Topic set by robbe (~robbe@missioncontrol.be) on Thu, 15 Dec 2011 03:17:14
+2013-01-28 16:02:08	⇄	Nicks #infogroep: [@Ichabod @K @omega @peanut +bomma +Botje +Ian +robbe angryzor bart Bennit BitChar Brecht check endymion Enermis ErgonomicRbt Hannnes_ hd Interesting kleini_ klx_ lavholsb_ m1dnight Numlock pewpewpew reinout rrrrrrAryton schudder scoeri_ sean Spartam_ sven Tatanka thiejans_]
+2013-01-28 16:02:08	⇄	Channel #infogroep: 35 nicks (4 ops, 0 halfops, 4 voices, 27 normals)
+2013-01-28 16:02:10	⇄	Mode #infogroep [+stn]
+2013-01-28 16:16:55	+robbe	proe ... mijne flex zit precies ver
+2013-01-28 16:17:12	+Botje	zijde nu weer met die rommel aant vechten
+2013-01-28 16:17:22	+Botje	smijt da buiten, pak u parsec, seriously :P
+2013-01-28 16:21:34	+robbe	't is gwn regulier ding da ik probeer :p
+2013-01-28 16:22:27	+Botje	shrug
+2013-01-28 16:22:28	+Botje	I tried
+2013-01-28 16:22:38	 *	Botje geeft robbe het masochist-hoedje
+2013-01-28 16:22:48	+Botje	(en als het regulier is, gebruik reguliere expressies)
+2013-01-28 16:32:11	+robbe	ja ma 't is om een command interfaceke te maken in mijn C app
+2013-01-28 16:35:35	+Botje	tis dat de pcre api zo niet-obvious is, anders had ik het voor u geschreven :P
+2013-01-28 16:39:02	+Botje	also, grrr ext4
+2013-01-28 16:39:11	+Botje	weeral corruptie :'(
+2013-01-28 16:39:19	+Botje	en grrr ubuntu om mijn videokaart niet tegoei te supporten
+2013-01-28 16:39:50	+robbe	ahja, obviously!
+2013-01-28 16:39:57	 *	robbe 's hand and forehead meet
+2013-01-28 16:44:24	+robbe	1-byte-fix :p
+2013-01-28 16:44:37	+robbe	een +ke te veel
+2013-01-28 16:56:13	+Botje	fix mijn fs zo ook eens
+2013-01-28 16:56:20	+Botje	het duurt nu toch verdacht lang :[
+2013-01-28 17:01:58	+robbe	arm Botje :/
+2013-01-28 17:15:50	+robbe	tiens, da staat precies niet in de manpage, maar stopt strcmp als em een \0 tegenkomt ?
+2013-01-28 17:31:56	+Botje	natuurlijk
+2013-01-28 17:32:39	+Botje	"characters that appear after a `\0' character are not compared
+2013-01-28 17:32:42	+Botje	"
+2013-01-28 17:32:46	+Botje	als ge da wel wilt, memcmp ofzo :P
+2013-01-28 17:36:14	+robbe	ja het leek mij obvious, maar ik wou niets aannemen :p
+2013-01-28 18:50:53	Numlock	robbe: mss kan joris wel helpen
+2013-01-28 18:51:03	Numlock	als het niet-regulier is he
+2013-01-28 18:58:48	Bennit	zijn we xml aant parsen?
+2013-01-28 19:38:01	←	sean (~sean@c-98-239-180-196.hsd1.pa.comcast.net) has left #infogroep (WeeChat 0.3.9.2 on Darwin)

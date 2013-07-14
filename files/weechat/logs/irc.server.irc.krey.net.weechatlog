@@ -1,0 +1,33 @@
+2013-01-28 16:01:26	⇄	irc: connecting to server irc.krey.net/6667...
+2013-01-28 16:01:27	⇄	irc: connected to irc.krey.net/6667 (91.212.186.20)
+2013-01-28 16:01:27	⇄	* :Please wait while we process your connection.
+2013-01-28 16:01:27	⇄	Welcome to the Internet Relay Network sean!~sean@c-98-239-180-196.hsd1.pa.comcast.net
+2013-01-28 16:01:27	⇄	Your host is mujo.be.krey.net, running version vantage-1.1.0-ALPHA1
+2013-01-28 16:01:27	⇄	This server was created Thu Sep 9 2010 at 23:50:50 CEST
+2013-01-28 16:01:27	⇄	mujo.be.krey.net vantage-1.1.0-ALPHA1 aoOirw abeiIklmnoOpqrRstv
+2013-01-28 16:01:27	⇄	RFC2812 PREFIX=(ov)@+ CHANTYPES=#&!+ MODES=3 CHANLIMIT=#&!+:35 TOPICLEN=350 KICKLEN=350 CHANNELLEN=50 IDCHAN=!:5 CHANMODES=beIR,k,l,imnpstaqrcC :are supported by this server
+2013-01-28 16:01:27	⇄	PENALTY FNC EXCEPTS=e INVEX=I CASEMAPPING=ascii NETWORK=KreyNet :are supported by this server
+2013-01-28 16:01:27	⇄	3530AABJX :your unique ID
+2013-01-28 16:01:27	⇄	There are 255 users and 0 services on 4 servers
+2013-01-28 16:01:27	⇄	5 :operators online
+2013-01-28 16:01:27	⇄	240 :channels formed
+2013-01-28 16:01:27	⇄	I have 53 users, 0 services and 1 servers
+2013-01-28 16:01:27	⇄	Current local users 53, max 1014
+2013-01-28 16:01:27	⇄	Current global users 255, max 1453
+2013-01-28 16:01:27	⇄	- mujo.be.krey.net Message of the Day -
+2013-01-28 16:01:27	⇄	- 11/10/2010 14:33
+2013-01-28 16:01:27	⇄	- Mujo IRC Server
+2013-01-28 16:01:27	⇄	-
+2013-01-28 16:01:27	⇄	- This server is part of the KreyNet IRC Network.
+2013-01-28 16:01:27	⇄	-
+2013-01-28 16:01:27	⇄	- For more information about KreyNet, please visit http://www.krey.net
+2013-01-28 16:01:27	⇄	-
+2013-01-28 16:01:27	⇄	- General KreyNet rules are used.  Please read them on
+2013-01-28 16:01:27	⇄	- http://www.krey.net
+2013-01-28 16:01:27	⇄	-
+2013-01-28 16:01:27	⇄	- If you need any assistance, please visit our official help
+2013-01-28 16:01:27	⇄	- channel #irchelp
+2013-01-28 16:01:27	⇄	-
+2013-01-28 16:01:27	⇄	End of MOTD command.
+2013-01-28 16:01:52	⇄	MSG(nickserv): help
+2013-01-28 16:01:52	⇄	nickserv: No such nick/channel

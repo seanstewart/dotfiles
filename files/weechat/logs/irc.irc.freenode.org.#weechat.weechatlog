@@ -1,0 +1,52 @@
+2013-01-28 17:13:32	→	sean-s3 (~sean@c-98-239-180-196.hsd1.pa.comcast.net) has joined #weechat
+2013-01-28 17:13:32	⇄	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.0 | English support channel, *ONLY* about WeeChat software | Please read doc before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2013-01-28 17:13:32	⇄	Topic set by FlashCode (~FlashCode@zeta.flashtux.org) on Sun, 20 Jan 2013 05:28:29
+2013-01-28 17:13:32	⇄	Nicks #weechat: [@ChanServ @FlashCode @kolter @ptitlouis +weebot [bsx] ^wd^ _`_ _flow_ _grawity `nand` A-Angel Ac-town adaptr Aexoden ahuemer ainmosni aitch aji alexandros_c applebrain ArcAngel architekt Archtivity ArZa asakura0 ashemedai aspiers astra05 atari barns batrick bigmeow bizarro_1 bjornaje bjornars blackspark blissdev bloony BluABK blueyed bps brainproxy Brando753 brenden1 bronsen Bruners BullShark C2H6O Caleb ccxCZ cewood chaingun Chewtoy Chiku CiaranG1 CissWit Colgate coredump crater2150 crazedpsyc Dan39 DancingBear daniel_-_ dankles DarthRamone DaZ Defaultti derrida Dewr DexterLB df0 DNS dominikh DonAman Dopefish dorftrottel_ draco drbean dregin drubin dubf ectospasm EgS eightyeight else- ember314 emid epegzz erkules Exio faen Faethor fayek feedelli Felden felher felipe firebird fireglow FiXato fours fracek frakturfreak frew Furai gardar_ gb Goatbert goraxe GoshaZa Gotisch grawity gtmanfred Guest24501 Guest59163 Happy0 Harbinger haste hggdh higuita hiptobecubic hlindset hokkaido hrubi Hydrazine iElectric inverse isak jaset jayne jelly-home jenic Jestre jiffe98 jjacky jmreicha_ JPP_kimsufi jrib jsec juhuchapa jvolkman JyZyXEL jzelinskie Kaare Kabaka KaiSforza kalpik kart0ffelsack kelnoky KenjiE20 kgb KindOne kingkong kingkong|here kingsqueak kirin` kkh kloeri kmicu KokaKiwi koolfy Kovensky krishna Kunsi kunwon1 kvothetech l-b lastebil leo_rockway linduxed linopolus LiuYan lluchs LordOfLA loswillios_ lrvick Luceo ludens m4v maattdd mahlon Maikl majoh mama marek markatto Matrixiumn Mayi medgno megha meingtsla meskarune mh0 milk mixi Mkaysi mmb monty moruk MrElendig msx mumixam musl mva myme mythmon nasedo necronian neferty Nei nesthib nexxus6 nignaztic nils_2 niluje noflex nyuszika7h Obfuscate Occi octane-- oddmunds ogny ole ormaaj oyvindio PaulW2U PavillonNoir pbos PECCU perun_ pew-pew PhilK phlux phryk Pixelz pl` pmo pragma- programmerq R1cochet radhermit random_cat Rasi Ratler Raugturi rayjingstorm rbecker redblue remmy444 resixian Ring0` rking Rockj roniez roughnecks royale1 ruuk rvalles Sakarias sakkemo SAL9000 sanova sasquatch Scall se7en2 sean-s3 seccccc Sembei seschwar ShawnR shoerain sigterm Silex Simon- sitaktif sjl sjohnson sleo slowpoke Snowolf Soft Soliton soltys spaceone spacepluk ssedano Starvirus StarWeaver staticsafe SteelHawk stfn Sthebig Stravy sudokode sugardeath SuperTux88 sw4 swimmer sybariten Tanami tchan tdy techlife tg the_metalgamer TheBrayn ThePink Timbo tioan Tit0_ tlonim tmr tomaw tomboy64 tomoe-mami TomServo TomWij torque Trashlord trn Twey ubergeek42 Ulrar unixgeek v0n vacum Vargos Vinylourson Voldenet Voronoi WakiMiko wayneeseguin wd webben webvictim weissbier whaley Whoop WillyKaze wysiwtf xrdodrx xt xy xybre yano yardenita yeled Yorokobi yosafbridge Ytserman zamba zeltak1 zmode zphinx zralb zu Zucca]
+2013-01-28 17:13:32	⇄	Channel #weechat: 358 nicks (4 ops, 0 halfops, 1 voice, 353 normals)
+2013-01-28 17:13:32	⇄	URL for #weechat: http://www.weechat.org/
+2013-01-28 17:13:34	⇄	Mode #weechat [+nt]
+2013-01-28 17:13:34	⇄	Channel created on Sun, 26 Nov 2006 01:42:51
+2013-01-28 17:14:19	BullShark	rayjingstorm -> it's made by the main dev of weechat
+2013-01-28 17:14:20	rayjingstorm	BullShark: ah, I see the dev's email in the header of the script
+2013-01-28 17:14:48	rayjingstorm	BullShark: oh, but nils_2 just said it is obsolete? is the script command its replacement?
+2013-01-28 17:14:49	nils_2	just ask here rayjingstorm. some people using jabber.py ;-)
+2013-01-28 17:15:16	sean-s3	Yo guys; new to weechat:  is there a way to colorize nicks based on their prefix. Like, so that ops are always red, voice magenta, etc?
+2013-01-28 17:15:28	rayjingstorm	question boils down to: does jabber.py support group chat over xmpp? if so how
+2013-01-28 17:15:29	nils_2	yes /script replaced weeget.py and script.pl scripts
+2013-01-28 17:16:13	BullShark	nils_2 -> /knock seems to work now
+2013-01-28 17:16:16	nils_2	sean-s3: not that i know. but possible with a script
+2013-01-28 17:16:22	BullShark	thx
+2013-01-28 17:16:54	sean-s3	nils_2: thank you. Now I know what I must do!
+2013-01-28 17:16:57	nils_2	don't forget /save ;-)
+2013-01-28 17:18:02	nils_2	sean-s3: go ahead, its quite simple ;-)
+2013-01-28 17:18:05	←	v0n (~vivien@207.96.182.162) has quit (Ping timeout: 255 seconds)
+2013-01-28 17:18:37	BullShark	nils_2 -> so /opper should work now without /quote opper user pass?
+2013-01-28 17:19:15	BullShark	/oper i mean
+2013-01-28 17:19:27	nils_2	just want to ask :-D
+2013-01-28 17:20:03	nils_2	/oper user password
+2013-01-28 17:20:54	←	megha (~fire@unaffiliated/security) has quit (Read error: Operation timed out)
+2013-01-28 17:22:58	←	juhuchapa (~juhuchapa@200.13.124.36) has quit (Quit: WeeChat 0.3.8)
+2013-01-28 17:26:14	←	rayjingstorm (~scott@97-86-82-102.static.aldl.mi.charter.com) has quit (Quit: WeeChat 0.4.0)
+2013-01-28 17:35:31	→	megha (~fire@unaffiliated/security) has joined #weechat
+2013-01-28 17:37:58	→	tomboy65 (~tomboy@gateway/tor-sasl/tomboy64) has joined #weechat
+2013-01-28 17:38:03	→	bananagram (~bot@c-98-198-236-112.hsd1.tx.comcast.net) has joined #weechat
+2013-01-28 17:38:25	←	tomboy64 (~tomboy@gateway/tor-sasl/tomboy64) has quit (Disconnected by services)
+2013-01-28 17:38:26	⇄	tomboy65 is now known as tomboy64
+2013-01-28 17:39:26	→	tomboy65 (~tomboy@gateway/tor-sasl/tomboy64) has joined #weechat
+2013-01-28 17:39:46	←	tomboy64 (~tomboy@gateway/tor-sasl/tomboy64) has quit (Disconnected by services)
+2013-01-28 17:39:48	⇄	tomboy65 is now known as tomboy64
+2013-01-28 17:40:18	→	tomboy65 (~tomboy@gateway/tor-sasl/tomboy64) has joined #weechat
+2013-01-28 17:40:38	←	tomboy64 (~tomboy@gateway/tor-sasl/tomboy64) has quit (Disconnected by services)
+2013-01-28 17:40:40	⇄	tomboy65 is now known as tomboy64
+2013-01-28 17:41:16	←	tomboy64 (~tomboy@gateway/tor-sasl/tomboy64) has quit (Client Quit)
+2013-01-28 17:41:18	→	tomboy65 (~tomboy@gateway/tor-sasl/tomboy64) has joined #weechat
+2013-01-28 17:41:40	⇄	tomboy65 is now known as tomboy64
+2013-01-28 17:41:42	→	tomboy4 (~tomboy@gateway/tor-sasl/tomboy64) has joined #weechat
+2013-01-28 17:43:31	→	MuffinMan` (~derp.sono@dh207-111-50.xnet.hr) has joined #weechat
+2013-01-28 17:43:57	→	v0n (~vivien@modemcable058.151-81-70.mc.videotron.ca) has joined #weechat
+2013-01-28 17:44:45	←	tomboy4 (~tomboy@gateway/tor-sasl/tomboy64) has quit (Client Quit)
+2013-01-28 17:46:16	←	eightyeight (~aaron@oalug/member/eightyeight) has quit (Ping timeout: 245 seconds)
+2013-01-28 17:50:20	←	necronian (~necronian@irc.uberpurple.com) has quit (Ping timeout: 252 seconds)
+2013-01-28 17:51:50	←	frakturfreak (fraktur@unaffiliated/frakturfreak) has quit (Ping timeout: 256 seconds)
+2013-01-28 17:52:59	→	necronian (~necronian@irc.uberpurple.com) has joined #weechat
+2013-01-28 17:53:11	←	sean-s3 (~sean@c-98-239-180-196.hsd1.pa.comcast.net) has left #weechat ("WeeChat")

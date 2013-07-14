@@ -1,0 +1,52 @@
+2013-01-28 07:16:43	--	irc: connecting to server irc.barton.de/6667...
+2013-01-28 07:16:44	--	irc: connected to irc.barton.de/6667 (80.152.239.23)
+2013-01-28 07:16:46	--	*** Looking up your hostname and checking ident
+2013-01-28 07:16:46	--	*** Found your hostname: c-98-239-180-196.hsd1.pa.comcast.net
+2013-01-28 07:16:46	--	*** No ident response
+2013-01-28 07:16:46	--	Welcome to the Internet Relay Network Sean!~Sean@c-98-239-180-196.hsd1.pa.comcast.net
+2013-01-28 07:16:46	--	Your host is irc.barton.de, running version ngircd-20.1 (x86_64/pc/linux-gnu)
+2013-01-28 07:16:46	--	This server has been started Thu Jan 03 2013 at 01:56:50 (CET)
+2013-01-28 07:16:46	--	irc.barton.de ngircd-20.1 abBcCioqrRswx abehiIklmMnoOPqQrRstvVz
+2013-01-28 07:16:46	--	RFC2812 IRCD=ngIRCd CHARSET=UTF-8 CASEMAPPING=ascii PREFIX=(qaohv)~&@%+ CHANTYPES=#&+ CHANMODES=beI,k,l,imMnOPQRstVz CHANLIMIT=#&+:20 :are supported on this server
+2013-01-28 07:16:46	--	CHANNELLEN=50 NICKLEN=9 TOPICLEN=490 AWAYLEN=127 KICKLEN=400 MODES=5 MAXLIST=beI:50 EXCEPTS=e INVEX=I PENALTY :are supported on this server
+2013-01-28 07:16:46	--	There are 22 users and 7 services on 6 servers
+2013-01-28 07:16:46	--	3 :operator(s) online
+2013-01-28 07:16:46	--	19 :channels formed
+2013-01-28 07:16:46	--	I have 17 users, 0 services and 4 servers
+2013-01-28 07:16:46	--	17 19 :Current local users: 17, Max: 19
+2013-01-28 07:16:46	--	22 25 :Current global users: 22, Max: 25
+2013-01-28 07:16:46	--	Highest connection count: 22 (7451 connections received)
+2013-01-28 07:16:46	--	- irc.barton.de message of the day
+2013-01-28 07:16:46	--	-  _            _                _                   _
+2013-01-28 07:16:46	--	- (_)          | |              | |                 | |
+2013-01-28 07:16:46	--	-  _ _ __ ___  | |__   __ _ _ __| |_ ___  _ __    __| | ___
+2013-01-28 07:16:46	--	- | | '__/ __| | '_ \ / _` | '__| __/ _ \| '_ \  / _` |/ _ \
+2013-01-28 07:16:46	--	- | | | | (__ _| |_) | (_| | |  | || (_) | | | || (_| |  __/
+2013-01-28 07:16:46	--	- |_|_|  \___(_)_.__/ \__,_|_|   \__\___/|_| |_(_)__,_|\___|
+2013-01-28 07:16:46	--	-
+2013-01-28 07:16:46	--	- WILLKOMMEN auf dem IRC-Server irc.barton.de!
+2013-01-28 07:16:46	--	-   Administrator: Alexander Barton, <alex@barton.de>
+2013-01-28 07:16:46	--	-   Oeffentlicher Zugang: irc.barton.de, Ports 6667+6668;
+2013-01-28 07:16:46	--	-   SSL-verschluesselte Verbindungen auf Port 6697.
+2013-01-28 07:16:46	--	-   Verbindungen sind mit IPv4 und IPv6 moeglich.
+2013-01-28 07:16:46	--	-
+2013-01-28 07:16:46	--	- NEU HIER?
+2013-01-28 07:16:46	--	-   Als guter Startpunkt bietet sich der Channel #talk oder
+2013-01-28 07:16:46	--	-   #alt an, mit dem Befehl "/join #talk" bzw. "/join #alt"
+2013-01-28 07:16:46	--	-   gelangst du dort hin. Zum Testen ist #test geeignet ;-)
+2013-01-28 07:16:46	--	-
+2013-01-28 07:16:46	--	- MEHR INFORMATIONEN ueber IRC, die Server in diesem Netz,
+2013-01-28 07:16:46	--	-   Clients fuer verschiedene Plattformen sowie Statistiken
+2013-01-28 07:16:46	--	-   findest du unter <http://irc.barton.de/>.
+2013-01-28 07:16:46	--	-
+2013-01-28 07:16:46	--	- SERVER REGELN:
+2013-01-28 07:16:46	--	-   "Flooding", Channel-Uebernehmen und destruktive Bots
+2013-01-28 07:16:46	--	-   sind verboten ("freundliche Bots" sind in Ordnung!).
+2013-01-28 07:16:46	--	-
+2013-01-28 07:16:46	--	- LOOKING FOR ngIRCd?
+2013-01-28 07:16:46	--	-   You should join the #ngircd channel :-)
+2013-01-28 07:16:46	--	-
+2013-01-28 07:16:46	--	- Viel Spass!
+2013-01-28 07:16:46	--	-
+2013-01-28 07:16:46	--	End of MOTD command
+2013-01-28 07:19:35	--	irc: disconnected from server

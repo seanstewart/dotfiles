@@ -1,0 +1,1747 @@
+2013-01-29 00:51:56	sean	help
+2013-01-29 00:51:56	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-29 00:51:56	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-29 00:51:56	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-29 00:51:56	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-29 00:51:56	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-29 00:51:56	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-29 00:51:56	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-29 00:51:56	⇄	ChanServ: 
+2013-01-29 00:51:56	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-29 00:51:56	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-29 00:51:56	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-29 00:51:56	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-29 00:51:56	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-29 00:51:56	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-29 00:51:56	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-29 00:51:56	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-29 00:51:56	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-29 00:51:56	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-29 00:51:56	⇄	ChanServ: 
+2013-01-29 00:51:56	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-29 00:51:57	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-29 00:51:57	⇄	ChanServ:   VOP
+2013-01-29 00:51:57	⇄	ChanServ: 
+2013-01-29 00:51:57	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-29 00:51:57	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-29 00:51:57	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-29 00:51:57	⇄	ChanServ: 
+2013-01-29 00:51:57	⇄	ChanServ: Used to manage channels
+2013-01-29 00:51:57	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-29 00:51:57	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-29 00:51:58	⇄	ChanServ: 
+2013-01-29 00:51:58	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-29 00:51:58	⇄	ChanServ: 
+2013-01-29 00:51:58	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-29 00:51:58	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-29 00:51:58	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-29 00:52:18	sean	op
+2013-01-29 00:52:29	sean	op
+2013-01-29 00:52:33	sean	op
+2013-01-29 00:52:34	sean	help
+2013-01-29 00:52:35	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-29 00:52:35	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-29 00:52:35	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-29 00:52:35	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-29 00:52:35	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-29 00:52:35	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-29 00:52:35	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-29 00:52:35	⇄	ChanServ: 
+2013-01-29 00:52:35	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-29 00:52:35	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-29 00:52:35	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-29 00:52:35	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-29 00:52:35	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-29 00:52:35	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-29 00:52:35	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-29 00:52:35	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-29 00:52:35	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-29 00:52:35	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-29 00:52:35	⇄	ChanServ: 
+2013-01-29 00:52:35	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-29 00:52:36	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-29 00:52:36	⇄	ChanServ:   VOP
+2013-01-29 00:52:36	⇄	ChanServ: 
+2013-01-29 00:52:36	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-29 00:52:36	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-29 00:52:36	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-29 00:52:36	⇄	ChanServ: 
+2013-01-29 00:52:36	⇄	ChanServ: Used to manage channels
+2013-01-29 00:52:36	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-29 00:52:36	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-29 00:52:37	⇄	ChanServ: 
+2013-01-29 00:52:37	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-29 00:52:37	⇄	ChanServ: 
+2013-01-29 00:52:37	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-29 00:52:37	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-29 00:52:37	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-29 00:52:37	sean	help op
+2013-01-29 00:52:37	⇄	ChanServ: Gives Op status to a selected nick on a channel
+2013-01-29 00:52:37	⇄	ChanServ: This command is an alias to the command MODE.
+2013-01-29 00:52:54	sean	op #m0nster-net patrik
+2013-01-29 00:53:08	sean	help
+2013-01-29 00:53:08	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-29 00:53:08	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-29 00:53:08	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-29 00:53:08	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-29 00:53:08	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-29 00:53:08	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-29 00:53:08	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-29 00:53:08	⇄	ChanServ: 
+2013-01-29 00:53:08	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-29 00:53:08	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-29 00:53:08	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-29 00:53:08	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-29 00:53:08	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-29 00:53:08	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-29 00:53:08	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-29 00:53:08	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-29 00:53:08	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-29 00:53:08	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-29 00:53:08	⇄	ChanServ: 
+2013-01-29 00:53:08	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-29 00:53:09	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-29 00:53:09	⇄	ChanServ:   VOP
+2013-01-29 00:53:09	⇄	ChanServ: 
+2013-01-29 00:53:09	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-29 00:53:09	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-29 00:53:09	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-29 00:53:09	⇄	ChanServ: 
+2013-01-29 00:53:09	⇄	ChanServ: Used to manage channels
+2013-01-29 00:53:09	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-29 00:53:09	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-29 00:53:10	⇄	ChanServ: 
+2013-01-29 00:53:10	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-29 00:53:10	⇄	ChanServ: 
+2013-01-29 00:53:10	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-29 00:53:10	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-29 00:53:10	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-29 00:53:30	sean	help access
+2013-01-29 00:53:30	⇄	ChanServ: Syntax: access channel ADD mask level
+2013-01-29 00:53:30	⇄	ChanServ:         access channel DEL {mask | entry-num | list}
+2013-01-29 00:53:30	⇄	ChanServ:         access channel LIST [mask | list]
+2013-01-29 00:53:30	⇄	ChanServ:         access channel VIEW [mask | list]
+2013-01-29 00:53:30	⇄	ChanServ:         access channel CLEAR
+2013-01-29 00:53:30	⇄	ChanServ: 
+2013-01-29 00:53:30	⇄	ChanServ: Maintains the access list for a channel.  The access
+2013-01-29 00:53:30	⇄	ChanServ: list specifies which users are allowed chanop status or
+2013-01-29 00:53:30	⇄	ChanServ: access to ChanServ commands on the channel.  Different
+2013-01-29 00:53:30	⇄	ChanServ: user levels allow for access to different subsets of
+2013-01-29 00:53:30	⇄	ChanServ: privileges. Any registered user not on the access list has
+2013-01-29 00:53:30	⇄	ChanServ: a user level of 0, and any unregistered user has a user level
+2013-01-29 00:53:30	⇄	ChanServ: of -1.
+2013-01-29 00:53:30	⇄	ChanServ: 
+2013-01-29 00:53:30	⇄	ChanServ: The ACCESS ADD command adds the given mask to the
+2013-01-29 00:53:30	⇄	ChanServ: access list with the given user level; if the mask is
+2013-01-29 00:53:30	⇄	ChanServ: already present on the list, its access level is changed to
+2013-01-29 00:53:30	⇄	ChanServ: the level specified in the command.  The level specified
+2013-01-29 00:53:30	⇄	ChanServ: must be less than that of the user giving the command, and
+2013-01-29 00:53:30	⇄	ChanServ: if the mask is already on the access list, the current
+2013-01-29 00:53:32	⇄	ChanServ: access level of that nick must be less than the access level
+2013-01-29 00:53:32	⇄	ChanServ: of the user giving the command. When a user joins the channel
+2013-01-29 00:53:32	⇄	ChanServ: the access they receive is from the highest level entry in the
+2013-01-29 00:53:32	⇄	ChanServ: access list.
+2013-01-29 00:53:32	⇄	ChanServ: 
+2013-01-29 00:53:32	⇄	ChanServ: The ACCESS DEL command removes the given nick from the
+2013-01-29 00:53:32	⇄	ChanServ: access list.  If a list of entry numbers is given, those
+2013-01-29 00:53:32	⇄	ChanServ: entries are deleted.  (See the example for LIST below.)
+2013-01-29 00:53:32	⇄	ChanServ: You may remove yourself from an access list, even if you
+2013-01-29 00:53:32	⇄	ChanServ: do not have access to modify that list otherwise.
+2013-01-29 00:53:32	⇄	ChanServ: 
+2013-01-29 00:53:32	⇄	ChanServ: The ACCESS LIST command displays the access list.  If
+2013-01-29 00:53:32	⇄	ChanServ: a wildcard mask is given, only those entries matching the
+2013-01-29 00:53:32	⇄	ChanServ: mask are displayed.  If a list of entry numbers is given,
+2013-01-29 00:53:32	⇄	ChanServ: only those entries are shown; for example:
+2013-01-29 00:53:32	⇄	ChanServ:    ACCESS #channel LIST 2-5,7-9
+2013-01-29 00:53:32	⇄	ChanServ:       Lists access entries numbered 2 through 5 and
+2013-01-29 00:53:32	⇄	ChanServ:       7 through 9.
+2013-01-29 00:53:32	⇄	ChanServ: 
+2013-01-29 00:53:32	⇄	ChanServ: The ACCESS VIEW command displays the access list similar
+2013-01-29 00:53:32	⇄	ChanServ: to ACCESS LIST but shows the creator and last used time.
+2013-01-29 00:53:32	⇄	ChanServ: 
+2013-01-29 00:53:32	⇄	ChanServ: The ACCESS CLEAR command clears all entries of the
+2013-01-29 00:53:32	⇄	ChanServ: access list.
+2013-01-29 00:53:32	⇄	ChanServ: User access levels
+2013-01-29 00:53:32	⇄	ChanServ: 
+2013-01-29 00:53:32	⇄	ChanServ: By default, the following access levels are defined:
+2013-01-29 00:53:32	⇄	ChanServ: 
+2013-01-29 00:53:34	⇄	ChanServ:    Founder   Full access to ChanServ functions; automatic
+2013-01-29 00:53:34	⇄	ChanServ:                      opping upon entering channel.  Note
+2013-01-29 00:53:34	⇄	ChanServ:                      that only one person may have founder
+2013-01-29 00:53:34	⇄	ChanServ:                      status (it cannot be given using the
+2013-01-29 00:53:34	⇄	ChanServ:                      ACCESS command).
+2013-01-29 00:53:34	⇄	ChanServ:         10   Access to AKICK command; automatic opping.
+2013-01-29 00:53:34	⇄	ChanServ:          5   Automatic opping.
+2013-01-29 00:53:34	⇄	ChanServ:          3   Automatic voicing.
+2013-01-29 00:53:34	⇄	ChanServ:          0   No special privileges; can be opped by other
+2013-01-29 00:53:34	⇄	ChanServ:                      ops (unless secure-ops is set).
+2013-01-29 00:53:35	⇄	ChanServ: 
+2013-01-29 00:53:35	⇄	ChanServ: These levels may be changed, or new ones added, using the
+2013-01-29 00:53:35	⇄	ChanServ: LEVELS command; type /msg ChanServ HELP LEVELS for
+2013-01-29 00:53:36	⇄	ChanServ: information.
+2013-01-29 00:53:37	sean	access list
+2013-01-29 00:53:37	⇄	ChanServ: Syntax: ACCESS channel ADD mask level
+2013-01-29 00:53:37	⇄	ChanServ:         ACCESS channel DEL {mask | entry-num | list}
+2013-01-29 00:53:37	⇄	ChanServ:         ACCESS channel LIST [mask | list]
+2013-01-29 00:53:37	⇄	ChanServ:         ACCESS channel VIEW [mask | list]
+2013-01-29 00:53:37	⇄	ChanServ:         ACCESS channel CLEAR
+2013-01-29 00:53:37	⇄	ChanServ: /msg ChanServ HELP ACCESS for more information.
+2013-01-29 00:53:45	sean	access #m0nster-net list
+2013-01-29 00:53:45	⇄	ChanServ: Access list for #M0NSTER-NET:
+2013-01-29 00:53:45	⇄	ChanServ: Number  Level  Mask
+2013-01-29 00:53:45	⇄	ChanServ: 1       5      patrik
+2013-01-29 00:53:45	⇄	ChanServ: 2       5      sean
+2013-01-29 00:53:45	⇄	ChanServ: End of access list
+2013-01-29 00:54:32	sean	acess #m0nster-net view pat
+2013-01-29 00:54:32	⇄	ChanServ: Unknown command acess #m0nster-net view pat. "/msg ChanServ HELP" for help.
+2013-01-29 00:54:36	sean	access #m0nster-net view pat
+2013-01-29 00:54:36	⇄	ChanServ: No matching entries on #M0NSTER-NET access list.
+2013-01-29 00:54:41	sean	access #m0nster-net view patrik
+2013-01-29 00:54:41	⇄	ChanServ: Access list for #M0NSTER-NET:
+2013-01-29 00:54:41	⇄	ChanServ: Number  Level  Mask    By    Last seen
+2013-01-29 00:54:41	⇄	ChanServ: 1       5      patrik  sean  Jan 27 18:05:35 2013 EST
+2013-01-29 00:54:41	⇄	ChanServ: End of access list
+2013-01-29 00:54:58	sean	access #m0nster-net add patrik 10
+2013-01-29 00:54:58	⇄	ChanServ: patrik added to #M0NSTER-NET access list at level 10.
+2013-01-29 00:55:02	sean	access #m0nster-net add sean 10
+2013-01-29 00:55:02	⇄	ChanServ: sean added to #M0NSTER-NET access list at level 10.
+2013-01-29 00:55:56	sean	help set
+2013-01-29 00:55:56	⇄	ChanServ: Syntax: set option channel parameters
+2013-01-29 00:55:56	⇄	ChanServ: 
+2013-01-29 00:55:56	⇄	ChanServ: Allows the channel founder to set various channel options
+2013-01-29 00:55:56	⇄	ChanServ: and other information.
+2013-01-29 00:55:56	⇄	ChanServ: 
+2013-01-29 00:55:56	⇄	ChanServ: Available options:
+2013-01-29 00:55:56	⇄	ChanServ:     SET AUTOOP     Should services automatically give status to users
+2013-01-29 00:55:56	⇄	ChanServ:     SET BANTYPE    Set how Services make bans on the channel
+2013-01-29 00:55:56	⇄	ChanServ:     SET DESC       Set the channel description
+2013-01-29 00:55:56	⇄	ChanServ:     SET DESCRIPTION Set the channel description
+2013-01-29 00:55:56	⇄	ChanServ:     SET EMAIL      Associate an E-mail address with the channel
+2013-01-29 00:55:56	⇄	ChanServ:     SET FOUNDER    Set the founder of a channel
+2013-01-29 00:55:56	⇄	ChanServ:     SET KEEPTOPIC  Retain topic when channel is not in use
+2013-01-29 00:55:56	⇄	ChanServ:     SET PEACE      Regulate the use of critical commands
+2013-01-29 00:55:56	⇄	ChanServ:     SET PERSIST    Set the channel as permanent
+2013-01-29 00:55:56	⇄	ChanServ:     SET PRIVATE    Hide channel from LIST command
+2013-01-29 00:55:56	⇄	ChanServ:     SET RESTRICTED Restrict access to the channel
+2013-01-29 00:55:56	⇄	ChanServ:     SET SECURE     Activate security features
+2013-01-29 00:55:56	⇄	ChanServ:     SET SECUREFOUNDER Stricter control of channel founder status
+2013-01-29 00:55:56	⇄	ChanServ:     SET SECUREOPS  Stricter control of chanop status
+2013-01-29 00:55:57	⇄	ChanServ:     SET SIGNKICK   Sign kicks that are done with KICK command
+2013-01-29 00:55:57	⇄	ChanServ:     SET SUCCESSOR  Set the successor for a channel
+2013-01-29 00:55:57	⇄	ChanServ:     SET URL        Associate a URL with the channel
+2013-01-29 00:55:57	⇄	ChanServ: Type /msg ChanServ HELP SET option for more information on a
+2013-01-29 00:55:57	⇄	ChanServ: particular option.
+2013-01-29 00:56:08	sean	help set autoop
+2013-01-29 00:56:08	⇄	ChanServ: Syntax: set autoop channel {ON | OFF}
+2013-01-29 00:56:08	⇄	ChanServ: 
+2013-01-29 00:56:08	⇄	ChanServ: Enables or disables ChanServ's autoop feature for a
+2013-01-29 00:56:08	⇄	ChanServ: channel. When disabled, users who join the channel will
+2013-01-29 00:56:08	⇄	ChanServ: not automatically gain any status from ChanServ
+2013-01-29 00:56:23	sean	set autoop #m0nster-net on
+2013-01-29 00:56:23	⇄	ChanServ: Services will now automatically give modes to users in #M0NSTER-NET
+2013-01-29 00:58:52	sean	help
+2013-01-29 00:58:52	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-29 00:58:52	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-29 00:58:52	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-29 00:58:52	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-29 00:58:52	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-29 00:58:52	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-29 00:58:52	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-29 00:58:52	⇄	ChanServ: 
+2013-01-29 00:58:52	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-29 00:58:52	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-29 00:58:52	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-29 00:58:52	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-29 00:58:52	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-29 00:58:52	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-29 00:58:52	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-29 00:58:52	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-29 00:58:52	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-29 00:58:52	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-29 00:58:52	⇄	ChanServ: 
+2013-01-29 00:58:52	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-29 00:58:54	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-29 00:58:54	⇄	ChanServ:   VOP
+2013-01-29 00:58:54	⇄	ChanServ: 
+2013-01-29 00:58:54	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-29 00:58:54	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-29 00:58:54	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-29 00:58:54	⇄	ChanServ: 
+2013-01-29 00:58:54	⇄	ChanServ: Used to manage channels
+2013-01-29 00:58:54	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-29 00:58:54	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-29 00:58:55	⇄	ChanServ: 
+2013-01-29 00:58:55	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-29 00:58:55	⇄	ChanServ: 
+2013-01-29 00:58:55	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-29 00:58:55	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-29 00:58:55	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-29 00:59:00	sean	status
+2013-01-29 00:59:00	⇄	ChanServ: Syntax: STATUS channel [user]
+2013-01-29 00:59:00	⇄	ChanServ: /msg ChanServ HELP STATUS for more information.
+2013-01-29 00:59:04	sean	status m0nster-net sean
+2013-01-29 00:59:04	⇄	ChanServ: Channel m0nster-net isn't registered.
+2013-01-29 00:59:08	sean	status #m0nster-net sean
+2013-01-29 00:59:08	⇄	ChanServ: sean is the channel founder.
+2013-01-29 00:59:13	sean	status #m0nster-net pat
+2013-01-29 00:59:13	⇄	ChanServ: pat has no access on #M0NSTER-NET.
+2013-01-29 00:59:15	sean	status #m0nster-net patrik
+2013-01-29 00:59:15	⇄	ChanServ: Access for patrik on #M0NSTER-NET
+2013-01-29 00:59:15	⇄	ChanServ: patrik matches access entry patrik, which has privilege 10.
+2013-01-29 01:01:41	sean	info #m0nster-net
+2013-01-29 01:01:41	⇄	ChanServ: Information for channel #m0nster-net:
+2013-01-29 01:01:41	⇄	ChanServ:      Founder: Sean
+2013-01-29 01:01:41	⇄	ChanServ:  Description: M0NSTER-NET'S OFFICIAL LOBBY
+2013-01-29 01:01:41	⇄	ChanServ:   Registered: Jan 27 16:33:17 2013 EST (1 day, 8 hours, 28 minutes ago)
+2013-01-29 01:01:41	⇄	ChanServ:    Last used: Jan 29 01:01:41 2013 EST (0 seconds from now)
+2013-01-29 01:01:41	⇄	ChanServ:   Last topic: Niglet.
+2013-01-29 01:01:41	⇄	ChanServ: Topic set by: sean
+2013-01-29 01:01:41	⇄	ChanServ:     Ban type: 2
+2013-01-29 01:01:41	⇄	ChanServ:      Options: Topic Retention, Peace, Secure, Secure Founder, Signed kicks, Persistant
+2013-01-29 01:01:41	⇄	ChanServ:    Mode lock: +nPrt
+2013-01-29 01:01:41	⇄	ChanServ:   Expires on: Jan 29 01:01:41 2014 EST (365 days from now)
+2013-01-29 01:01:58	sean	help
+2013-01-29 01:01:58	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-29 01:01:58	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-29 01:01:58	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-29 01:01:58	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-29 01:01:58	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-29 01:01:58	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-29 01:01:58	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-29 01:01:58	⇄	ChanServ: 
+2013-01-29 01:01:58	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-29 01:01:58	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-29 01:01:58	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-29 01:01:58	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-29 01:01:58	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-29 01:01:58	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-29 01:01:58	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-29 01:01:58	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-29 01:01:58	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-29 01:01:58	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-29 01:01:58	⇄	ChanServ: 
+2013-01-29 01:01:58	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-29 01:01:59	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-29 01:01:59	⇄	ChanServ:   VOP
+2013-01-29 01:01:59	⇄	ChanServ: 
+2013-01-29 01:01:59	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-29 01:01:59	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-29 01:01:59	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-29 01:01:59	⇄	ChanServ: 
+2013-01-29 01:01:59	⇄	ChanServ: Used to manage channels
+2013-01-29 01:01:59	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-29 01:01:59	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-29 01:02:00	⇄	ChanServ: 
+2013-01-29 01:02:00	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-29 01:02:00	⇄	ChanServ: 
+2013-01-29 01:02:00	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-29 01:02:00	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-29 01:02:00	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-29 01:02:01	sean	help topic
+2013-01-29 01:02:01	⇄	ChanServ: Syntax: topic channel SET [topic]
+2013-01-29 01:02:01	⇄	ChanServ:         topic channel APPEND topic
+2013-01-29 01:02:01	⇄	ChanServ:         topic channel [UNLOCK|LOCK]
+2013-01-29 01:02:01	⇄	ChanServ: 
+2013-01-29 01:02:01	⇄	ChanServ: Allows manipulating the topic of the specified channel.
+2013-01-29 01:02:01	⇄	ChanServ: The SET command changes the topic of the channel to the given topic
+2013-01-29 01:02:01	⇄	ChanServ: or unsets the topic if no topic is given. The APPEND command appends
+2013-01-29 01:02:01	⇄	ChanServ: the given topic to the existing topic.
+2013-01-29 01:02:01	⇄	ChanServ: 
+2013-01-29 01:02:01	⇄	ChanServ: LOCK and UNLOCK may be used to enable and disable topic lock. When
+2013-01-29 01:02:01	⇄	ChanServ: topic lock is set, the channel topic will be unchangable except via this command.
+2013-01-29 01:09:05	sean	help set xop
+2013-01-29 01:09:05	⇄	ChanServ: Syntax: set option channel parameters
+2013-01-29 01:09:05	⇄	ChanServ: 
+2013-01-29 01:09:05	⇄	ChanServ: Allows the channel founder to set various channel options
+2013-01-29 01:09:05	⇄	ChanServ: and other information.
+2013-01-29 01:09:05	⇄	ChanServ: 
+2013-01-29 01:09:05	⇄	ChanServ: Available options:
+2013-01-29 01:09:05	⇄	ChanServ:     SET AUTOOP     Should services automatically give status to users
+2013-01-29 01:09:05	⇄	ChanServ:     SET BANTYPE    Set how Services make bans on the channel
+2013-01-29 01:09:05	⇄	ChanServ:     SET DESC       Set the channel description
+2013-01-29 01:09:05	⇄	ChanServ:     SET DESCRIPTION Set the channel description
+2013-01-29 01:09:05	⇄	ChanServ:     SET EMAIL      Associate an E-mail address with the channel
+2013-01-29 01:09:05	⇄	ChanServ:     SET FOUNDER    Set the founder of a channel
+2013-01-29 01:09:05	⇄	ChanServ:     SET KEEPTOPIC  Retain topic when channel is not in use
+2013-01-29 01:09:05	⇄	ChanServ:     SET PEACE      Regulate the use of critical commands
+2013-01-29 01:09:05	⇄	ChanServ:     SET PERSIST    Set the channel as permanent
+2013-01-29 01:09:05	⇄	ChanServ:     SET PRIVATE    Hide channel from LIST command
+2013-01-29 01:09:05	⇄	ChanServ:     SET RESTRICTED Restrict access to the channel
+2013-01-29 01:09:05	⇄	ChanServ:     SET SECURE     Activate security features
+2013-01-29 01:09:05	⇄	ChanServ:     SET SECUREFOUNDER Stricter control of channel founder status
+2013-01-29 01:09:05	⇄	ChanServ:     SET SECUREOPS  Stricter control of chanop status
+2013-01-29 01:09:06	⇄	ChanServ:     SET SIGNKICK   Sign kicks that are done with KICK command
+2013-01-29 01:09:06	⇄	ChanServ:     SET SUCCESSOR  Set the successor for a channel
+2013-01-29 01:09:06	⇄	ChanServ:     SET URL        Associate a URL with the channel
+2013-01-29 01:09:06	⇄	ChanServ: Type /msg ChanServ HELP SET option for more information on a
+2013-01-29 01:09:06	⇄	ChanServ: particular option.
+2013-01-29 01:09:15	sean	help
+2013-01-29 01:09:16	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-29 01:09:16	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-29 01:09:16	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-29 01:09:16	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-29 01:09:16	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-29 01:09:16	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-29 01:09:16	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-29 01:09:16	⇄	ChanServ: 
+2013-01-29 01:09:16	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-29 01:09:16	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-29 01:09:16	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-29 01:09:16	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-29 01:09:16	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-29 01:09:16	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-29 01:09:16	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-29 01:09:16	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-29 01:09:16	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-29 01:09:16	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-29 01:09:16	⇄	ChanServ: 
+2013-01-29 01:09:16	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-29 01:09:17	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-29 01:09:17	⇄	ChanServ:   VOP
+2013-01-29 01:09:17	⇄	ChanServ: 
+2013-01-29 01:09:17	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-29 01:09:17	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-29 01:09:17	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-29 01:09:17	⇄	ChanServ: 
+2013-01-29 01:09:17	⇄	ChanServ: Used to manage channels
+2013-01-29 01:09:17	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-29 01:09:17	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-29 01:09:18	⇄	ChanServ: 
+2013-01-29 01:09:18	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-29 01:09:18	⇄	ChanServ: 
+2013-01-29 01:09:18	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-29 01:09:18	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-29 01:09:18	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-29 01:09:34	sean	access
+2013-01-29 01:09:34	⇄	ChanServ: Syntax: ACCESS channel ADD mask level
+2013-01-29 01:09:34	⇄	ChanServ:         ACCESS channel DEL {mask | entry-num | list}
+2013-01-29 01:09:34	⇄	ChanServ:         ACCESS channel LIST [mask | list]
+2013-01-29 01:09:34	⇄	ChanServ:         ACCESS channel VIEW [mask | list]
+2013-01-29 01:09:34	⇄	ChanServ:         ACCESS channel CLEAR
+2013-01-29 01:09:34	⇄	ChanServ: /msg ChanServ HELP ACCESS for more information.
+2013-01-29 01:09:36	sean	 list
+2013-01-29 01:09:36	⇄	ChanServ: Unknown command  list. "/msg ChanServ HELP" for help.
+2013-01-29 01:09:37	sean	access list
+2013-01-29 01:09:38	⇄	ChanServ: Syntax: ACCESS channel ADD mask level
+2013-01-29 01:09:38	⇄	ChanServ:         ACCESS channel DEL {mask | entry-num | list}
+2013-01-29 01:09:38	⇄	ChanServ:         ACCESS channel LIST [mask | list]
+2013-01-29 01:09:38	⇄	ChanServ:         ACCESS channel VIEW [mask | list]
+2013-01-29 01:09:38	⇄	ChanServ:         ACCESS channel CLEAR
+2013-01-29 01:09:38	⇄	ChanServ: /msg ChanServ HELP ACCESS for more information.
+2013-01-29 01:09:45	sean	access #m0nster-net list
+2013-01-29 01:09:45	⇄	ChanServ: Access list for #M0NSTER-NET:
+2013-01-29 01:09:45	⇄	ChanServ: Number  Level  Mask
+2013-01-29 01:09:45	⇄	ChanServ: 1       10     patrik
+2013-01-29 01:09:45	⇄	ChanServ: 2       10     sean
+2013-01-29 01:09:45	⇄	ChanServ: End of access list
+2013-01-29 01:10:00	sean	access #m0nster-net del 2
+2013-01-29 01:10:00	⇄	ChanServ: Deleted 1 entry from #M0NSTER-NET access list.
+2013-01-29 01:10:03	sean	access #m0nster-net list
+2013-01-29 01:10:03	⇄	ChanServ: Access list for #M0NSTER-NET:
+2013-01-29 01:10:03	⇄	ChanServ: Number  Level  Mask
+2013-01-29 01:10:03	⇄	ChanServ: 1       10     patrik
+2013-01-29 01:10:03	⇄	ChanServ: End of access list
+2013-01-29 01:10:08	⇄	ChanServ: Nick me isn't currently in use.
+2013-01-29 01:11:11	⇄	ChanServ: Syntax: HOP channel ADD mask
+2013-01-29 01:11:11	⇄	ChanServ:         HOP channel DEL {mask | entry-num | list}
+2013-01-29 01:11:11	⇄	ChanServ:         HOP channel LIST [mask | list]
+2013-01-29 01:11:11	⇄	ChanServ:         HOP channel CLEAR
+2013-01-29 01:11:11	⇄	ChanServ: /msg ChanServ HELP HOP for more information.
+2013-01-29 01:14:47	⇄	ChanServ: Syntax: HOP channel ADD mask
+2013-01-29 01:14:47	⇄	ChanServ:         HOP channel DEL {mask | entry-num | list}
+2013-01-29 01:14:47	⇄	ChanServ:         HOP channel LIST [mask | list]
+2013-01-29 01:14:47	⇄	ChanServ:         HOP channel CLEAR
+2013-01-29 01:14:47	⇄	ChanServ: /msg ChanServ HELP HOP for more information.
+2013-01-29 01:17:29	⇄	ChanServ: Syntax: AOP channel ADD mask
+2013-01-29 01:17:29	⇄	ChanServ:         AOP channel DEL {mask | entry-num | list}
+2013-01-29 01:17:29	⇄	ChanServ:         AOP channel LIST [mask | list]
+2013-01-29 01:17:29	⇄	ChanServ:         AOP channel CLEAR
+2013-01-29 01:17:29	⇄	ChanServ: /msg ChanServ HELP AOP for more information.
+2013-01-29 01:17:32	⇄	ChanServ: sean added to #M0NSTER-NET AOP list.
+2013-01-29 01:17:38	⇄	ChanServ: pat* added to #M0NSTER-NET AOP list.
+2013-01-29 01:22:09	⇄	irc: disconnected from server
+2013-01-29 01:24:27	⇄	irc: disconnected from server
+2013-01-29 01:32:47	sean	help set
+2013-01-29 01:32:47	⇄	ChanServ: Syntax: set option channel parameters
+2013-01-29 01:32:47	⇄	ChanServ: 
+2013-01-29 01:32:47	⇄	ChanServ: Allows the channel founder to set various channel options
+2013-01-29 01:32:47	⇄	ChanServ: and other information.
+2013-01-29 01:32:47	⇄	ChanServ: 
+2013-01-29 01:32:47	⇄	ChanServ: Available options:
+2013-01-29 01:32:47	⇄	ChanServ:     SET AUTOOP     Should services automatically give status to users
+2013-01-29 01:32:47	⇄	ChanServ:     SET BANTYPE    Set how Services make bans on the channel
+2013-01-29 01:32:47	⇄	ChanServ:     SET DESC       Set the channel description
+2013-01-29 01:32:47	⇄	ChanServ:     SET DESCRIPTION Set the channel description
+2013-01-29 01:32:47	⇄	ChanServ:     SET EMAIL      Associate an E-mail address with the channel
+2013-01-29 01:32:47	⇄	ChanServ:     SET FOUNDER    Set the founder of a channel
+2013-01-29 01:32:47	⇄	ChanServ:     SET KEEPTOPIC  Retain topic when channel is not in use
+2013-01-29 01:32:47	⇄	ChanServ:     SET PEACE      Regulate the use of critical commands
+2013-01-29 01:32:47	⇄	ChanServ:     SET PERSIST    Set the channel as permanent
+2013-01-29 01:32:47	⇄	ChanServ:     SET PRIVATE    Hide channel from LIST command
+2013-01-29 01:32:47	⇄	ChanServ:     SET RESTRICTED Restrict access to the channel
+2013-01-29 01:32:47	⇄	ChanServ:     SET SECURE     Activate security features
+2013-01-29 01:32:47	⇄	ChanServ:     SET SECUREFOUNDER Stricter control of channel founder status
+2013-01-29 01:32:47	⇄	ChanServ:     SET SECUREOPS  Stricter control of chanop status
+2013-01-29 01:32:48	⇄	ChanServ:     SET SIGNKICK   Sign kicks that are done with KICK command
+2013-01-29 01:32:48	⇄	ChanServ:     SET SUCCESSOR  Set the successor for a channel
+2013-01-29 01:32:48	⇄	ChanServ:     SET URL        Associate a URL with the channel
+2013-01-29 01:32:48	⇄	ChanServ: Type /msg ChanServ HELP SET option for more information on a
+2013-01-29 01:32:48	⇄	ChanServ: particular option.
+2013-01-29 01:32:56	sean	set autoop #m0nster-net off
+2013-01-29 01:32:56	⇄	ChanServ: Services will no longer automatically give modes to users in #M0NSTER-NET
+2013-01-29 01:33:20	sean	set autoop #m0nster-net on
+2013-01-29 01:33:20	⇄	ChanServ: Services will now automatically give modes to users in #M0NSTER-NET
+2013-01-29 01:40:06	←	ChanServ (services@services.irc.m0nster.net) has quit (Shutting down)
+2013-01-29 01:40:10	→	ChanServ (services@services.irc.m0nster.net) is back on server
+2013-01-29 01:42:05	⇄	ChanServ: List of entries matching add:
+2013-01-29 01:42:05	⇄	ChanServ: Name  Description
+2013-01-29 01:42:05	⇄	ChanServ: End of list - 0/0 matches shown.
+2013-01-29 01:42:27	⇄	ChanServ: dildo* added to #M0NSTER-NET access list at level 10.
+2013-01-29 01:42:52	⇄	ChanServ: Syntax: AOP channel ADD mask
+2013-01-29 01:42:52	⇄	ChanServ:         AOP channel DEL {mask | entry-num | list}
+2013-01-29 01:42:52	⇄	ChanServ:         AOP channel LIST [mask | list]
+2013-01-29 01:42:52	⇄	ChanServ:         AOP channel CLEAR
+2013-01-29 01:42:52	⇄	ChanServ: /msg ChanServ HELP AOP for more information.
+2013-01-29 01:43:00	⇄	ChanServ: dildo* added to #M0NSTER-NET AOP list.
+2013-01-29 01:44:30	⇄	ChanServ: ChanServ allows you to execute "fantasy" commands in the channel.
+2013-01-29 01:44:30	⇄	ChanServ: Fantasy commands are tied to existing commands, usually on ChanServ,
+2013-01-29 01:44:30	⇄	ChanServ: and provide a more convenient way to execute commands. Commands that
+2013-01-29 01:44:30	⇄	ChanServ: require a channel as a parameter will automatically have that parameter
+2013-01-29 01:44:30	⇄	ChanServ: given.
+2013-01-29 01:44:30	⇄	ChanServ: 
+2013-01-29 01:44:30	⇄	ChanServ: Fantasy commands may be prefixed with one of the following characters: !
+2013-01-29 01:44:30	⇄	ChanServ: 
+2013-01-29 01:44:30	⇄	ChanServ: Available commands are:
+2013-01-29 01:44:30	⇄	ChanServ:     ACCESS         Modify the list of privileged users
+2013-01-29 01:44:30	⇄	ChanServ:     AKICK          Maintain the AutoKick list
+2013-01-29 01:44:30	⇄	ChanServ:     AOP            Modify the list of AOP users
+2013-01-29 01:44:30	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-29 01:44:30	⇄	ChanServ:     CLONE          Copy all settings from one channel to another
+2013-01-29 01:44:30	⇄	ChanServ:     DEHALFOP       Dehalfops a selected nick on a channel
+2013-01-29 01:44:30	⇄	ChanServ:     DEOP           Deops a selected nick on a channel
+2013-01-29 01:44:30	⇄	ChanServ:     DEOWNER        Removes your owner status on a channel
+2013-01-29 01:44:30	⇄	ChanServ:     DEPROTECT      Deprotects a selected nick on a channel
+2013-01-29 01:44:30	⇄	ChanServ:     DEVOICE        Devoices a selected nick on a channel
+2013-01-29 01:44:30	⇄	ChanServ:     DOWN           Removes your status from a channel
+2013-01-29 01:44:31	⇄	ChanServ:     ENFORCE        Enforce various channel modes and set options
+2013-01-29 01:44:31	⇄	ChanServ:     ENTRYMSG       Manage the channel's entry messages
+2013-01-29 01:44:31	⇄	ChanServ:     FLAGS          Modify the list of privileged users
+2013-01-29 01:44:31	⇄	ChanServ:     HALFOP         Halfops a selected nick on a channel
+2013-01-29 01:44:31	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-29 01:44:31	⇄	ChanServ:     HOP            Maintains the HOP (HalfOP) list for a channel
+2013-01-29 01:44:32	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-29 01:44:32	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-29 01:44:32	⇄	ChanServ:     K              Kicks a selected nick from a channel
+2013-01-29 01:44:32	⇄	ChanServ:     KB             Bans a given nick or mask on a channel
+2013-01-29 01:44:32	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-29 01:44:32	⇄	ChanServ:     LEVELS         Redefine the meanings of access levels
+2013-01-29 01:44:32	⇄	ChanServ:     LIST           Lists all registered channels matching the given pattern
+2013-01-29 01:44:32	⇄	ChanServ:     LOG            Configures channel logging settings
+2013-01-29 01:44:32	⇄	ChanServ:     MODE           Control modes and mode locks on a channel
+2013-01-29 01:44:32	⇄	ChanServ:     OP             Gives Op status to a selected nick on a channel
+2013-01-29 01:44:32	⇄	ChanServ:     OWNER          Gives you owner status on channel
+2013-01-29 01:44:32	⇄	ChanServ:     PROTECT        Protects a selected nick on a channel
+2013-01-29 01:44:32	⇄	ChanServ:     QOP            Modify the list of QOP users
+2013-01-29 01:44:32	⇄	ChanServ:     SEEN           Tells you about the last time a user was seen
+2013-01-29 01:44:32	⇄	ChanServ:     SOP            Modify the list of SOP users
+2013-01-29 01:44:32	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-29 01:44:32	⇄	ChanServ:     SUSPEND        Prevent a channel from being used preserving channel data and settings
+2013-01-29 01:44:32	⇄	ChanServ:     SYNC           Sync users channel modes
+2013-01-29 01:44:32	⇄	ChanServ:     TOPIC          Manipulate the topic of the specified channel
+2013-01-29 01:44:32	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-29 01:44:33	⇄	ChanServ:     UNSUSPEND      Releases a suspended channel
+2013-01-29 01:44:33	⇄	ChanServ:     UP             Updates your status on a channel
+2013-01-29 01:44:33	⇄	ChanServ:     VOICE          Voices a selected nick on a channel
+2013-01-29 01:44:33	⇄	ChanServ:     VOP            Maintains the VOP (VOicePeople) list for a channel
+2013-01-29 01:45:08	⇄	ChanServ: Nick #dildo isn't registered.
+2013-01-29 01:45:16	⇄	ChanServ: Nick dildo isn't registered.
+2013-01-29 01:45:18	⇄	ChanServ: dildobot not found on #M0NSTER-NET AOP list.
+2013-01-29 01:45:29	⇄	ChanServ: AOP list for #M0NSTER-NET
+2013-01-29 01:45:29	⇄	ChanServ: Number  Mask
+2013-01-29 01:45:29	⇄	ChanServ: 1       patrik
+2013-01-29 01:45:29	⇄	ChanServ: 2       sean
+2013-01-29 01:45:29	⇄	ChanServ: 3       pat*
+2013-01-29 01:45:29	⇄	ChanServ: 4       dildo*
+2013-01-29 01:45:36	sean	help aop
+2013-01-29 01:45:36	⇄	ChanServ: Syntax: aop channel ADD mask
+2013-01-29 01:45:36	⇄	ChanServ:         aop channel DEL {mask | entry-num | list}
+2013-01-29 01:45:36	⇄	ChanServ:         aop channel LIST [mask | list]
+2013-01-29 01:45:36	⇄	ChanServ:         aop channel CLEAR
+2013-01-29 01:45:36	⇄	ChanServ: 
+2013-01-29 01:45:36	⇄	ChanServ: Maintains the AOP (AutoOP) list for a channel. The AOP
+2013-01-29 01:45:36	⇄	ChanServ: list gives users the right to be auto-opped on your channel,
+2013-01-29 01:45:36	⇄	ChanServ: to unban or invite themselves if needed, to have their
+2013-01-29 01:45:36	⇄	ChanServ: greet message showed on join, and so on.
+2013-01-29 01:45:36	⇄	ChanServ: 
+2013-01-29 01:45:36	⇄	ChanServ: The AOP ADD command adds the given nickname to the
+2013-01-29 01:45:36	⇄	ChanServ: AOP list.
+2013-01-29 01:45:36	⇄	ChanServ: 
+2013-01-29 01:45:36	⇄	ChanServ: The AOP DEL command removes the given nick from the
+2013-01-29 01:45:36	⇄	ChanServ: AOP list. If a list of entry numbers is given, those
+2013-01-29 01:45:36	⇄	ChanServ: entries are deleted. (See the example for LIST below.)
+2013-01-29 01:45:36	⇄	ChanServ: 
+2013-01-29 01:45:36	⇄	ChanServ: The AOP LIST command displays the AOP list. If
+2013-01-29 01:45:36	⇄	ChanServ: a wildcard mask is given, only those entries matching the
+2013-01-29 01:45:36	⇄	ChanServ: mask are displayed. If a list of entry numbers is given,
+2013-01-29 01:45:37	⇄	ChanServ: only those entries are shown; for example:
+2013-01-29 01:45:37	⇄	ChanServ:    AOP #channel LIST 2-5,7-9
+2013-01-29 01:45:37	⇄	ChanServ:       Lists AOP entries numbered 2 through 5 and
+2013-01-29 01:45:37	⇄	ChanServ:       7 through 9.
+2013-01-29 01:45:37	⇄	ChanServ: 
+2013-01-29 01:45:37	⇄	ChanServ: The AOP CLEAR command clears all entries of the
+2013-01-29 01:45:37	⇄	ChanServ: AOP list.
+2013-01-29 01:45:37	⇄	ChanServ: 
+2013-01-29 01:45:37	⇄	ChanServ: The AOP ADD and AOP DEL commands are limited to
+2013-01-29 01:45:37	⇄	ChanServ: SOPs or above, while the AOP CLEAR command can only
+2013-01-29 01:45:38	⇄	ChanServ: be used by the channel founder. However, any user on the
+2013-01-29 01:45:38	⇄	ChanServ: VOP list may use the AOP LIST command.
+2013-01-29 01:45:38	⇄	ChanServ: 
+2013-01-29 01:45:39	⇄	ChanServ: Alternative methods of modifying channel access lists are
+2013-01-29 01:45:39	⇄	ChanServ: available. See /msg ChanServ HELP ACCESS for information
+2013-01-29 01:45:39	⇄	ChanServ: about the access list, and /msg ChanServ HELP FLAGS for
+2013-01-29 01:45:39	⇄	ChanServ: information about the flags based system.
+2013-01-29 01:45:46	sean	aop #m0nster-net del dildo*
+2013-01-29 01:45:46	⇄	ChanServ: dildo* deleted from #M0NSTER-NET AOP list.
+2013-01-29 01:45:54	sean	aop #m0nster-net del pat*
+2013-01-29 01:45:54	⇄	ChanServ: pat* deleted from #M0NSTER-NET AOP list.
+2013-01-29 01:46:04	sean	aop #m0nster-net del patrik
+2013-01-29 01:46:04	⇄	ChanServ: patrik deleted from #M0NSTER-NET AOP list.
+2013-01-29 01:46:10	sean	aop #m0nster-net add patrik
+2013-01-29 01:46:10	⇄	ChanServ: patrik added to #M0NSTER-NET AOP list.
+2013-01-29 01:48:01	sean	aop #m0nster-net list
+2013-01-29 01:48:01	⇄	ChanServ: AOP list for #M0NSTER-NET
+2013-01-29 01:48:01	⇄	ChanServ: Number  Mask
+2013-01-29 01:48:01	⇄	ChanServ: 1       sean
+2013-01-29 01:48:01	⇄	ChanServ: 2       patrik
+2013-01-29 01:49:00	⇄	irc: disconnected from server
+2013-01-29 01:50:18	sean	aop #m0nster-net list
+2013-01-29 01:50:18	⇄	ChanServ: AOP list for #M0NSTER-NET
+2013-01-29 01:50:18	⇄	ChanServ: Number  Mask
+2013-01-29 01:50:18	⇄	ChanServ: 1       sean
+2013-01-29 01:50:18	⇄	ChanServ: 2       patrik
+2013-01-29 01:51:24	sean	set autoop on
+2013-01-29 01:51:24	⇄	ChanServ: Syntax: SET AUTOOP channel {ON | OFF}
+2013-01-29 01:51:24	⇄	ChanServ: /msg ChanServ HELP SET AUTOOP for more information.
+2013-01-29 01:51:48	sean	set autoop #m0nster-net on
+2013-01-29 01:51:48	⇄	ChanServ: Services will now automatically give modes to users in #M0NSTER-NET
+2013-01-29 01:52:23	⇄	irc: disconnected from server
+2013-01-29 09:54:14	sean	help topic
+2013-01-29 09:54:14	⇄	ChanServ: Syntax: topic channel SET [topic]
+2013-01-29 09:54:14	⇄	ChanServ:         topic channel APPEND topic
+2013-01-29 09:54:14	⇄	ChanServ:         topic channel [UNLOCK|LOCK]
+2013-01-29 09:54:14	⇄	ChanServ: 
+2013-01-29 09:54:14	⇄	ChanServ: Allows manipulating the topic of the specified channel.
+2013-01-29 09:54:14	⇄	ChanServ: The SET command changes the topic of the channel to the given topic
+2013-01-29 09:54:14	⇄	ChanServ: or unsets the topic if no topic is given. The APPEND command appends
+2013-01-29 09:54:14	⇄	ChanServ: the given topic to the existing topic.
+2013-01-29 09:54:14	⇄	ChanServ: 
+2013-01-29 09:54:14	⇄	ChanServ: LOCK and UNLOCK may be used to enable and disable topic lock. When
+2013-01-29 09:54:14	⇄	ChanServ: topic lock is set, the channel topic will be unchangable except via this command.
+2013-01-29 09:56:54	sean	topic #m0nster-net set .:: M0NSTER-NET Official Gray Pudding Tech Support | 1. RTFM  2. RTFM AGAIN  3. UNINSTALL IF PERSISTS ::.
+2013-01-29 09:57:04	sean	topic #m0nster-net lock
+2013-01-29 09:57:04	⇄	ChanServ: Topic lock option for #M0NSTER-NET is now on.
+2013-01-29 09:58:21	⇄	irc: disconnected from server
+2013-01-30 01:03:04	sean	help
+2013-01-30 01:03:04	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-30 01:03:04	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-30 01:03:04	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-30 01:03:04	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-30 01:03:04	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-30 01:03:04	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-30 01:03:04	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-30 01:03:04	⇄	ChanServ: 
+2013-01-30 01:03:04	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-30 01:03:04	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-30 01:03:04	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-30 01:03:04	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-30 01:03:04	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-30 01:03:04	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-30 01:03:04	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-30 01:03:04	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-30 01:03:04	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-30 01:03:04	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-30 01:03:04	⇄	ChanServ: 
+2013-01-30 01:03:04	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-30 01:03:05	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-30 01:03:05	⇄	ChanServ:   VOP
+2013-01-30 01:03:05	⇄	ChanServ: 
+2013-01-30 01:03:05	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-30 01:03:05	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-30 01:03:05	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-30 01:03:05	⇄	ChanServ: 
+2013-01-30 01:03:05	⇄	ChanServ: Used to manage channels
+2013-01-30 01:03:05	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-30 01:03:05	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-30 01:03:06	⇄	ChanServ: 
+2013-01-30 01:03:06	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-30 01:03:06	⇄	ChanServ: 
+2013-01-30 01:03:06	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-30 01:03:06	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-30 01:03:06	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-30 02:26:03	⇄	irc: disconnected from server
+2013-01-30 02:52:22	⇄	irc: disconnected from server
+2013-01-30 03:08:00	sean	help
+2013-01-30 03:08:00	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-30 03:08:00	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-30 03:08:00	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-30 03:08:00	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-30 03:08:00	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-30 03:08:00	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-30 03:08:00	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-30 03:08:00	⇄	ChanServ: 
+2013-01-30 03:08:00	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-30 03:08:00	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-30 03:08:00	⇄	ChanServ: 
+2013-01-30 03:08:00	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-30 03:08:00	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-30 03:08:00	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-30 03:08:02	sean	list
+2013-01-30 03:08:02	⇄	ChanServ: Password authentication required for that command.
+2013-01-30 03:08:14	sean	help
+2013-01-30 03:08:14	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-30 03:08:14	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-30 03:08:14	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-30 03:08:14	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-30 03:08:14	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-30 03:08:14	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-30 03:08:14	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-30 03:08:14	⇄	ChanServ: 
+2013-01-30 03:08:14	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-30 03:08:14	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-30 03:08:14	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-30 03:08:14	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-30 03:08:14	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-30 03:08:14	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-30 03:08:14	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-30 03:08:14	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-30 03:08:14	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-30 03:08:14	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-30 03:08:14	⇄	ChanServ: 
+2013-01-30 03:08:14	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-30 03:08:14	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-30 03:08:14	⇄	ChanServ:   VOP
+2013-01-30 03:08:14	⇄	ChanServ: 
+2013-01-30 03:08:14	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-30 03:08:14	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-30 03:08:14	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-30 03:08:14	⇄	ChanServ: 
+2013-01-30 03:08:14	⇄	ChanServ: Used to manage channels
+2013-01-30 03:08:14	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-30 03:08:14	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-30 03:08:15	⇄	ChanServ: 
+2013-01-30 03:08:15	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-30 03:08:15	⇄	ChanServ: 
+2013-01-30 03:08:15	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-30 03:08:15	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-30 03:08:15	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-30 03:09:10	sean	status #m0nster-net sean
+2013-01-30 03:09:10	⇄	ChanServ: sean is the channel founder.
+2013-01-30 03:09:20	sean	access list
+2013-01-30 03:09:20	⇄	ChanServ: Syntax: ACCESS channel ADD mask level
+2013-01-30 03:09:20	⇄	ChanServ:         ACCESS channel DEL {mask | entry-num | list}
+2013-01-30 03:09:20	⇄	ChanServ:         ACCESS channel LIST [mask | list]
+2013-01-30 03:09:20	⇄	ChanServ:         ACCESS channel VIEW [mask | list]
+2013-01-30 03:09:20	⇄	ChanServ:         ACCESS channel CLEAR
+2013-01-30 03:09:20	⇄	ChanServ: /msg ChanServ HELP ACCESS for more information.
+2013-01-30 03:09:26	sean	access list #m0nster-net
+2013-01-30 03:09:26	⇄	ChanServ: Channel list isn't registered.
+2013-01-30 03:09:33	sean	access #m0nster-net list
+2013-01-30 03:09:33	⇄	ChanServ: Access list for #M0NSTER-NET:
+2013-01-30 03:09:33	⇄	ChanServ: Number  Level  Mask
+2013-01-30 03:09:33	⇄	ChanServ: 1       5      sean
+2013-01-30 03:09:33	⇄	ChanServ: 2       5      patrik
+2013-01-30 03:09:33	⇄	ChanServ: 3       5      dildo*
+2013-01-30 03:09:33	⇄	ChanServ: End of access list
+2013-01-30 03:10:10	sean	access #m0nster-net del sean
+2013-01-30 03:10:10	⇄	ChanServ: sean deleted from #M0NSTER-NET access list.
+2013-01-30 03:10:17	sean	access #m0nster-net add sean 1000
+2013-01-30 03:10:17	⇄	ChanServ: sean added to #M0NSTER-NET access list at level 1000.
+2013-01-30 03:10:18	sean	ls
+2013-01-30 03:10:19	⇄	ChanServ: Unknown command ls. "/msg ChanServ HELP" for help.
+2013-01-30 03:11:38	sean	access #m0nster-net list
+2013-01-30 03:11:38	⇄	ChanServ: Access list for #M0NSTER-NET:
+2013-01-30 03:11:38	⇄	ChanServ: Number  Level  Mask
+2013-01-30 03:11:38	⇄	ChanServ: 1       5      patrik
+2013-01-30 03:11:38	⇄	ChanServ: 2       5      dildo*
+2013-01-30 03:11:38	⇄	ChanServ: 3       1000   sean
+2013-01-30 03:11:38	⇄	ChanServ: End of access list
+2013-01-30 03:11:58	sean	aop list
+2013-01-30 03:11:58	⇄	ChanServ: Syntax: AOP channel ADD mask
+2013-01-30 03:11:58	⇄	ChanServ:         AOP channel DEL {mask | entry-num | list}
+2013-01-30 03:11:58	⇄	ChanServ:         AOP channel LIST [mask | list]
+2013-01-30 03:11:58	⇄	ChanServ:         AOP channel CLEAR
+2013-01-30 03:11:58	⇄	ChanServ: /msg ChanServ HELP AOP for more information.
+2013-01-30 03:12:03	sean	aop #m0nster-net list
+2013-01-30 03:12:03	⇄	ChanServ: AOP list for #M0NSTER-NET
+2013-01-30 03:12:03	⇄	ChanServ: Number  Mask
+2013-01-30 03:12:03	⇄	ChanServ: 1       patrik
+2013-01-30 03:12:03	⇄	ChanServ: 2       dildo*
+2013-01-30 03:12:03	⇄	ChanServ: 3       sean
+2013-01-30 03:12:12	sean	aop #m0nster-net clear
+2013-01-30 03:12:12	⇄	ChanServ: Channel #M0NSTER-NET AOP list has been cleared.
+2013-01-30 03:12:26	sean	aop #m0nster-net add sean
+2013-01-30 03:12:26	⇄	ChanServ: sean added to #M0NSTER-NET AOP list.
+2013-01-30 03:13:04	sean	levels
+2013-01-30 03:13:04	⇄	ChanServ: Syntax: LEVELS channel SET type level
+2013-01-30 03:13:04	⇄	ChanServ:         LEVELS channel {DIS | DISABLE} type
+2013-01-30 03:13:04	⇄	ChanServ:         LEVELS channel LIST
+2013-01-30 03:13:04	⇄	ChanServ:         LEVELS channel RESET
+2013-01-30 03:13:04	⇄	ChanServ: /msg ChanServ HELP LEVELS for more information.
+2013-01-30 03:13:07	sean	levels #m0nster-net
+2013-01-30 03:13:07	⇄	ChanServ: Syntax: LEVELS channel SET type level
+2013-01-30 03:13:07	⇄	ChanServ:         LEVELS channel {DIS | DISABLE} type
+2013-01-30 03:13:07	⇄	ChanServ:         LEVELS channel LIST
+2013-01-30 03:13:07	⇄	ChanServ:         LEVELS channel RESET
+2013-01-30 03:13:07	⇄	ChanServ: /msg ChanServ HELP LEVELS for more information.
+2013-01-30 03:13:09	sean	levels #m0nster-net list
+2013-01-30 03:13:09	⇄	ChanServ: Access level settings for channel #M0NSTER-NET:
+2013-01-30 03:13:09	⇄	ChanServ: Name           Level
+2013-01-30 03:13:09	⇄	ChanServ: ACCESS_CHANGE  10
+2013-01-30 03:13:09	⇄	ChanServ: ACCESS_LIST    3
+2013-01-30 03:13:09	⇄	ChanServ: NOKICK         1
+2013-01-30 03:13:09	⇄	ChanServ: FANTASIA       3
+2013-01-30 03:13:09	⇄	ChanServ: GREET          5
+2013-01-30 03:13:09	⇄	ChanServ: AUTOVOICE      3
+2013-01-30 03:13:09	⇄	ChanServ: VOICEME        3
+2013-01-30 03:13:09	⇄	ChanServ: VOICE          4
+2013-01-30 03:13:09	⇄	ChanServ: INFO           9999
+2013-01-30 03:13:09	⇄	ChanServ: SAY            5
+2013-01-30 03:13:09	⇄	ChanServ: AUTOHALFOP     4
+2013-01-30 03:13:09	⇄	ChanServ: HALFOPME       4
+2013-01-30 03:13:09	⇄	ChanServ: HALFOP         5
+2013-01-30 03:13:09	⇄	ChanServ: KICK           4
+2013-01-30 03:13:09	⇄	ChanServ: SIGNKICK       9999
+2013-01-30 03:13:09	⇄	ChanServ: BAN            4
+2013-01-30 03:13:09	⇄	ChanServ: TOPIC          5
+2013-01-30 03:13:09	⇄	ChanServ: MODE           9999
+2013-01-30 03:13:10	⇄	ChanServ: GETKEY         5
+2013-01-30 03:13:10	⇄	ChanServ: INVITE         5
+2013-01-30 03:13:10	⇄	ChanServ: UNBAN          4
+2013-01-30 03:13:10	⇄	ChanServ: AUTOOP         5
+2013-01-30 03:13:10	⇄	ChanServ: OPDEOPME       5
+2013-01-30 03:13:10	⇄	ChanServ: OPDEOP         5
+2013-01-30 03:13:10	⇄	ChanServ: AUTOPROTECT    10
+2013-01-30 03:13:10	⇄	ChanServ: AKICK          10
+2013-01-30 03:13:10	⇄	ChanServ: BADWORDS       10
+2013-01-30 03:13:10	⇄	ChanServ: ASSIGN         (founder only)
+2013-01-30 03:13:11	⇄	ChanServ: MEMO           10
+2013-01-30 03:13:11	⇄	ChanServ: PROTECTME      10
+2013-01-30 03:13:11	⇄	ChanServ: PROTECT        9999
+2013-01-30 03:13:11	⇄	ChanServ: SET            9999
+2013-01-30 03:13:11	⇄	ChanServ: AUTOOWNER      9999
+2013-01-30 03:13:11	⇄	ChanServ: OWNERME        9999
+2013-01-30 03:13:11	⇄	ChanServ: OWNER          (founder only)
+2013-01-30 03:13:11	⇄	ChanServ: FOUNDER        (founder only)
+2013-01-30 03:17:44	⇄	irc: disconnected from server
+2013-01-30 03:18:10	sean	levels #m0nster-net list
+2013-01-30 03:18:10	⇄	ChanServ: Access level settings for channel #M0NSTER-NET:
+2013-01-30 03:18:10	⇄	ChanServ: Name           Level
+2013-01-30 03:18:10	⇄	ChanServ: ACCESS_CHANGE  10
+2013-01-30 03:18:10	⇄	ChanServ: ACCESS_LIST    3
+2013-01-30 03:18:10	⇄	ChanServ: NOKICK         1
+2013-01-30 03:18:10	⇄	ChanServ: FANTASIA       3
+2013-01-30 03:18:10	⇄	ChanServ: GREET          5
+2013-01-30 03:18:10	⇄	ChanServ: AUTOVOICE      3
+2013-01-30 03:18:10	⇄	ChanServ: VOICEME        3
+2013-01-30 03:18:10	⇄	ChanServ: VOICE          4
+2013-01-30 03:18:10	⇄	ChanServ: INFO           9999
+2013-01-30 03:18:10	⇄	ChanServ: SAY            5
+2013-01-30 03:18:10	⇄	ChanServ: AUTOHALFOP     4
+2013-01-30 03:18:10	⇄	ChanServ: HALFOPME       4
+2013-01-30 03:18:10	⇄	ChanServ: HALFOP         5
+2013-01-30 03:18:10	⇄	ChanServ: KICK           4
+2013-01-30 03:18:10	⇄	ChanServ: SIGNKICK       9999
+2013-01-30 03:18:10	⇄	ChanServ: BAN            4
+2013-01-30 03:18:10	⇄	ChanServ: TOPIC          5
+2013-01-30 03:18:10	⇄	ChanServ: MODE           9999
+2013-01-30 03:18:11	⇄	ChanServ: GETKEY         5
+2013-01-30 03:18:11	⇄	ChanServ: INVITE         5
+2013-01-30 03:18:11	⇄	ChanServ: UNBAN          4
+2013-01-30 03:18:11	⇄	ChanServ: AUTOOP         5
+2013-01-30 03:18:11	⇄	ChanServ: OPDEOPME       5
+2013-01-30 03:18:11	⇄	ChanServ: OPDEOP         5
+2013-01-30 03:18:11	⇄	ChanServ: AUTOPROTECT    10
+2013-01-30 03:18:11	⇄	ChanServ: AKICK          10
+2013-01-30 03:18:11	⇄	ChanServ: BADWORDS       10
+2013-01-30 03:18:11	⇄	ChanServ: ASSIGN         (founder only)
+2013-01-30 03:18:12	sean	levels #m0nster-net
+2013-01-30 03:18:12	⇄	ChanServ: MEMO           10
+2013-01-30 03:18:12	⇄	ChanServ: PROTECTME      10
+2013-01-30 03:18:12	⇄	ChanServ: PROTECT        9999
+2013-01-30 03:18:12	⇄	ChanServ: SET            9999
+2013-01-30 03:18:12	⇄	ChanServ: AUTOOWNER      9999
+2013-01-30 03:18:12	⇄	ChanServ: OWNERME        9999
+2013-01-30 03:18:12	⇄	ChanServ: OWNER          (founder only)
+2013-01-30 03:18:12	⇄	ChanServ: FOUNDER        (founder only)
+2013-01-30 03:18:12	⇄	ChanServ: Syntax: LEVELS channel SET type level
+2013-01-30 03:18:12	⇄	ChanServ:         LEVELS channel {DIS | DISABLE} type
+2013-01-30 03:18:12	⇄	ChanServ:         LEVELS channel LIST
+2013-01-30 03:18:12	⇄	ChanServ:         LEVELS channel RESET
+2013-01-30 03:18:12	⇄	ChanServ: /msg ChanServ HELP LEVELS for more information.
+2013-01-30 03:18:16	sean	help
+2013-01-30 03:18:16	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-30 03:18:16	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-30 03:18:16	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-30 03:18:16	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-30 03:18:16	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-30 03:18:16	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-30 03:18:16	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-30 03:18:16	⇄	ChanServ: 
+2013-01-30 03:18:16	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-30 03:18:16	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-30 03:18:16	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-30 03:18:16	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-30 03:18:16	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-30 03:18:16	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-30 03:18:16	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-30 03:18:16	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-30 03:18:16	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-30 03:18:16	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-30 03:18:16	⇄	ChanServ: 
+2013-01-30 03:18:16	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-30 03:18:17	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-30 03:18:17	⇄	ChanServ:   VOP
+2013-01-30 03:18:17	⇄	ChanServ: 
+2013-01-30 03:18:17	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-30 03:18:17	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-30 03:18:17	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-30 03:18:17	⇄	ChanServ: 
+2013-01-30 03:18:17	⇄	ChanServ: Used to manage channels
+2013-01-30 03:18:17	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-30 03:18:17	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-30 03:18:18	⇄	ChanServ: 
+2013-01-30 03:18:18	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-30 03:18:18	⇄	ChanServ: 
+2013-01-30 03:18:18	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-30 03:18:18	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-30 03:18:18	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-30 03:18:29	sean	flags
+2013-01-30 03:18:29	⇄	ChanServ: Syntax: FLAGS channel MODIFY mask changes
+2013-01-30 03:18:29	⇄	ChanServ:         FLAGS channel LIST [mask | +flags]
+2013-01-30 03:18:29	⇄	ChanServ:         FLAGS channel CLEAR
+2013-01-30 03:18:29	⇄	ChanServ: /msg ChanServ HELP FLAGS for more information.
+2013-01-30 03:18:32	sean	flags #m0nster-net
+2013-01-30 03:18:32	⇄	ChanServ: Syntax: FLAGS channel MODIFY mask changes
+2013-01-30 03:18:32	⇄	ChanServ:         FLAGS channel LIST [mask | +flags]
+2013-01-30 03:18:32	⇄	ChanServ:         FLAGS channel CLEAR
+2013-01-30 03:18:32	⇄	ChanServ: /msg ChanServ HELP FLAGS for more information.
+2013-01-30 03:18:34	sean	flags #m0nster-net list
+2013-01-30 03:18:34	⇄	ChanServ: Flags list for #M0NSTER-NET
+2013-01-30 03:18:34	⇄	ChanServ: Number  Mask  Flags              Creator  Created
+2013-01-30 03:18:34	⇄	ChanServ: 1       sean  BGHNOVbcfghikotuv  sean     Jan 30 03:12:23 2013 EST
+2013-01-30 03:18:34	⇄	ChanServ: End of access list.
+2013-01-30 03:21:43	sean	help
+2013-01-30 03:21:43	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-30 03:21:43	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-30 03:21:43	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-30 03:21:43	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-30 03:21:43	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-30 03:21:43	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-30 03:21:43	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-30 03:21:43	⇄	ChanServ: 
+2013-01-30 03:21:43	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-30 03:21:43	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-30 03:21:43	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-30 03:21:43	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-30 03:21:43	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-30 03:21:43	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-30 03:21:43	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-30 03:21:43	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-30 03:21:43	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-30 03:21:43	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-30 03:21:43	⇄	ChanServ: 
+2013-01-30 03:21:43	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-30 03:21:44	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-30 03:21:44	⇄	ChanServ:   VOP
+2013-01-30 03:21:44	⇄	ChanServ: 
+2013-01-30 03:21:44	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-30 03:21:44	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-30 03:21:44	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-30 03:21:44	⇄	ChanServ: 
+2013-01-30 03:21:44	⇄	ChanServ: Used to manage channels
+2013-01-30 03:21:44	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-30 03:21:44	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-30 03:21:45	⇄	ChanServ: 
+2013-01-30 03:21:45	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-30 03:21:45	⇄	ChanServ: 
+2013-01-30 03:21:45	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-30 03:21:45	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-30 03:21:45	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-30 03:22:02	sean	help flags
+2013-01-30 03:22:02	⇄	ChanServ: Syntax: flags channel MODIFY mask changes
+2013-01-30 03:22:02	⇄	ChanServ:         flags channel LIST [mask | +flags]
+2013-01-30 03:22:02	⇄	ChanServ:         flags channel CLEAR
+2013-01-30 03:22:02	⇄	ChanServ: 
+2013-01-30 03:22:02	⇄	ChanServ: flags is another way to modify the channel access list, similar to
+2013-01-30 03:22:02	⇄	ChanServ: the XOP and ACCESS methods.
+2013-01-30 03:22:02	⇄	ChanServ: 
+2013-01-30 03:22:02	⇄	ChanServ: The MODIFY command allows you to modify the access list. If mask is
+2013-01-30 03:22:02	⇄	ChanServ: not already on the access list is it added, then the changes are applied.
+2013-01-30 03:22:02	⇄	ChanServ: If the mask has no more flags, then the mask is removed from the access list.
+2013-01-30 03:22:02	⇄	ChanServ: Additionally, you may use +* or -* to add or remove all flags, respectively. You are
+2013-01-30 03:22:02	⇄	ChanServ: only able to modify the access list if you have the proper permission on the channel,
+2013-01-30 03:22:02	⇄	ChanServ: and even then you can only give other people access to up what you already have.
+2013-01-30 03:22:02	⇄	ChanServ: 
+2013-01-30 03:22:02	⇄	ChanServ: The LIST command allows you to list existing entries on the channel access list.
+2013-01-30 03:22:02	⇄	ChanServ: If a mask is given, the mask is wildcard matched against all existing entries on the
+2013-01-30 03:22:02	⇄	ChanServ: access list, and only those entries are returned. If a set of flags is given, only those
+2013-01-30 03:22:02	⇄	ChanServ: on the access list with the specified flags are returned.
+2013-01-30 03:22:02	⇄	ChanServ: 
+2013-01-30 03:22:02	⇄	ChanServ: The CLEAR command clears the channel access list, which requires channel founder.
+2013-01-30 03:22:03	⇄	ChanServ: 
+2013-01-30 03:22:03	⇄	ChanServ: The available flags are:
+2013-01-30 03:22:03	⇄	ChanServ:   A - Automatic mode +a
+2013-01-30 03:22:03	⇄	ChanServ:   a - Allowed to (de)protect users
+2013-01-30 03:22:03	⇄	ChanServ:   a - Allowed to (de)protect him/herself
+2013-01-30 03:22:03	⇄	ChanServ:   b - Allowed to ban users
+2013-01-30 03:22:03	⇄	ChanServ:   B - Allowed to use SAY and ACT commands
+2013-01-30 03:22:03	⇄	ChanServ:   c - Allowed to use fantasy commands
+2013-01-30 03:22:04	⇄	ChanServ:   f - Allowed to modify the access list
+2013-01-30 03:22:04	⇄	ChanServ:   f - Allowed to view the access list
+2013-01-30 03:22:04	⇄	ChanServ:   F - Allowed to issue commands restricted to channel founders
+2013-01-30 03:22:04	⇄	ChanServ:   G - Allowed to use GETKEY command
+2013-01-30 03:22:04	⇄	ChanServ:   g - Greet message displayed on join
+2013-01-30 03:22:04	⇄	ChanServ:   H - Automatic mode +h
+2013-01-30 03:22:04	⇄	ChanServ:   h - Allowed to (de)halfop users
+2013-01-30 03:22:04	⇄	ChanServ:   h - Allowed to (de)halfop him/herself
+2013-01-30 03:22:04	⇄	ChanServ:   I - Allowed to get full INFO output
+2013-01-30 03:22:04	⇄	ChanServ:   i - Allowed to use the INVITE command
+2013-01-30 03:22:04	⇄	ChanServ:   K - Allowed to use the AKICK command
+2013-01-30 03:22:04	⇄	ChanServ:   K - Allowed to modify channel badwords list
+2013-01-30 03:22:04	⇄	ChanServ:   k - Allowed to use the KICK command
+2013-01-30 03:22:04	⇄	ChanServ:   K - No signed kick when SIGNKICK LEVEL is used
+2013-01-30 03:22:04	⇄	ChanServ:   m - Allowed to read channel memos
+2013-01-30 03:22:04	⇄	ChanServ:   N - Prevents users being kicked by Services
+2013-01-30 03:22:04	⇄	ChanServ:   O - Automatic channel operator status
+2013-01-30 03:22:04	⇄	ChanServ:   o - Allowed to (de)op users
+2013-01-30 03:22:04	⇄	ChanServ:   o - Allowed to (de)op him/herself
+2013-01-30 03:22:04	⇄	ChanServ:   Q - Automatic mode +q
+2013-01-30 03:22:05	⇄	ChanServ:   q - Allowed to (de)owner users
+2013-01-30 03:22:05	⇄	ChanServ:   q - Allowed to (de)owner him/herself
+2013-01-30 03:22:05	⇄	ChanServ:   s - Allowed to assign/unassign a bot
+2013-01-30 03:22:05	⇄	ChanServ:   s - Allowed to use the MODE command
+2013-01-30 03:22:05	⇄	ChanServ:   s - Allowed to set channel settings
+2013-01-30 03:22:05	⇄	ChanServ:   t - Allowed to change channel topics
+2013-01-30 03:22:05	⇄	ChanServ:   u - Allowed to unban users
+2013-01-30 03:22:05	⇄	ChanServ:   V - Automatic mode +v
+2013-01-30 03:22:05	⇄	ChanServ:   v - Allowed to (de)voice users
+2013-01-30 03:22:05	⇄	ChanServ:   v - Allowed to (de)voice him/herself
+2013-01-30 03:22:12	sean	flags #m0nster-net list
+2013-01-30 03:22:12	⇄	ChanServ: Flags list for #M0NSTER-NET
+2013-01-30 03:22:12	⇄	ChanServ: Number  Mask  Flags              Creator  Created
+2013-01-30 03:22:12	⇄	ChanServ: 1       sean  BGHNOVbcfghikotuv  sean     Jan 30 03:12:23 2013 EST
+2013-01-30 03:22:12	⇄	ChanServ: End of access list.
+2013-01-30 03:22:34	sean	flags #m0nster-net modify *
+2013-01-30 03:22:34	⇄	ChanServ: Syntax: FLAGS channel MODIFY mask changes
+2013-01-30 03:22:34	⇄	ChanServ:         FLAGS channel LIST [mask | +flags]
+2013-01-30 03:22:34	⇄	ChanServ:         FLAGS channel CLEAR
+2013-01-30 03:22:34	⇄	ChanServ: /msg ChanServ HELP FLAGS for more information.
+2013-01-30 03:22:39	sean	flags #m0nster-net modify *
+2013-01-30 03:22:39	⇄	ChanServ: Syntax: FLAGS channel MODIFY mask changes
+2013-01-30 03:22:39	⇄	ChanServ:         FLAGS channel LIST [mask | +flags]
+2013-01-30 03:22:39	⇄	ChanServ:         FLAGS channel CLEAR
+2013-01-30 03:22:39	⇄	ChanServ: /msg ChanServ HELP FLAGS for more information.
+2013-01-30 03:22:42	sean	flags #m0nster-net modify +*
+2013-01-30 03:22:42	⇄	ChanServ: Syntax: FLAGS channel MODIFY mask changes
+2013-01-30 03:22:42	⇄	ChanServ:         FLAGS channel LIST [mask | +flags]
+2013-01-30 03:22:42	⇄	ChanServ:         FLAGS channel CLEAR
+2013-01-30 03:22:42	⇄	ChanServ: /msg ChanServ HELP FLAGS for more information.
+2013-01-30 03:22:44	sean	flags #m0nster-net modify +A
+2013-01-30 03:22:44	⇄	ChanServ: Syntax: FLAGS channel MODIFY mask changes
+2013-01-30 03:22:44	⇄	ChanServ:         FLAGS channel LIST [mask | +flags]
+2013-01-30 03:22:44	⇄	ChanServ:         FLAGS channel CLEAR
+2013-01-30 03:22:44	⇄	ChanServ: /msg ChanServ HELP FLAGS for more information.
+2013-01-30 03:22:52	sean	flags #m0nster-net modify * +
+2013-01-30 03:22:52	⇄	ChanServ: Insufficient flags given
+2013-01-30 03:22:56	sean	flags #m0nster-net modify a +
+2013-01-30 03:22:56	⇄	ChanServ: Nick a isn't registered.
+2013-01-30 03:24:41	sean	help
+2013-01-30 03:24:41	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-30 03:24:41	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-30 03:24:41	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-30 03:24:41	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-30 03:24:41	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-30 03:24:41	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-30 03:24:41	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-30 03:24:41	⇄	ChanServ: 
+2013-01-30 03:24:41	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-30 03:24:41	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-30 03:24:41	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-30 03:24:41	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-30 03:24:41	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-30 03:24:41	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-30 03:24:41	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-30 03:24:41	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-30 03:24:41	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-30 03:24:41	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-30 03:24:41	⇄	ChanServ: 
+2013-01-30 03:24:41	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-30 03:24:42	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-30 03:24:42	⇄	ChanServ:   VOP
+2013-01-30 03:24:42	⇄	ChanServ: 
+2013-01-30 03:24:42	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-30 03:24:42	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-30 03:24:42	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-30 03:24:42	⇄	ChanServ: 
+2013-01-30 03:24:42	⇄	ChanServ: Used to manage channels
+2013-01-30 03:24:42	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-30 03:24:42	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-30 03:24:43	⇄	ChanServ: 
+2013-01-30 03:24:43	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-30 03:24:43	⇄	ChanServ: 
+2013-01-30 03:24:43	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-30 03:24:43	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-30 03:24:43	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-30 03:24:48	sean	help access
+2013-01-30 03:24:48	⇄	ChanServ: Syntax: access channel ADD mask level
+2013-01-30 03:24:48	⇄	ChanServ:         access channel DEL {mask | entry-num | list}
+2013-01-30 03:24:48	⇄	ChanServ:         access channel LIST [mask | list]
+2013-01-30 03:24:48	⇄	ChanServ:         access channel VIEW [mask | list]
+2013-01-30 03:24:48	⇄	ChanServ:         access channel CLEAR
+2013-01-30 03:24:48	⇄	ChanServ: 
+2013-01-30 03:24:48	⇄	ChanServ: Maintains the access list for a channel.  The access
+2013-01-30 03:24:48	⇄	ChanServ: list specifies which users are allowed chanop status or
+2013-01-30 03:24:48	⇄	ChanServ: access to ChanServ commands on the channel.  Different
+2013-01-30 03:24:48	⇄	ChanServ: user levels allow for access to different subsets of
+2013-01-30 03:24:48	⇄	ChanServ: privileges. Any registered user not on the access list has
+2013-01-30 03:24:48	⇄	ChanServ: a user level of 0, and any unregistered user has a user level
+2013-01-30 03:24:48	⇄	ChanServ: of -1.
+2013-01-30 03:24:48	⇄	ChanServ: 
+2013-01-30 03:24:48	⇄	ChanServ: The ACCESS ADD command adds the given mask to the
+2013-01-30 03:24:48	⇄	ChanServ: access list with the given user level; if the mask is
+2013-01-30 03:24:48	⇄	ChanServ: already present on the list, its access level is changed to
+2013-01-30 03:24:48	⇄	ChanServ: the level specified in the command.  The level specified
+2013-01-30 03:24:48	⇄	ChanServ: must be less than that of the user giving the command, and
+2013-01-30 03:24:48	⇄	ChanServ: if the mask is already on the access list, the current
+2013-01-30 03:24:49	⇄	ChanServ: access level of that nick must be less than the access level
+2013-01-30 03:24:49	⇄	ChanServ: of the user giving the command. When a user joins the channel
+2013-01-30 03:24:49	⇄	ChanServ: the access they receive is from the highest level entry in the
+2013-01-30 03:24:49	⇄	ChanServ: access list.
+2013-01-30 03:24:49	⇄	ChanServ: 
+2013-01-30 03:24:49	⇄	ChanServ: The ACCESS DEL command removes the given nick from the
+2013-01-30 03:24:49	⇄	ChanServ: access list.  If a list of entry numbers is given, those
+2013-01-30 03:24:49	⇄	ChanServ: entries are deleted.  (See the example for LIST below.)
+2013-01-30 03:24:50	⇄	ChanServ: You may remove yourself from an access list, even if you
+2013-01-30 03:24:50	⇄	ChanServ: do not have access to modify that list otherwise.
+2013-01-30 03:24:50	⇄	ChanServ: 
+2013-01-30 03:24:50	⇄	ChanServ: The ACCESS LIST command displays the access list.  If
+2013-01-30 03:24:50	⇄	ChanServ: a wildcard mask is given, only those entries matching the
+2013-01-30 03:24:50	⇄	ChanServ: mask are displayed.  If a list of entry numbers is given,
+2013-01-30 03:24:50	⇄	ChanServ: only those entries are shown; for example:
+2013-01-30 03:24:50	⇄	ChanServ:    ACCESS #channel LIST 2-5,7-9
+2013-01-30 03:24:50	⇄	ChanServ:       Lists access entries numbered 2 through 5 and
+2013-01-30 03:24:50	⇄	ChanServ:       7 through 9.
+2013-01-30 03:24:50	⇄	ChanServ: 
+2013-01-30 03:24:50	⇄	ChanServ: The ACCESS VIEW command displays the access list similar
+2013-01-30 03:24:50	⇄	ChanServ: to ACCESS LIST but shows the creator and last used time.
+2013-01-30 03:24:50	⇄	ChanServ: 
+2013-01-30 03:24:50	⇄	ChanServ: The ACCESS CLEAR command clears all entries of the
+2013-01-30 03:24:50	⇄	ChanServ: access list.
+2013-01-30 03:24:50	⇄	ChanServ: User access levels
+2013-01-30 03:24:50	⇄	ChanServ: 
+2013-01-30 03:24:50	⇄	ChanServ: By default, the following access levels are defined:
+2013-01-30 03:24:50	⇄	ChanServ: 
+2013-01-30 03:24:51	⇄	ChanServ:    Founder   Full access to ChanServ functions; automatic
+2013-01-30 03:24:51	⇄	ChanServ:                      opping upon entering channel.  Note
+2013-01-30 03:24:51	⇄	ChanServ:                      that only one person may have founder
+2013-01-30 03:24:51	⇄	ChanServ:                      status (it cannot be given using the
+2013-01-30 03:24:51	⇄	ChanServ:                      ACCESS command).
+2013-01-30 03:24:51	⇄	ChanServ:         10   Access to AKICK command; automatic opping.
+2013-01-30 03:24:51	⇄	ChanServ:          5   Automatic opping.
+2013-01-30 03:24:51	⇄	ChanServ:          3   Automatic voicing.
+2013-01-30 03:24:51	⇄	ChanServ:          0   No special privileges; can be opped by other
+2013-01-30 03:24:51	⇄	ChanServ:                      ops (unless secure-ops is set).
+2013-01-30 03:24:52	⇄	ChanServ: 
+2013-01-30 03:24:52	⇄	ChanServ: These levels may be changed, or new ones added, using the
+2013-01-30 03:24:52	⇄	ChanServ: LEVELS command; type /msg ChanServ HELP LEVELS for
+2013-01-30 03:24:53	⇄	ChanServ: information.
+2013-01-30 03:25:23	sean	access #m0nster-net list
+2013-01-30 03:25:23	⇄	ChanServ: Access list for #M0NSTER-NET:
+2013-01-30 03:25:23	⇄	ChanServ: Number  Level  Mask
+2013-01-30 03:25:23	⇄	ChanServ: 1       5      sean
+2013-01-30 03:25:23	⇄	ChanServ: End of access list
+2013-01-30 03:26:56	sean	access #m0nster-net add DildoBot 5
+2013-01-30 03:26:56	⇄	ChanServ: DildoBot added to #M0NSTER-NET access list at level 5.
+2013-01-30 03:28:30	sean	access #m0nster-net list
+2013-01-30 03:28:30	⇄	ChanServ: Access list for #M0NSTER-NET:
+2013-01-30 03:28:30	⇄	ChanServ: Number  Level  Mask
+2013-01-30 03:28:30	⇄	ChanServ: 1       5      sean
+2013-01-30 03:28:30	⇄	ChanServ: 2       5      DildoBot
+2013-01-30 03:28:30	⇄	ChanServ: End of access list
+2013-01-30 03:28:41	sean	help
+2013-01-30 03:28:41	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-30 03:28:41	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-30 03:28:41	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-30 03:28:41	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-30 03:28:41	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-30 03:28:41	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-30 03:28:41	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-30 03:28:41	⇄	ChanServ: 
+2013-01-30 03:28:41	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-30 03:28:41	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-30 03:28:41	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-30 03:28:41	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-30 03:28:41	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-30 03:28:41	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-30 03:28:41	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-30 03:28:41	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-30 03:28:41	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-30 03:28:41	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-30 03:28:41	⇄	ChanServ: 
+2013-01-30 03:28:41	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-30 03:28:42	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-30 03:28:42	⇄	ChanServ:   VOP
+2013-01-30 03:28:42	⇄	ChanServ: 
+2013-01-30 03:28:42	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-30 03:28:42	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-30 03:28:42	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-30 03:28:42	⇄	ChanServ: 
+2013-01-30 03:28:42	⇄	ChanServ: Used to manage channels
+2013-01-30 03:28:42	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-30 03:28:42	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-30 03:28:42	⇄	ChanServ: 
+2013-01-30 03:28:42	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-30 03:28:42	⇄	ChanServ: 
+2013-01-30 03:28:42	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-30 03:28:42	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-30 03:28:42	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-30 03:28:48	sean	help levels
+2013-01-30 03:28:48	⇄	ChanServ: Syntax: levels channel SET type level
+2013-01-30 03:28:48	⇄	ChanServ:         levels channel {DIS | DISABLE} type
+2013-01-30 03:28:48	⇄	ChanServ:         levels channel LIST
+2013-01-30 03:28:48	⇄	ChanServ:         levels channel RESET
+2013-01-30 03:28:48	⇄	ChanServ: 
+2013-01-30 03:28:48	⇄	ChanServ: The LEVELS command allows fine control over the meaning of
+2013-01-30 03:28:48	⇄	ChanServ: the numeric access levels used for channels.  With this
+2013-01-30 03:28:48	⇄	ChanServ: command, you can define the access level required for most
+2013-01-30 03:28:48	⇄	ChanServ: of ChanServ's functions. (The SET FOUNDER and this command
+2013-01-30 03:28:48	⇄	ChanServ: are always restricted to the channel founder.)
+2013-01-30 03:28:48	⇄	ChanServ: 
+2013-01-30 03:28:48	⇄	ChanServ: LEVELS SET allows the access level for a function or group of
+2013-01-30 03:28:48	⇄	ChanServ: functions to be changed. LEVELS DISABLE (or DIS for short)
+2013-01-30 03:28:48	⇄	ChanServ: disables an automatic feature or disallows access to a
+2013-01-30 03:28:48	⇄	ChanServ: function by anyone, INCLUDING the founder (although, the founder
+2013-01-30 03:28:48	⇄	ChanServ: can always reenable it).
+2013-01-30 03:28:48	⇄	ChanServ: 
+2013-01-30 03:28:48	⇄	ChanServ: LEVELS LIST shows the current levels for each function or
+2013-01-30 03:28:48	⇄	ChanServ: group of functions. LEVELS RESET resets the levels to the
+2013-01-30 03:28:48	⇄	ChanServ: default levels of a newly-created channel (see
+2013-01-30 03:28:49	⇄	ChanServ: HELP ACCESS LEVELS).
+2013-01-30 03:28:49	⇄	ChanServ: 
+2013-01-30 03:28:49	⇄	ChanServ: For a list of the features and functions whose levels can be
+2013-01-30 03:28:49	⇄	ChanServ: set, see HELP LEVELS DESC.
+2013-01-30 03:28:56	sean	levels #m0nster-net list
+2013-01-30 03:28:56	⇄	ChanServ: Access level settings for channel #M0NSTER-NET:
+2013-01-30 03:28:56	⇄	ChanServ: Name           Level
+2013-01-30 03:28:56	⇄	ChanServ: ACCESS_CHANGE  10
+2013-01-30 03:28:56	⇄	ChanServ: ACCESS_LIST    3
+2013-01-30 03:28:56	⇄	ChanServ: NOKICK         1
+2013-01-30 03:28:56	⇄	ChanServ: FANTASIA       3
+2013-01-30 03:28:56	⇄	ChanServ: GREET          5
+2013-01-30 03:28:56	⇄	ChanServ: AUTOVOICE      3
+2013-01-30 03:28:56	⇄	ChanServ: VOICEME        3
+2013-01-30 03:28:56	⇄	ChanServ: VOICE          4
+2013-01-30 03:28:56	⇄	ChanServ: INFO           9999
+2013-01-30 03:28:56	⇄	ChanServ: SAY            5
+2013-01-30 03:28:56	⇄	ChanServ: AUTOHALFOP     4
+2013-01-30 03:28:56	⇄	ChanServ: HALFOPME       4
+2013-01-30 03:28:56	⇄	ChanServ: HALFOP         5
+2013-01-30 03:28:56	⇄	ChanServ: KICK           4
+2013-01-30 03:28:56	⇄	ChanServ: SIGNKICK       9999
+2013-01-30 03:28:56	⇄	ChanServ: BAN            4
+2013-01-30 03:28:56	⇄	ChanServ: TOPIC          5
+2013-01-30 03:28:56	⇄	ChanServ: MODE           9999
+2013-01-30 03:28:57	⇄	ChanServ: GETKEY         5
+2013-01-30 03:28:57	⇄	ChanServ: INVITE         5
+2013-01-30 03:28:57	⇄	ChanServ: UNBAN          4
+2013-01-30 03:28:57	⇄	ChanServ: AUTOOP         5
+2013-01-30 03:28:57	⇄	ChanServ: OPDEOPME       5
+2013-01-30 03:28:57	⇄	ChanServ: OPDEOP         5
+2013-01-30 03:28:57	⇄	ChanServ: AUTOPROTECT    10
+2013-01-30 03:28:57	⇄	ChanServ: AKICK          10
+2013-01-30 03:28:57	⇄	ChanServ: BADWORDS       10
+2013-01-30 03:28:57	⇄	ChanServ: ASSIGN         (founder only)
+2013-01-30 03:28:59	⇄	ChanServ: MEMO           10
+2013-01-30 03:28:59	⇄	ChanServ: PROTECTME      10
+2013-01-30 03:28:59	⇄	ChanServ: PROTECT        9999
+2013-01-30 03:28:59	⇄	ChanServ: SET            9999
+2013-01-30 03:28:59	⇄	ChanServ: AUTOOWNER      9999
+2013-01-30 03:28:59	⇄	ChanServ: OWNERME        9999
+2013-01-30 03:28:59	⇄	ChanServ: OWNER          (founder only)
+2013-01-30 03:28:59	⇄	ChanServ: FOUNDER        (founder only)
+2013-01-30 03:29:23	sean	help mode
+2013-01-30 03:29:23	⇄	ChanServ: Syntax: mode channel LOCK {ADD|DEL|LIST} [what]
+2013-01-30 03:29:23	⇄	ChanServ:         mode channel SET modes
+2013-01-30 03:29:23	⇄	ChanServ: 
+2013-01-30 03:29:23	⇄	ChanServ: Mainly controls mode locks and mode access (which is different from channel access)
+2013-01-30 03:29:23	⇄	ChanServ: on a channel.
+2013-01-30 03:29:23	⇄	ChanServ: 
+2013-01-30 03:29:23	⇄	ChanServ: The MODE LOCK command allows you to add, delete, and view mode locks on a channel.
+2013-01-30 03:29:23	⇄	ChanServ: If a mode is locked on or off, services will not allow that mode to be changed.
+2013-01-30 03:29:23	⇄	ChanServ: Example:
+2013-01-30 03:29:23	⇄	ChanServ:      MODE #channel LOCK ADD +bmnt *!*@*aol*
+2013-01-30 03:29:23	⇄	ChanServ: 
+2013-01-30 03:29:23	⇄	ChanServ: The MODE SET command allows you to set modes through services. Wildcards * and ? may
+2013-01-30 03:29:23	⇄	ChanServ: be given as parameters for list and status modes.
+2013-01-30 03:29:23	⇄	ChanServ: Example:
+2013-01-30 03:29:23	⇄	ChanServ:      MODE #channel SET +v *
+2013-01-30 03:29:23	⇄	ChanServ:        Sets voice status to all users in the channel.
+2013-01-30 03:29:23	⇄	ChanServ: 
+2013-01-30 03:29:23	⇄	ChanServ:      MODE #channel SET -b ~c:*
+2013-01-30 03:29:23	⇄	ChanServ:        Clears all extended bans that start with ~c:
+2013-01-30 03:29:55	sean	help
+2013-01-30 03:29:55	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-30 03:29:55	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-30 03:29:55	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-30 03:29:55	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-30 03:29:55	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-30 03:29:55	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-30 03:29:55	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-30 03:29:55	⇄	ChanServ: 
+2013-01-30 03:29:55	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-30 03:29:55	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-30 03:29:55	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-30 03:29:55	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-30 03:29:55	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-30 03:29:55	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-30 03:29:55	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-30 03:29:55	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-30 03:29:55	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-30 03:29:55	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-30 03:29:55	⇄	ChanServ: 
+2013-01-30 03:29:55	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-30 03:29:56	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-30 03:29:56	⇄	ChanServ:   VOP
+2013-01-30 03:29:56	⇄	ChanServ: 
+2013-01-30 03:29:56	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-30 03:29:56	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-30 03:29:56	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-30 03:29:56	⇄	ChanServ: 
+2013-01-30 03:29:56	⇄	ChanServ: Used to manage channels
+2013-01-30 03:29:56	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-30 03:29:56	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-30 03:29:57	⇄	ChanServ: 
+2013-01-30 03:29:57	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-30 03:29:57	⇄	ChanServ: 
+2013-01-30 03:29:57	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-30 03:29:57	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-30 03:29:57	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-30 03:30:10	sean	aop #m0nster-net list
+2013-01-30 03:30:10	⇄	ChanServ: AOP list for #M0NSTER-NET
+2013-01-30 03:30:10	⇄	ChanServ: Number  Mask
+2013-01-30 03:30:10	⇄	ChanServ: 1       sean
+2013-01-30 03:30:10	⇄	ChanServ: 2       DildoBot
+2013-01-30 03:30:25	sean	flags #m0nst-net list
+2013-01-30 03:30:25	⇄	ChanServ: Channel #m0nst-net isn't registered.
+2013-01-30 03:30:29	sean	flags #m0nster-net list
+2013-01-30 03:30:29	⇄	ChanServ: Flags list for #M0NSTER-NET
+2013-01-30 03:30:29	⇄	ChanServ: Number  Mask      Flags              Creator  Created
+2013-01-30 03:30:29	⇄	ChanServ: 1       sean      BGHNOVbcfghikotuv  sean     Jan 30 03:12:23 2013 EST
+2013-01-30 03:30:29	⇄	ChanServ: 2       DildoBot  BGHNOVbcfghikotuv  sean     Jan 30 03:26:52 2013 EST
+2013-01-30 03:30:29	⇄	ChanServ: End of access list.
+2013-01-30 03:36:07	⇄	irc: disconnected from server
+2013-01-30 03:36:22	⇄	irc: disconnected from server
+2013-01-30 03:40:40	←	ChanServ (services@services.irc.m0nster.net) has quit (Shutting down)
+2013-01-30 03:43:55	→	ChanServ (services@services.irc.m0nster.net) is back on server
+2013-01-30 03:50:17	←	ChanServ (services@services.irc.m0nster.net) has quit (Shutting down)
+2013-01-30 03:50:33	⇄	irc: disconnected from server
+2013-01-30 04:17:45	⇄	irc: disconnected from server
+2013-01-30 04:18:14	→	ChanServ (services@services.irc.m0nster.net) is back on server
+2013-01-30 04:26:00	←	ChanServ (services@services.irc.m0nster.net) has quit (Shutting down)
+2013-01-30 04:27:04	⇄	irc: disconnected from server
+2013-01-30 04:27:36	sean	help
+2013-01-30 04:27:36	⇄	chanserv: No such nick or channel name
+2013-01-30 04:28:26	⇄	irc: disconnected from server
+2013-01-30 04:37:26	⇄	irc: disconnected from server
+2013-01-30 04:44:05	⇄	irc: disconnected from server
+2013-01-30 04:44:42	⇄	irc: disconnected from server
+2013-01-30 04:45:49	⇄	irc: disconnected from server
+2013-01-30 04:46:02	→	ChanServ (services@services.irc.m0nster.net) is back on server
+2013-01-30 10:17:39	⇄	irc: disconnected from server
+2013-01-31 10:35:36	sean	help
+2013-01-31 10:35:36	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-31 10:35:36	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-31 10:35:36	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-31 10:35:36	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-31 10:35:36	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-31 10:35:36	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-31 10:35:36	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-31 10:35:36	⇄	ChanServ:  
+2013-01-31 10:35:36	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-31 10:35:36	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-31 10:35:36	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-31 10:35:36	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-31 10:35:36	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-31 10:35:36	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-31 10:35:36	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-31 10:35:36	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-31 10:35:36	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-31 10:35:36	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-31 10:35:36	⇄	ChanServ:  
+2013-01-31 10:35:36	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-31 10:35:36	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-31 10:35:36	⇄	ChanServ:   VOP
+2013-01-31 10:35:36	⇄	ChanServ:  
+2013-01-31 10:35:36	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-31 10:35:36	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-31 10:35:36	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-31 10:35:36	⇄	ChanServ:  
+2013-01-31 10:35:36	⇄	ChanServ: Used to manage channels
+2013-01-31 10:35:36	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-31 10:35:36	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-31 10:35:36	⇄	ChanServ:  
+2013-01-31 10:35:36	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-31 10:35:36	⇄	ChanServ:  
+2013-01-31 10:35:36	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-31 10:35:36	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-31 10:35:36	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-31 10:35:54	sean	help set
+2013-01-31 10:35:54	⇄	ChanServ: Syntax: set option channel parameters
+2013-01-31 10:35:54	⇄	ChanServ:  
+2013-01-31 10:35:54	⇄	ChanServ: Allows the channel founder to set various channel options
+2013-01-31 10:35:54	⇄	ChanServ: and other information.
+2013-01-31 10:35:54	⇄	ChanServ:  
+2013-01-31 10:35:54	⇄	ChanServ: Available options:
+2013-01-31 10:35:54	⇄	ChanServ:     SET AUTOOP     Should services automatically give status to users
+2013-01-31 10:35:54	⇄	ChanServ:     SET BANTYPE    Set how Services make bans on the channel
+2013-01-31 10:35:54	⇄	ChanServ:     SET DESC       Set the channel description
+2013-01-31 10:35:54	⇄	ChanServ:     SET DESCRIPTION Set the channel description
+2013-01-31 10:35:54	⇄	ChanServ:     SET EMAIL      Associate an E-mail address with the channel
+2013-01-31 10:35:54	⇄	ChanServ:     SET FOUNDER    Set the founder of a channel
+2013-01-31 10:35:54	⇄	ChanServ:     SET KEEPTOPIC  Retain topic when channel is not in use
+2013-01-31 10:35:54	⇄	ChanServ:     SET PEACE      Regulate the use of critical commands
+2013-01-31 10:35:54	⇄	ChanServ:     SET PERSIST    Set the channel as permanent
+2013-01-31 10:35:54	⇄	ChanServ:     SET PRIVATE    Hide channel from LIST command
+2013-01-31 10:35:54	⇄	ChanServ:     SET RESTRICTED Restrict access to the channel
+2013-01-31 10:35:54	⇄	ChanServ:     SET SECURE     Activate security features
+2013-01-31 10:35:54	⇄	ChanServ:     SET SECUREFOUNDER Stricter control of channel founder status
+2013-01-31 10:35:54	⇄	ChanServ:     SET SECUREOPS  Stricter control of chanop status
+2013-01-31 10:35:54	⇄	ChanServ:     SET SIGNKICK   Sign kicks that are done with KICK command
+2013-01-31 10:35:54	⇄	ChanServ:     SET SUCCESSOR  Set the successor for a channel
+2013-01-31 10:35:54	⇄	ChanServ:     SET URL        Associate a URL with the channel
+2013-01-31 10:35:54	⇄	ChanServ: Type /msg ChanServ HELP SET option for more information on a
+2013-01-31 10:35:54	⇄	ChanServ: particular option.
+2013-01-31 10:36:05	sean	info #m0nster-net
+2013-01-31 10:36:05	⇄	ChanServ: Information for channel #m0nster-net:
+2013-01-31 10:36:05	⇄	ChanServ:      Founder: Sean
+2013-01-31 10:36:05	⇄	ChanServ:  Description: M0NSTER-NET'S OFFICIAL LOBBY
+2013-01-31 10:36:05	⇄	ChanServ:   Registered: Jan 27 16:33:17 2013 EST (3 days, 18 hours, 2 minutes ago)
+2013-01-31 10:36:05	⇄	ChanServ:    Last used: Jan 31 10:36:05 2013 EST (0 seconds from now)
+2013-01-31 10:36:05	⇄	ChanServ:   Last topic: .:: M0NSTER-NET Official Gray Pudding Tech Support | 1. RTFM 2. RTFM AGAIN 3. UNINSTALL IF PERSISTS ::.
+2013-01-31 10:36:05	⇄	ChanServ: Topic set by: irc.m0nster.net
+2013-01-31 10:36:05	⇄	ChanServ:     Ban type: 2
+2013-01-31 10:36:05	⇄	ChanServ:      Options: Topic Retention, Peace, Secure, Secure Founder, Signed kicks, Topic Lock, Persistant
+2013-01-31 10:36:05	⇄	ChanServ:    Mode lock: +nt
+2013-01-31 10:36:05	⇄	ChanServ:   Expires on: Jan 31 10:36:05 2014 EST (365 days from now)
+2013-01-31 10:36:43	sean	help
+2013-01-31 10:36:43	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-31 10:36:43	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-31 10:36:43	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-31 10:36:43	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-31 10:36:43	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-31 10:36:43	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-31 10:36:43	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-31 10:36:43	⇄	ChanServ:  
+2013-01-31 10:36:43	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-31 10:36:43	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-31 10:36:43	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-31 10:36:43	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-31 10:36:43	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-31 10:36:43	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-31 10:36:43	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-31 10:36:43	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-31 10:36:43	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-31 10:36:43	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-31 10:36:43	⇄	ChanServ:  
+2013-01-31 10:36:43	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-31 10:36:43	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-31 10:36:43	⇄	ChanServ:   VOP
+2013-01-31 10:36:43	⇄	ChanServ:  
+2013-01-31 10:36:43	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-31 10:36:43	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-31 10:36:43	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-31 10:36:43	⇄	ChanServ:  
+2013-01-31 10:36:43	⇄	ChanServ: Used to manage channels
+2013-01-31 10:36:43	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-31 10:36:43	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-31 10:36:43	⇄	ChanServ:  
+2013-01-31 10:36:43	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-31 10:36:43	⇄	ChanServ:  
+2013-01-31 10:36:43	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-31 10:36:43	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-31 10:36:43	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-31 10:37:04	sean	help enforce
+2013-01-31 10:37:04	⇄	ChanServ: Syntax: enforce channel what
+2013-01-31 10:37:04	⇄	ChanServ:  
+2013-01-31 10:37:04	⇄	ChanServ: Enforce various channel modes and set options. The channel
+2013-01-31 10:37:04	⇄	ChanServ: option indicates what channel to enforce the modes and options
+2013-01-31 10:37:04	⇄	ChanServ: on. The what option indicates what modes and options to
+2013-01-31 10:37:04	⇄	ChanServ: enforce, and can be any of SECUREOPS, RESTRICTED, REGONLY, SSLONLY,
+2013-01-31 10:37:04	⇄	ChanServ: BANS, or LIMIT.
+2013-01-31 10:37:04	⇄	ChanServ:  
+2013-01-31 10:37:04	⇄	ChanServ: Use SECUREOPS to enforce the SECUREOPS option, even if it is not
+2013-01-31 10:37:04	⇄	ChanServ: enabled. Use RESTRICTED to enfore the RESTRICTED option, also
+2013-01-31 10:37:04	⇄	ChanServ: if it's not enabled. Use REGONLY to kick all unregistered users
+2013-01-31 10:37:04	⇄	ChanServ: from the channel. Use SSLONLY to kick all users not using a secure
+2013-01-31 10:37:04	⇄	ChanServ: connection from the channel. BANS will enforce bans on the channel by
+2013-01-31 10:37:04	⇄	ChanServ: kicking users affected by them, and LIMIT will kick users until the
+2013-01-31 10:37:04	⇄	ChanServ: user count drops below the channel limit, if one is set.
+2013-01-31 10:37:32	sean	help secureops
+2013-01-31 10:37:32	⇄	ChanServ: No help available for secureops.
+2013-01-31 10:37:37	sean	secureops
+2013-01-31 10:37:37	⇄	ChanServ: Unknown command secureops. "/msg ChanServ HELP" for help.
+2013-01-31 10:37:39	sean	help secureops
+2013-01-31 10:37:39	⇄	ChanServ: No help available for secureops.
+2013-01-31 10:37:46	sean	help secureops
+2013-01-31 10:37:46	⇄	ChanServ: No help available for secureops.
+2013-01-31 10:37:49	sean	help set secureops
+2013-01-31 10:37:49	⇄	ChanServ: Syntax: set secureops channel {ON | OFF}
+2013-01-31 10:37:49	⇄	ChanServ:  
+2013-01-31 10:37:49	⇄	ChanServ: Enables or disables the secure ops option for a channel.
+2013-01-31 10:37:49	⇄	ChanServ: When secure ops is set, users who are not on the userlist
+2013-01-31 10:37:49	⇄	ChanServ: will not be allowed chanop status.
+2013-01-31 10:38:05	sean	help set
+2013-01-31 10:38:05	⇄	ChanServ: Syntax: set option channel parameters
+2013-01-31 10:38:05	⇄	ChanServ:  
+2013-01-31 10:38:05	⇄	ChanServ: Allows the channel founder to set various channel options
+2013-01-31 10:38:05	⇄	ChanServ: and other information.
+2013-01-31 10:38:05	⇄	ChanServ:  
+2013-01-31 10:38:05	⇄	ChanServ: Available options:
+2013-01-31 10:38:05	⇄	ChanServ:     SET AUTOOP     Should services automatically give status to users
+2013-01-31 10:38:05	⇄	ChanServ:     SET BANTYPE    Set how Services make bans on the channel
+2013-01-31 10:38:05	⇄	ChanServ:     SET DESC       Set the channel description
+2013-01-31 10:38:05	⇄	ChanServ:     SET DESCRIPTION Set the channel description
+2013-01-31 10:38:05	⇄	ChanServ:     SET EMAIL      Associate an E-mail address with the channel
+2013-01-31 10:38:05	⇄	ChanServ:     SET FOUNDER    Set the founder of a channel
+2013-01-31 10:38:05	⇄	ChanServ:     SET KEEPTOPIC  Retain topic when channel is not in use
+2013-01-31 10:38:05	⇄	ChanServ:     SET PEACE      Regulate the use of critical commands
+2013-01-31 10:38:05	⇄	ChanServ:     SET PERSIST    Set the channel as permanent
+2013-01-31 10:38:05	⇄	ChanServ:     SET PRIVATE    Hide channel from LIST command
+2013-01-31 10:38:05	⇄	ChanServ:     SET RESTRICTED Restrict access to the channel
+2013-01-31 10:38:05	⇄	ChanServ:     SET SECURE     Activate security features
+2013-01-31 10:38:05	⇄	ChanServ:     SET SECUREFOUNDER Stricter control of channel founder status
+2013-01-31 10:38:05	⇄	ChanServ:     SET SECUREOPS  Stricter control of chanop status
+2013-01-31 10:38:05	⇄	ChanServ:     SET SIGNKICK   Sign kicks that are done with KICK command
+2013-01-31 10:38:05	⇄	ChanServ:     SET SUCCESSOR  Set the successor for a channel
+2013-01-31 10:38:05	⇄	ChanServ:     SET URL        Associate a URL with the channel
+2013-01-31 10:38:05	⇄	ChanServ: Type /msg ChanServ HELP SET option for more information on a
+2013-01-31 10:38:05	⇄	ChanServ: particular option.
+2013-01-31 10:38:14	sean	help set secure
+2013-01-31 10:38:14	⇄	ChanServ: Syntax: set secure channel {ON | OFF}
+2013-01-31 10:38:14	⇄	ChanServ:  
+2013-01-31 10:38:14	⇄	ChanServ: Enables or disables security features for a
+2013-01-31 10:38:14	⇄	ChanServ: channel. When chanserv/set/secure is set, only users who have
+2013-01-31 10:38:14	⇄	ChanServ: registered their nicknames and IDENTIFY'd
+2013-01-31 10:38:14	⇄	ChanServ: with their password will be given access to the channel
+2013-01-31 10:38:14	⇄	ChanServ: as controlled by the access list.
+2013-01-31 10:38:34	sean	set secure #m0nster-net on
+2013-01-31 10:38:34	⇄	ChanServ: Secure option for #M0NSTER-NET is now on.
+2013-01-31 10:38:36	sean	set secure #m0nster-net on
+2013-01-31 10:38:36	⇄	ChanServ: Secure option for #M0NSTER-NET is now on.
+2013-01-31 10:38:44	⇄	irc: disconnected from server
+2013-01-31 10:44:39	sean	access #m0nster-net list
+2013-01-31 10:44:39	⇄	ChanServ: Password authentication required for that command.
+2013-01-31 10:44:46	sean	access #m0nster-net list
+2013-01-31 10:44:47	⇄	ChanServ: Access list for #M0NSTER-NET:
+2013-01-31 10:44:47	⇄	ChanServ: Number  Level  Mask
+2013-01-31 10:44:47	⇄	ChanServ: 1       10     *!*@c-98-239-180-196.hsd1.pa.comcast.net
+2013-01-31 10:44:47	⇄	ChanServ: End of access list
+2013-01-31 10:44:59	sean	help access
+2013-01-31 10:44:59	⇄	ChanServ: Syntax: access channel ADD mask level
+2013-01-31 10:44:59	⇄	ChanServ:         access channel DEL {mask | entry-num | list}
+2013-01-31 10:44:59	⇄	ChanServ:         access channel LIST [mask | list]
+2013-01-31 10:44:59	⇄	ChanServ:         access channel VIEW [mask | list]
+2013-01-31 10:44:59	⇄	ChanServ:         access channel CLEAR
+2013-01-31 10:44:59	⇄	ChanServ:  
+2013-01-31 10:44:59	⇄	ChanServ: Maintains the access list for a channel.  The access
+2013-01-31 10:44:59	⇄	ChanServ: list specifies which users are allowed chanop status or
+2013-01-31 10:44:59	⇄	ChanServ: access to ChanServ commands on the channel.  Different
+2013-01-31 10:44:59	⇄	ChanServ: user levels allow for access to different subsets of
+2013-01-31 10:44:59	⇄	ChanServ: privileges. Any registered user not on the access list has
+2013-01-31 10:44:59	⇄	ChanServ: a user level of 0, and any unregistered user has a user level
+2013-01-31 10:44:59	⇄	ChanServ: of -1.
+2013-01-31 10:44:59	⇄	ChanServ:  
+2013-01-31 10:44:59	⇄	ChanServ: The ACCESS ADD command adds the given mask to the
+2013-01-31 10:44:59	⇄	ChanServ: access list with the given user level; if the mask is
+2013-01-31 10:44:59	⇄	ChanServ: already present on the list, its access level is changed to
+2013-01-31 10:44:59	⇄	ChanServ: the level specified in the command.  The level specified
+2013-01-31 10:44:59	⇄	ChanServ: must be less than that of the user giving the command, and
+2013-01-31 10:44:59	⇄	ChanServ: if the mask is already on the access list, the current
+2013-01-31 10:44:59	⇄	ChanServ: access level of that nick must be less than the access level
+2013-01-31 10:44:59	⇄	ChanServ: of the user giving the command. When a user joins the channel
+2013-01-31 10:44:59	⇄	ChanServ: the access they receive is from the highest level entry in the
+2013-01-31 10:44:59	⇄	ChanServ: access list.
+2013-01-31 10:44:59	⇄	ChanServ:  
+2013-01-31 10:44:59	⇄	ChanServ: The ACCESS DEL command removes the given nick from the
+2013-01-31 10:44:59	⇄	ChanServ: access list.  If a list of entry numbers is given, those
+2013-01-31 10:44:59	⇄	ChanServ: entries are deleted.  (See the example for LIST below.)
+2013-01-31 10:44:59	⇄	ChanServ: You may remove yourself from an access list, even if you
+2013-01-31 10:44:59	⇄	ChanServ: do not have access to modify that list otherwise.
+2013-01-31 10:44:59	⇄	ChanServ:  
+2013-01-31 10:44:59	⇄	ChanServ: The ACCESS LIST command displays the access list.  If
+2013-01-31 10:44:59	⇄	ChanServ: a wildcard mask is given, only those entries matching the
+2013-01-31 10:44:59	⇄	ChanServ: mask are displayed.  If a list of entry numbers is given,
+2013-01-31 10:44:59	⇄	ChanServ: only those entries are shown; for example:
+2013-01-31 10:44:59	⇄	ChanServ:    ACCESS #channel LIST 2-5,7-9
+2013-01-31 10:44:59	⇄	ChanServ:       Lists access entries numbered 2 through 5 and
+2013-01-31 10:44:59	⇄	ChanServ:       7 through 9.
+2013-01-31 10:44:59	⇄	ChanServ:  
+2013-01-31 10:44:59	⇄	ChanServ: The ACCESS VIEW command displays the access list similar
+2013-01-31 10:44:59	⇄	ChanServ: to ACCESS LIST but shows the creator and last used time.
+2013-01-31 10:44:59	⇄	ChanServ:  
+2013-01-31 10:44:59	⇄	ChanServ: The ACCESS CLEAR command clears all entries of the
+2013-01-31 10:44:59	⇄	ChanServ: access list.
+2013-01-31 10:44:59	⇄	ChanServ: User access levels
+2013-01-31 10:44:59	⇄	ChanServ:  
+2013-01-31 10:44:59	⇄	ChanServ: By default, the following access levels are defined:
+2013-01-31 10:44:59	⇄	ChanServ:  
+2013-01-31 10:44:59	⇄	ChanServ:    Founder   Full access to ChanServ functions; automatic
+2013-01-31 10:44:59	⇄	ChanServ:                      opping upon entering channel.  Note
+2013-01-31 10:44:59	⇄	ChanServ:                      that only one person may have founder
+2013-01-31 10:44:59	⇄	ChanServ:                      status (it cannot be given using the
+2013-01-31 10:44:59	⇄	ChanServ:                      ACCESS command).
+2013-01-31 10:44:59	⇄	ChanServ:         10   Access to AKICK command; automatic opping.
+2013-01-31 10:44:59	⇄	ChanServ:          5   Automatic opping.
+2013-01-31 10:44:59	⇄	ChanServ:          3   Automatic voicing.
+2013-01-31 10:44:59	⇄	ChanServ:          0   No special privileges; can be opped by other
+2013-01-31 10:44:59	⇄	ChanServ:                      ops (unless secure-ops is set).
+2013-01-31 10:44:59	⇄	ChanServ:  
+2013-01-31 10:44:59	⇄	ChanServ: These levels may be changed, or new ones added, using the
+2013-01-31 10:44:59	⇄	ChanServ: LEVELS command; type /msg ChanServ HELP LEVELS for
+2013-01-31 10:44:59	⇄	ChanServ: information.
+2013-01-31 10:45:10	sean	access #m0nster-net del
+2013-01-31 10:45:10	⇄	ChanServ: Syntax: ACCESS channel ADD mask level
+2013-01-31 10:45:10	⇄	ChanServ:         ACCESS channel DEL {mask | entry-num | list}
+2013-01-31 10:45:10	⇄	ChanServ:         ACCESS channel LIST [mask | list]
+2013-01-31 10:45:10	⇄	ChanServ:         ACCESS channel VIEW [mask | list]
+2013-01-31 10:45:10	⇄	ChanServ:         ACCESS channel CLEAR
+2013-01-31 10:45:10	⇄	ChanServ: /msg ChanServ HELP ACCESS for more information.
+2013-01-31 10:45:19	sean	access #m0nster-net del *
+2013-01-31 10:45:19	⇄	ChanServ: * not found on #M0NSTER-NET access list.
+2013-01-31 10:45:22	sean	access #m0nster-net clear
+2013-01-31 10:45:22	⇄	ChanServ: Channel #M0NSTER-NET access list has been cleared.
+2013-01-31 10:45:32	sean	access #m0nster-net add sean 10
+2013-01-31 10:45:32	⇄	ChanServ: sean added to #M0NSTER-NET access list at level 10.
+2013-01-31 10:45:36	sean	access list
+2013-01-31 10:45:36	⇄	ChanServ: Syntax: ACCESS channel ADD mask level
+2013-01-31 10:45:36	⇄	ChanServ:         ACCESS channel DEL {mask | entry-num | list}
+2013-01-31 10:45:36	⇄	ChanServ:         ACCESS channel LIST [mask | list]
+2013-01-31 10:45:36	⇄	ChanServ:         ACCESS channel VIEW [mask | list]
+2013-01-31 10:45:36	⇄	ChanServ:         ACCESS channel CLEAR
+2013-01-31 10:45:36	⇄	ChanServ: /msg ChanServ HELP ACCESS for more information.
+2013-01-31 10:46:06	sean	access #m0nster-net add dildobot 3
+2013-01-31 10:46:06	⇄	ChanServ: dildobot added to #M0NSTER-NET access list at level 3.
+2013-01-31 10:47:43	sean	aop #m0nster-net list
+2013-01-31 10:47:43	⇄	ChanServ: AOP list for #M0NSTER-NET
+2013-01-31 10:47:43	⇄	ChanServ: Number  Mask
+2013-01-31 10:47:43	⇄	ChanServ: 1       sean
+2013-01-31 10:47:51	sean	vop #m0nster-net list
+2013-01-31 10:47:51	⇄	ChanServ: VOP list for #M0NSTER-NET
+2013-01-31 10:47:51	⇄	ChanServ: Number  Mask
+2013-01-31 10:47:51	⇄	ChanServ: 2       dildobot
+2013-01-31 10:47:58	sean	aop #m0nster-net del sean
+2013-01-31 10:47:58	⇄	ChanServ: sean deleted from #M0NSTER-NET AOP list.
+2013-01-31 10:48:15	sean	set #m0nster-net secureops on
+2013-01-31 10:48:15	⇄	ChanServ: Syntax: SET option channel parameters
+2013-01-31 10:48:15	⇄	ChanServ: /msg ChanServ HELP SET for more information.
+2013-01-31 10:48:19	sean	set secureops #m0nster-net on
+2013-01-31 10:48:19	⇄	ChanServ: Secure ops option for #M0NSTER-NET is now on.
+2013-01-31 10:49:02	sean	vop #m0nster-net add sean
+2013-01-31 10:49:02	⇄	ChanServ: sean added to #M0NSTER-NET VOP list.
+2013-01-31 10:49:20	sean	vop #m0nster-net list
+2013-01-31 10:49:20	⇄	ChanServ: VOP list for #M0NSTER-NET
+2013-01-31 10:49:20	⇄	ChanServ: Number  Mask
+2013-01-31 10:49:20	⇄	ChanServ: 1       dildobot
+2013-01-31 10:49:20	⇄	ChanServ: 2       sean
+2013-01-31 10:49:26	sean	vop #m0nster-net del sean
+2013-01-31 10:49:26	⇄	ChanServ: sean deleted from #M0NSTER-NET VOP list.
+2013-01-31 10:49:38	sean	aop #m0nster-net list
+2013-01-31 10:49:38	⇄	ChanServ: No matching entries on #M0NSTER-NET access list.
+2013-01-31 17:46:46	sean	help
+2013-01-31 17:46:46	⇄	ChanServ: ChanServ allows you to register and control various
+2013-01-31 17:46:46	⇄	ChanServ: aspects of channels. ChanServ can often prevent
+2013-01-31 17:46:46	⇄	ChanServ: malicious users from "taking over" channels by limiting
+2013-01-31 17:46:46	⇄	ChanServ: who is allowed channel operator privileges. Available
+2013-01-31 17:46:46	⇄	ChanServ: commands are listed below; to use them, type
+2013-01-31 17:46:46	⇄	ChanServ: /msg ChanServ command. For more information on a
+2013-01-31 17:46:46	⇄	ChanServ: specific command, type /msg ChanServ HELP command.
+2013-01-31 17:46:46	⇄	ChanServ:  
+2013-01-31 17:46:46	⇄	ChanServ:     BAN            Bans a given nick or mask on a channel
+2013-01-31 17:46:46	⇄	ChanServ:     DROP           Cancel the registration of a channel
+2013-01-31 17:46:46	⇄	ChanServ:     GETKEY         Returns the key of the given channel
+2013-01-31 17:46:46	⇄	ChanServ:     HELP           Displays this list and give information about commands
+2013-01-31 17:46:46	⇄	ChanServ:     INFO           Lists information about the named registered channel
+2013-01-31 17:46:46	⇄	ChanServ:     INVITE         Invites you or an optionally specified nick into a channel
+2013-01-31 17:46:46	⇄	ChanServ:     KICK           Kicks a selected nick from a channel
+2013-01-31 17:46:46	⇄	ChanServ:     REGISTER       Register a channel
+2013-01-31 17:46:46	⇄	ChanServ:     STATUS         Find a user's status on a channel
+2013-01-31 17:46:46	⇄	ChanServ:     UNBAN          Remove all bans preventing a user from entering a channel
+2013-01-31 17:46:46	⇄	ChanServ:  
+2013-01-31 17:46:46	⇄	ChanServ: Used to manage the list of privileged users
+2013-01-31 17:46:46	⇄	ChanServ:   ACCESS, AOP, FLAGS, HOP, LEVELS, QOP, SOP
+2013-01-31 17:46:46	⇄	ChanServ:   VOP
+2013-01-31 17:46:46	⇄	ChanServ:  
+2013-01-31 17:46:46	⇄	ChanServ: Used to modify the channel status of you or other users
+2013-01-31 17:46:46	⇄	ChanServ:   DEHALFOP, DEOP, DEOWNER, DEPROTECT, DEVOICE
+2013-01-31 17:46:46	⇄	ChanServ:   DOWN, HALFOP, OP, OWNER, PROTECT, UP, VOICE
+2013-01-31 17:46:46	⇄	ChanServ:  
+2013-01-31 17:46:46	⇄	ChanServ: Used to manage channels
+2013-01-31 17:46:46	⇄	ChanServ:   AKICK, CLONE, ENFORCE, ENTRYMSG, LOG, MODE
+2013-01-31 17:46:46	⇄	ChanServ:   SET, SYNC, TOPIC
+2013-01-31 17:46:46	⇄	ChanServ:  
+2013-01-31 17:46:46	⇄	ChanServ: Use the HELP ALL command to list all command descriptions.
+2013-01-31 17:46:46	⇄	ChanServ:  
+2013-01-31 17:46:46	⇄	ChanServ: Note that any channel which is not used for 365 days
+2013-01-31 17:46:46	⇄	ChanServ: (i.e. which no user on the channel's access list enters
+2013-01-31 17:46:46	⇄	ChanServ: for that period of time) will be automatically dropped.
+2013-01-31 17:46:49	⇄	ChanServ: Halfops a selected nick on a channel
+2013-01-31 17:46:49	⇄	ChanServ: This command is an alias to the command MODE.
+2013-01-31 17:47:00	sean	help set mode
+2013-01-31 17:47:00	⇄	ChanServ: Syntax: set option channel parameters
+2013-01-31 17:47:00	⇄	ChanServ:  
+2013-01-31 17:47:00	⇄	ChanServ: Allows the channel founder to set various channel options
+2013-01-31 17:47:00	⇄	ChanServ: and other information.
+2013-01-31 17:47:00	⇄	ChanServ:  
+2013-01-31 17:47:00	⇄	ChanServ: Available options:
+2013-01-31 17:47:00	⇄	ChanServ:     SET AUTOOP     Should services automatically give status to users
+2013-01-31 17:47:00	⇄	ChanServ:     SET BANTYPE    Set how Services make bans on the channel
+2013-01-31 17:47:00	⇄	ChanServ:     SET DESC       Set the channel description
+2013-01-31 17:47:00	⇄	ChanServ:     SET DESCRIPTION Set the channel description
+2013-01-31 17:47:00	⇄	ChanServ:     SET EMAIL      Associate an E-mail address with the channel
+2013-01-31 17:47:00	⇄	ChanServ:     SET FOUNDER    Set the founder of a channel
+2013-01-31 17:47:00	⇄	ChanServ:     SET KEEPTOPIC  Retain topic when channel is not in use
+2013-01-31 17:47:00	⇄	ChanServ:     SET PEACE      Regulate the use of critical commands
+2013-01-31 17:47:00	⇄	ChanServ:     SET PERSIST    Set the channel as permanent
+2013-01-31 17:47:00	⇄	ChanServ:     SET PRIVATE    Hide channel from LIST command
+2013-01-31 17:47:00	⇄	ChanServ:     SET RESTRICTED Restrict access to the channel
+2013-01-31 17:47:00	⇄	ChanServ:     SET SECURE     Activate security features
+2013-01-31 17:47:00	⇄	ChanServ:     SET SECUREFOUNDER Stricter control of channel founder status
+2013-01-31 17:47:00	⇄	ChanServ:     SET SECUREOPS  Stricter control of chanop status
+2013-01-31 17:47:00	⇄	ChanServ:     SET SIGNKICK   Sign kicks that are done with KICK command
+2013-01-31 17:47:00	⇄	ChanServ:     SET SUCCESSOR  Set the successor for a channel
+2013-01-31 17:47:00	⇄	ChanServ:     SET URL        Associate a URL with the channel
+2013-01-31 17:47:00	⇄	ChanServ: Type /msg ChanServ HELP SET option for more information on a
+2013-01-31 17:47:00	⇄	ChanServ: particular option.
+2013-01-31 17:47:11	sean	help mode
+2013-01-31 17:47:11	⇄	ChanServ: Syntax: mode channel LOCK {ADD|DEL|LIST} [what]
+2013-01-31 17:47:11	⇄	ChanServ:         mode channel SET modes
+2013-01-31 17:47:11	⇄	ChanServ:  
+2013-01-31 17:47:11	⇄	ChanServ: Mainly controls mode locks and mode access (which is different from channel access)
+2013-01-31 17:47:11	⇄	ChanServ: on a channel.
+2013-01-31 17:47:11	⇄	ChanServ:  
+2013-01-31 17:47:11	⇄	ChanServ: The MODE LOCK command allows you to add, delete, and view mode locks on a channel.
+2013-01-31 17:47:11	⇄	ChanServ: If a mode is locked on or off, services will not allow that mode to be changed.
+2013-01-31 17:47:11	⇄	ChanServ: Example:
+2013-01-31 17:47:11	⇄	ChanServ:      MODE #channel LOCK ADD +bmnt *!*@*aol*
+2013-01-31 17:47:11	⇄	ChanServ:  
+2013-01-31 17:47:11	⇄	ChanServ: The MODE SET command allows you to set modes through services. Wildcards * and ? may
+2013-01-31 17:47:11	⇄	ChanServ: be given as parameters for list and status modes.
+2013-01-31 17:47:11	⇄	ChanServ: Example:
+2013-01-31 17:47:11	⇄	ChanServ:      MODE #channel SET +v *
+2013-01-31 17:47:11	⇄	ChanServ:        Sets voice status to all users in the channel.
+2013-01-31 17:47:11	⇄	ChanServ:  
+2013-01-31 17:47:11	⇄	ChanServ:      MODE #channel SET -b ~c:*
+2013-01-31 17:47:11	⇄	ChanServ:        Clears all extended bans that start with ~c:
+2013-01-31 17:47:29	sean	mode #m0nster-net SET +v sean
+2013-01-31 17:47:38	sean	mode #m0nster-net SET -v +h sean
+2013-01-31 17:47:38	⇄	ChanServ: Nick +h isn't currently in use.

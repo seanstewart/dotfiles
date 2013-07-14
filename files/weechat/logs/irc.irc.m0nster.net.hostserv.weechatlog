@@ -1,0 +1,62 @@
+2013-01-29 01:47:14	sean	help
+2013-01-29 01:47:14	⇄	HostServ: HostServ commands:
+2013-01-29 01:47:14	⇄	HostServ:     ACTIVATE       Approve the requested vHost of a user
+2013-01-29 01:47:14	⇄	HostServ:     DEL            Delete the vhost of another user
+2013-01-29 01:47:14	⇄	HostServ:     DELALL         Delete the vhost for all nicks in a group
+2013-01-29 01:47:14	⇄	HostServ:     GROUP          Syncs the vhost for all nicks in a group
+2013-01-29 01:47:14	⇄	HostServ:     HELP           Displays this list and give information about commands
+2013-01-29 01:47:14	⇄	HostServ:     LIST           Displays one or more vhost entries.
+2013-01-29 01:47:14	⇄	HostServ:     OFF            Deactivates your assigned vhost
+2013-01-29 01:47:14	⇄	HostServ:     ON             Activates your assigned vhost
+2013-01-29 01:47:14	⇄	HostServ:     REJECT         Reject the requested vHost of a user
+2013-01-29 01:47:14	⇄	HostServ:     REQUEST        Request a vHost for your nick
+2013-01-29 01:47:14	⇄	HostServ:     SET            Set the vhost of another user
+2013-01-29 01:47:14	⇄	HostServ:     SETALL         Set the vhost for all nicks in a group
+2013-01-29 01:47:14	⇄	HostServ:     WAITING        Retrieves the vhost requests
+2013-01-29 01:47:24	sean	off
+2013-01-29 01:47:24	⇄	HostServ: Your vhost was removed and the normal cloaking restored.
+2013-01-29 01:47:25	sean	on
+2013-01-29 01:47:26	⇄	HostServ: Your vhost of 72.19-246-81.adsl-static.isp.belgacom.be is now activated.
+2013-01-29 01:49:00	⇄	irc: disconnected from server
+2013-01-29 01:49:23	⇄	HostServ: Your vhost of 72.19-246-81.adsl-static.isp.belgacom.be is now activated.
+2013-01-29 01:52:51	sean	help
+2013-01-29 01:52:51	⇄	HostServ: HostServ commands:
+2013-01-29 01:52:51	⇄	HostServ:     GROUP          Syncs the vhost for all nicks in a group
+2013-01-29 01:52:51	⇄	HostServ:     HELP           Displays this list and give information about commands
+2013-01-29 01:52:51	⇄	HostServ:     OFF            Deactivates your assigned vhost
+2013-01-29 01:52:51	⇄	HostServ:     ON             Activates your assigned vhost
+2013-01-29 01:52:51	⇄	HostServ:     REQUEST        Request a vHost for your nick
+2013-01-30 04:23:04	sean	help
+2013-01-30 04:23:04	⇄	HostServ: HostServ commands:
+2013-01-30 04:23:04	⇄	HostServ:     GROUP          Syncs the vhost for all nicks in a group
+2013-01-30 04:23:04	⇄	HostServ:     HELP           Displays this list and give information about commands
+2013-01-30 04:23:04	⇄	HostServ:     OFF            Deactivates your assigned vhost
+2013-01-30 04:23:04	⇄	HostServ:     ON             Activates your assigned vhost
+2013-01-30 04:23:04	⇄	HostServ:     REQUEST        Request a vHost for your nick
+2013-01-30 04:23:12	sean	on
+2013-01-30 04:23:12	⇄	HostServ: Your vhost of 72.19-246-81.adsl-static.isp.belgacom.be is now activated.
+2013-01-30 04:27:04	⇄	irc: disconnected from server
+2013-01-30 04:28:26	⇄	irc: disconnected from server
+2013-01-30 04:37:26	⇄	irc: disconnected from server
+2013-01-30 04:44:05	⇄	irc: disconnected from server
+2013-01-30 04:44:42	⇄	irc: disconnected from server
+2013-01-30 04:45:49	⇄	irc: disconnected from server
+2013-01-30 04:46:58	sean	help
+2013-01-30 04:46:58	⇄	HostServ:     GROUP          Syncs the vhost for all nicks in a group
+2013-01-30 04:46:58	⇄	HostServ:     HELP           Displays this list and give information about commands
+2013-01-30 04:46:58	⇄	HostServ:     OFF            Deactivates your assigned vhost
+2013-01-30 04:46:58	⇄	HostServ:     ON             Activates your assigned vhost
+2013-01-30 04:46:59	sean	on
+2013-01-30 04:47:23	sean	off
+2013-01-30 04:47:23	⇄	HostServ: Your vhost was removed and the normal cloaking restored.
+2013-01-30 04:47:26	sean	on
+2013-01-30 04:47:28	sean	off
+2013-01-30 04:47:28	⇄	HostServ: Your vhost was removed and the normal cloaking restored.
+2013-01-30 04:48:03	sean	help
+2013-01-30 04:48:03	⇄	HostServ:     GROUP          Syncs the vhost for all nicks in a group
+2013-01-30 04:48:03	⇄	HostServ:     HELP           Displays this list and give information about commands
+2013-01-30 04:48:03	⇄	HostServ:     OFF            Deactivates your assigned vhost
+2013-01-30 04:48:03	⇄	HostServ:     ON             Activates your assigned vhost
+2013-01-30 04:48:27	sean	hello
+2013-01-30 04:48:27	⇄	HostServ: Unknown command hello. "/msg HostServ HELP" for help.
+2013-01-30 10:17:39	⇄	irc: disconnected from server

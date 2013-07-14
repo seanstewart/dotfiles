@@ -1,0 +1,133 @@
+2013-01-28 21:14:17	→	sean-s3 (~sean@c-98-239-180-196.hsd1.pa.comcast.net) has joined #archlinux-offtopic
+2013-01-28 21:14:17	⇄	Topic for #archlinux-offtopic is "Welcome to #archlinux-offtopic, the friendliest dictatorship in the world. <+> http://arch.har-ikkje.net/gfx/al.jpg TUNNEL SNAKES RULE"
+2013-01-28 21:14:17	⇄	Topic set by wizzo (~callan@unaffiliated/wizzomafizzo) on Fri, 18 Jan 2013 11:43:43
+2013-01-28 21:14:17	⇄	Nicks #archlinux-offtopic: [`lorim acuzio ahungry alexwh alienvenom anona Arcalyth autumn axanon azradric Bane^ bin_bash bjoe2k4 BladedThesis Boohbah bougyman brachyonic Brookie bug2000 buhman Caleb camerin camilasan caveat- ChauffeR chee cirrus_minor classix cloq codependant comhack_ companion Cor-Ai crazedpsyc Crisco CryptoNaut cyberspace- Daenyth Dan39 Danio danmackay dasbjo delucks derrida Die18ink5 dimeshake DinCahill djinni dunz0r du|dx dxtr e36freak eir faen felipe` fionnan_ frojnd frots Genolo GlitchMr GSF1200S gtmanfred Guest90682 h4d214n Hardolaf hatake hejki hekel henkye hi117 hrnz hs_maxim Hwkiller icarus iflema inverse ioni iv597 jdahm jdost Jeaye john_f johnhamelink johskar johslarsen jrd0 jryan jticket KaiSforza kamada kaoruko kbar kerrick Kirito kubit kvothetech laumars LazinCajun linduxed linux_probe Lorem-Ipsum LysergicDreams M30W mar77i markatto masoudd masterkorp meskarune Mezenir mikeplus64 Mishke Moridin mquin MrElendig MrRee mszlosarczyk MuffinMan` murb- MutantTurkey mysteriousdarren Nabobalis ninjabox Nisstyre nixin nodame Nuck opt1mus p8m Paul-S pauletin petantik phrik polterge|st poseidon prinny pythonsnake r4 reashlin Reventloff rmd Roukoswarf-M ruan sa1 SAL9000 sammyf saturation scj sean-s3 setkeh Shapeshifter sheep shikitohno shrp silentmike skope skrblr Sn4keBite Somasis Sornaensis spchariot spY|da Srf stnly stufe1 Stupendoussteve sudokode sw0rdfish SyAchmed syrinx_ t0x7bb Tam^ taotetek tasidus tchebb Tear_ thehoff TheMaverick` thestinger thewizord thr tigrmesh tlonim tlvb Tom^ tommylommykins toni-kfj vee velusip Vithon Votan Wntrvnm woddf2 worxed wry x-os_pal xrdodrx XReaper yoshi314 ZekeS zml2008 Zom]
+2013-01-28 21:14:17	⇄	Channel #archlinux-offtopic: 201 nicks (0 ops, 0 halfops, 0 voices, 201 normals)
+2013-01-28 21:14:18	⇄	Mode #archlinux-offtopic [+Ccnt]
+2013-01-28 21:14:18	⇄	Channel created on Thu, 29 Mar 2007 00:10:02
+2013-01-28 21:15:15	sean-s3	Anyone have a good resource for fonts for the terminal? Kinda sick of default stuff =/
+2013-01-28 21:15:15	⇄	#archlinux-offtopic: Cannot send to channel
+2013-01-28 21:15:24	opt1mus	'systemd' and 'suck' in one line gives phrik ops to kick the poster
+2013-01-28 21:15:44	vee	even if its a negated suck?
+2013-01-28 21:15:53	opt1mus	hmm..
+2013-01-28 21:16:18	←	rmd (~rmd_@68.233.247.240) has quit (Quit: WeeChat 0.3.7)
+2013-01-28 21:17:02	thestinger	ZekeS: doesn't need a patched gtk3
+2013-01-28 21:17:05	thestinger	that's a separate bug
+2013-01-28 21:17:07	ZekeS	thestinger: o
+2013-01-28 21:17:09	ZekeS	right
+2013-01-28 21:18:02	vee	hey thestinger, can i assume there will essentially never be a contextual-menu when you rightclick in termite?
+2013-01-28 21:18:06	gtmanfred	ZekeS: http://ix.io/4bn/text lol
+2013-01-28 21:18:58	thestinger	vee: never.
+2013-01-28 21:19:06	vee	excellent =D
+2013-01-28 21:19:25	opt1mus	LOL
+2013-01-28 21:19:59	ZekeS	gtmanfred: you prick lol
+2013-01-28 21:20:03	ZekeS	also what server is this on
+2013-01-28 21:20:10	gtmanfred	ZekeS: /join #r/linux
+2013-01-28 21:20:39	ZekeS	MOAR CHANELZ
+2013-01-28 21:20:58	gtmanfred	ZekeS: dimeshake is the main mod on /r/linux :P
+2013-01-28 21:21:01	gtmanfred	dimeshake: WAKE UP
+2013-01-28 21:21:02	ZekeS	obv
+2013-01-28 21:21:09	tchebb	gtmanfred: I feel like they'll kick me just for also being in here
+2013-01-28 21:21:13	dimeshake	wassup?
+2013-01-28 21:21:19	ZekeS	lol
+2013-01-28 21:21:34	ZekeS	WARGH
+2013-01-28 21:21:52	ZekeS	I'm going to go manually compile PA3.0 for this box and see if it fixes the buffering problem I get
+2013-01-28 21:21:55	vee	you're spozda do a dance
+2013-01-28 21:23:50	→	Jesin (~Jessin_@Dyn158059.cc.lehigh.edu) has joined #archlinux-offtopic
+2013-01-28 21:24:27	→	bkc_ (~bkc@2.67.206.252.mobile.tre.se) has joined #archlinux-offtopic
+2013-01-28 21:24:31	tchebb	ZekeS: bad minion!
+2013-01-28 21:24:35	 *	opt1mus looks at his bot...
+2013-01-28 21:24:50	←	henkye (~henk@32.111.broadband13.iol.cz) has quit (Quit: Leaving)
+2013-01-28 21:25:30	gtmanfred	...
+2013-01-28 21:25:44	→	georgepburdell (daniel@archlinux/trusteduser/gtmanfred) has joined #archlinux-offtopic
+2013-01-28 21:25:48	opt1mus	...and decides against it.
+2013-01-28 21:25:50	→	clammy (~supybot@unaffiliated/mshade/bot/clammy) has joined #archlinux-offtopic
+2013-01-28 21:25:55	gtmanfred	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:25:56	georgepburdell	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:25:56	phrik	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:25:57	phrik	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:25:57	georgepburdell	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:25:58	georgepburdell	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:25:58	phrik	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:25:59	phrik	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:25:59	georgepburdell	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:00	georgepburdell	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:00	phrik	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:01	phrik	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:01	georgepburdell	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:02	gtmanfred	georgepburdell: part
+2013-01-28 21:26:02	phrik	!echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:02	georgepburdell	!echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:03	phrik	!echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:03	←	georgepburdell (daniel@archlinux/trusteduser/gtmanfred) has left #archlinux-offtopic ("gtmanfred")
+2013-01-28 21:26:13	opt1mus	lol
+2013-01-28 21:26:14	gtmanfred	boo
+2013-01-28 21:26:18	gtmanfred	clammy: part
+2013-01-28 21:26:18	clammy	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:19	clammy	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:20	phrik	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:20	clammy	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:21	phrik	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:22	clammy	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:22	phrik	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:22	←	clammy (~supybot@unaffiliated/mshade/bot/clammy) has left #archlinux-offtopic ("gtmanfred")
+2013-01-28 21:26:23	phrik	!echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo !echo
+2013-01-28 21:26:24	gtmanfred	LOL
+2013-01-28 21:26:25	Caleb	wow
+2013-01-28 21:26:37	Caleb	!kick gtmanfred NO!!!
+2013-01-28 21:26:43	Caleb	lol
+2013-01-28 21:28:36	worxed	wtf? :O
+2013-01-28 21:31:00	worxed	anyway, goodnight folks.
+2013-01-28 21:31:11	→	b1tgl0w (~b1tgl0w@unaffiliated/enigmaticcoder) has joined #archlinux-offtopic
+2013-01-28 21:31:18	opt1mus	No
+2013-01-28 21:31:26	worxed	?
+2013-01-28 21:31:30	opt1mus	Get on your feet damnit, and make a brew
+2013-01-28 21:31:41	opt1mus	Sleeping is for wimps
+2013-01-28 21:32:05	→	jynnantonix (~textual@140.247.0.98) has joined #archlinux-offtopic
+2013-01-28 21:32:21	worxed	opt1mus: maybe some other time, long weekend.
+2013-01-28 21:32:45	opt1mus	!give worxed gn
+2013-01-28 21:32:47	phrik	worxed: Good night to all from opt1mus!
+2013-01-28 21:32:54	worxed	:D
+2013-01-28 21:32:56	worxed	bye
+2013-01-28 21:32:59	opt1mus	oh, well that didn't work as expected
+2013-01-28 21:33:07	opt1mus	o/
+2013-01-28 21:48:50	gtmanfred	phrik: fuck you
+2013-01-28 21:49:01	gtmanfred	hrm...
+2013-01-28 21:49:02	←	masoudd (~masoudd@92.50.3.202) has quit (Quit: INEEDSLEEEP)
+2013-01-28 21:50:28	gtmanfred	phrik: fuck you
+2013-01-28 21:50:30	gtmanfred	phrik: fuck you
+2013-01-28 21:50:32	gtmanfred	phrik: fuck you
+2013-01-28 21:50:33	gtmanfred	hrm...
+2013-01-28 21:51:00	nixin	great now i want to see what will happen ...
+2013-01-28 21:51:07	gtmanfred	lol
+2013-01-28 21:52:12	⇄	Mode #archlinux-offtopic [+o phrik] by ChanServ
+2013-01-28 21:52:15	gtmanfred	phrik: fuck you
+2013-01-28 21:52:17	←	phrik has kicked gtmanfred (Screw this.)
+2013-01-28 21:52:22	LazinCajun	lol
+2013-01-28 21:52:24	→	gtmanfred (root@archlinux/trusteduser/gtmanfred) has joined #archlinux-offtopic
+2013-01-28 21:52:25	⇄	Mode #archlinux-offtopic [+o gtmanfred] by phrik
+2013-01-28 21:52:44	⇄	Mode #archlinux-offtopic [-o gtmanfred] by ChanServ
+2013-01-28 21:52:47	tchebb	phrik: fuck you
+2013-01-28 21:52:48	←	phrik has kicked tchebb (I have a solution to this problem.)
+2013-01-28 21:52:48	→	tchebb (~tchebb@pool-74-104-144-3.bstnma.fios.verizon.net) has joined #archlinux-offtopic
+2013-01-28 21:52:53	tchebb	:D
+2013-01-28 21:52:54	⇄	Mode #archlinux-offtopic [-o phrik] by ChanServ
+2013-01-28 21:52:56	⇄	Mode #archlinux-offtopic [+o phrik] by ChanServ
+2013-01-28 21:52:58	tchebb	gtmanfred: nice
+2013-01-28 21:53:04	⇄	Mode #archlinux-offtopic [-o phrik] by ChanServ
+2013-01-28 21:53:05	⇄	Mode #archlinux-offtopic [+o phrik] by ChanServ
+2013-01-28 21:53:08	gtmanfred	...
+2013-01-28 21:53:14	LazinCajun	<3 phrik
+2013-01-28 21:53:35	gtmanfred	calmdown #archlinux-offtopic
+2013-01-28 21:53:38	gtmanfred	phrik: calmdown #archlinux-offtopic
+2013-01-28 21:53:38	@phrik	gtmanfred: calmdown [<channel>]
+2013-01-28 21:53:44	gtmanfred	...
+2013-01-28 21:54:14	gtmanfred	phrik: calmdown
+2013-01-28 21:54:15	@phrik	gtmanfred: Alright, fine.  I've cleared my vengence lists.  For now.
+2013-01-28 21:54:21	⇄	Mode #archlinux-offtopic [-o phrik] by ChanServ
+2013-01-28 21:54:23	⇄	Mode #archlinux-offtopic [+o phrik] by ChanServ
+2013-01-28 21:54:25	gtmanfred	...
+2013-01-28 21:54:49	⇄	Mode #archlinux-offtopic [-o phrik] by ChanServ
+2013-01-28 22:00:27	tchebb	phrik is having mod swings
+2013-01-28 22:01:40	←	hatake (~ping__@125.162.229.135) has quit (Read error: No route to host)
+2013-01-28 22:05:17	←	sean-s3 (~sean@c-98-239-180-196.hsd1.pa.comcast.net) has left #archlinux-offtopic ("WeeChat 0.3.9.2 on Darwin")

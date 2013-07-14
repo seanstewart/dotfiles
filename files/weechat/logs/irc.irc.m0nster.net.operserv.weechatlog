@@ -1,0 +1,270 @@
+2013-01-29 01:36:04	sean	modlist
+2013-01-29 01:36:04	⇄	OperServ: Current Module list:
+2013-01-29 01:36:04	⇄	OperServ: Module: ngircd [1.9.8-may-cause-insanity] [Protocol]
+2013-01-29 01:36:04	⇄	OperServ: Module: db_flatfile [1.9.8-may-cause-insanity] [Database]
+2013-01-29 01:36:04	⇄	OperServ: Module: enc_sha256 [1.9.8-may-cause-insanity] [Encryption]
+2013-01-29 01:36:04	⇄	OperServ: Module: cs_statusupdate [1.9.8-may-cause-insanity] [Supported]
+2013-01-29 01:36:04	⇄	OperServ: Module: ns_maxemail [1.9.8-may-cause-insanity] [Supported]
+2013-01-29 01:36:04	⇄	OperServ: Module: m_regex_pcre [1.9.8-may-cause-insanity] [Supported]
+2013-01-29 01:36:04	⇄	OperServ: Module: m_rewrite [1.9.8-may-cause-insanity] [Supported]
+2013-01-29 01:36:04	⇄	OperServ: 7 Modules loaded.
+2013-01-29 01:40:06	sean	restart
+2013-01-29 01:47:42	sean	update
+2013-01-29 01:47:42	⇄	OperServ: Updating databases.
+2013-01-29 01:49:00	⇄	irc: disconnected from server
+2013-01-29 01:52:23	⇄	irc: disconnected from server
+2013-01-29 16:35:16	sean	hel
+2013-01-29 16:35:16	⇄	OperServ: Unknown command hel. "/msg OperServ HELP" for help.
+2013-01-29 16:35:17	sean	help
+2013-01-29 16:35:18	⇄	OperServ: OperServ commands:
+2013-01-29 16:35:18	⇄	OperServ:     HELP           Displays this list and give information about commands
+2013-01-29 16:35:29	sean	help
+2013-01-29 16:35:29	⇄	OperServ: OperServ commands:
+2013-01-29 16:35:29	⇄	OperServ:     HELP           Displays this list and give information about commands
+2013-01-29 16:35:40	sean	help
+2013-01-29 16:35:40	⇄	OperServ: OperServ commands:
+2013-01-29 16:35:40	⇄	OperServ:     HELP           Displays this list and give information about commands
+2013-01-29 16:36:09	sean	help
+2013-01-29 16:36:09	⇄	OperServ: OperServ commands:
+2013-01-29 16:36:09	⇄	OperServ:     AKILL          Manipulate the AKILL list
+2013-01-29 16:36:09	⇄	OperServ:     CHANKILL       AKILL all users on a specific channel
+2013-01-29 16:36:09	⇄	OperServ:     CHANLIST       Lists all channel records
+2013-01-29 16:36:09	⇄	OperServ:     CONFIG         View and change configuration file settings
+2013-01-29 16:36:09	⇄	OperServ:     EXCEPTION      Modify the session-limit exception list
+2013-01-29 16:36:09	⇄	OperServ:     FORBID         Forbid usage of nicknames, channels, and emails
+2013-01-29 16:36:09	⇄	OperServ:     GLOBAL         Send a message to all users
+2013-01-29 16:36:09	⇄	OperServ:     HELP           Displays this list and give information about commands
+2013-01-29 16:36:09	⇄	OperServ:     IGNORE         Modify the Services ignore list
+2013-01-29 16:36:09	⇄	OperServ:     JUPE           "Jupiter" a server
+2013-01-29 16:36:09	⇄	OperServ:     KICK           Kick a user from a channel
+2013-01-29 16:36:09	⇄	OperServ:     KILL           Kill a user
+2013-01-29 16:36:09	⇄	OperServ:     LOGIN          Login to OperServ
+2013-01-29 16:36:09	⇄	OperServ:     LOGONNEWS      Define messages to be shown to users at logon
+2013-01-29 16:36:09	⇄	OperServ:     LOGOUT         Logout from OperServ
+2013-01-29 16:36:09	⇄	OperServ:     LOGSEARCH      Searches logs for a matching pattern
+2013-01-29 16:36:09	⇄	OperServ:     MODE           Change channel modes
+2013-01-29 16:36:09	⇄	OperServ:     MODINFO        Info about a loaded module
+2013-01-29 16:36:09	⇄	OperServ:     MODLIST        List loaded modules
+2013-01-29 16:36:10	⇄	OperServ:     MODLOAD        Load a module
+2013-01-29 16:36:10	⇄	OperServ:     MODRELOAD      Reload a module
+2013-01-29 16:36:10	⇄	OperServ:     MODUNLOAD      Un-Load a module
+2013-01-29 16:36:10	⇄	OperServ:     NOOP           Remove all operators from a server remotely
+2013-01-29 16:36:10	⇄	OperServ:     OPER           View and change services operators
+2013-01-29 16:36:10	⇄	OperServ:     OPERNEWS       Define messages to be shown to users who oper
+2013-01-29 16:36:10	⇄	OperServ:     QUIT           Terminate Services WITHOUT saving
+2013-01-29 16:36:11	⇄	OperServ:     RANDOMNEWS     Define messages to be randomly shown to users at logon
+2013-01-29 16:36:11	⇄	OperServ:     RELOAD         Reload services' configuration file
+2013-01-29 16:36:11	⇄	OperServ:     RESTART        Save databases and restart Services
+2013-01-29 16:36:11	⇄	OperServ:     SEEN           Statistics and maintenance for seen data
+2013-01-29 16:36:11	⇄	OperServ:     SESSION        View the list of host sessions
+2013-01-29 16:36:11	⇄	OperServ:     SET            Set various global Services options
+2013-01-29 16:36:11	⇄	OperServ:     SHUTDOWN       Terminate services with save
+2013-01-29 16:36:11	⇄	OperServ:     SNLINE         Manipulate the operserv/snline list
+2013-01-29 16:36:11	⇄	OperServ:     SQLINE         Manipulate the operserv/sqline list
+2013-01-29 16:36:11	⇄	OperServ:     STATS          Show status of Services and network
+2013-01-29 16:36:11	⇄	OperServ:     SVSJOIN        Forcefully join a user to a channel
+2013-01-29 16:36:11	⇄	OperServ:     SVSNICK        Forcefully change a user's nickname
+2013-01-29 16:36:11	⇄	OperServ:     SVSPART        Forcefully part a user from a channel
+2013-01-29 16:36:11	⇄	OperServ:     UMODE          Change user modes
+2013-01-29 16:36:11	⇄	OperServ:     UPDATE         Force the Services databases to be updated immediately
+2013-01-29 16:36:11	⇄	OperServ:     USERLIST       Lists all user records
+2013-01-30 03:28:18	sean	help
+2013-01-30 03:28:18	⇄	OperServ: Access denied.
+2013-01-30 03:35:46	sean	help
+2013-01-30 03:35:46	⇄	OperServ: OperServ commands:
+2013-01-30 03:35:46	⇄	OperServ:     AKILL          Manipulate the AKILL list
+2013-01-30 03:35:46	⇄	OperServ:     CHANKILL       AKILL all users on a specific channel
+2013-01-30 03:35:46	⇄	OperServ:     CHANLIST       Lists all channel records
+2013-01-30 03:35:46	⇄	OperServ:     CONFIG         View and change configuration file settings
+2013-01-30 03:35:46	⇄	OperServ:     EXCEPTION      Modify the session-limit exception list
+2013-01-30 03:35:46	⇄	OperServ:     FORBID         Forbid usage of nicknames, channels, and emails
+2013-01-30 03:35:46	⇄	OperServ:     GLOBAL         Send a message to all users
+2013-01-30 03:35:46	⇄	OperServ:     HELP           Displays this list and give information about commands
+2013-01-30 03:35:46	⇄	OperServ:     IGNORE         Modify the Services ignore list
+2013-01-30 03:35:46	⇄	OperServ:     JUPE           "Jupiter" a server
+2013-01-30 03:35:46	⇄	OperServ:     KICK           Kick a user from a channel
+2013-01-30 03:35:46	⇄	OperServ:     KILL           Kill a user
+2013-01-30 03:35:46	⇄	OperServ:     LOGIN          Login to OperServ
+2013-01-30 03:35:46	⇄	OperServ:     LOGONNEWS      Define messages to be shown to users at logon
+2013-01-30 03:35:46	⇄	OperServ:     LOGOUT         Logout from OperServ
+2013-01-30 03:35:46	⇄	OperServ:     LOGSEARCH      Searches logs for a matching pattern
+2013-01-30 03:35:46	⇄	OperServ:     MODE           Change channel modes
+2013-01-30 03:35:46	⇄	OperServ:     MODINFO        Info about a loaded module
+2013-01-30 03:35:46	⇄	OperServ:     MODLIST        List loaded modules
+2013-01-30 03:35:47	⇄	OperServ:     MODLOAD        Load a module
+2013-01-30 03:35:47	⇄	OperServ:     MODRELOAD      Reload a module
+2013-01-30 03:35:47	⇄	OperServ:     MODUNLOAD      Un-Load a module
+2013-01-30 03:35:47	⇄	OperServ:     NOOP           Remove all operators from a server remotely
+2013-01-30 03:35:47	⇄	OperServ:     OPER           View and change services operators
+2013-01-30 03:35:47	⇄	OperServ:     OPERNEWS       Define messages to be shown to users who oper
+2013-01-30 03:35:47	⇄	OperServ:     QUIT           Terminate Services WITHOUT saving
+2013-01-30 03:35:48	⇄	OperServ:     RANDOMNEWS     Define messages to be randomly shown to users at logon
+2013-01-30 03:35:48	⇄	OperServ:     RELOAD         Reload services' configuration file
+2013-01-30 03:35:48	⇄	OperServ:     RESTART        Save databases and restart Services
+2013-01-30 03:35:48	⇄	OperServ:     SEEN           Statistics and maintenance for seen data
+2013-01-30 03:35:48	⇄	OperServ:     SESSION        View the list of host sessions
+2013-01-30 03:35:48	⇄	OperServ:     SET            Set various global Services options
+2013-01-30 03:35:48	⇄	OperServ:     SHUTDOWN       Terminate services with save
+2013-01-30 03:35:48	⇄	OperServ:     SNLINE         Manipulate the operserv/snline list
+2013-01-30 03:35:48	⇄	OperServ:     SQLINE         Manipulate the operserv/sqline list
+2013-01-30 03:35:48	⇄	OperServ:     STATS          Show status of Services and network
+2013-01-30 03:35:48	⇄	OperServ:     SVSJOIN        Forcefully join a user to a channel
+2013-01-30 03:35:48	⇄	OperServ:     SVSNICK        Forcefully change a user's nickname
+2013-01-30 03:35:48	⇄	OperServ:     SVSPART        Forcefully part a user from a channel
+2013-01-30 03:35:48	⇄	OperServ:     UMODE          Change user modes
+2013-01-30 03:35:48	⇄	OperServ:     UPDATE         Force the Services databases to be updated immediately
+2013-01-30 03:35:48	⇄	OperServ:     USERLIST       Lists all user records
+2013-01-30 03:35:51	sean	update
+2013-01-30 03:35:51	⇄	OperServ: Updating databases.
+2013-01-30 03:35:53	sean	reload
+2013-01-30 03:35:53	⇄	OperServ: Services' configuration file has been reloaded.
+2013-01-30 03:36:00	sean	help
+2013-01-30 03:36:00	⇄	OperServ: OperServ commands:
+2013-01-30 03:36:00	⇄	OperServ:     CHANLIST       Lists all channel records
+2013-01-30 03:36:00	⇄	OperServ:     HELP           Displays this list and give information about commands
+2013-01-30 03:36:00	⇄	OperServ:     LOGIN          Login to OperServ
+2013-01-30 03:36:00	⇄	OperServ:     LOGOUT         Logout from OperServ
+2013-01-30 03:36:00	⇄	OperServ:     LOGSEARCH      Searches logs for a matching pattern
+2013-01-30 03:36:00	⇄	OperServ:     MODINFO        Info about a loaded module
+2013-01-30 03:36:00	⇄	OperServ:     SEEN           Statistics and maintenance for seen data
+2013-01-30 03:36:00	⇄	OperServ:     USERLIST       Lists all user records
+2013-01-30 03:36:07	⇄	irc: disconnected from server
+2013-01-30 03:36:22	⇄	irc: disconnected from server
+2013-01-30 03:40:01	sean	help
+2013-01-30 03:40:01	⇄	OperServ: OperServ commands:
+2013-01-30 03:40:01	⇄	OperServ:     CHANLIST       Lists all channel records
+2013-01-30 03:40:01	⇄	OperServ:     HELP           Displays this list and give information about commands
+2013-01-30 03:40:01	⇄	OperServ:     LOGIN          Login to OperServ
+2013-01-30 03:40:01	⇄	OperServ:     LOGOUT         Logout from OperServ
+2013-01-30 03:40:01	⇄	OperServ:     LOGSEARCH      Searches logs for a matching pattern
+2013-01-30 03:40:01	⇄	OperServ:     MODINFO        Info about a loaded module
+2013-01-30 03:40:01	⇄	OperServ:     SEEN           Statistics and maintenance for seen data
+2013-01-30 03:40:01	⇄	OperServ:     USERLIST       Lists all user records
+2013-01-30 03:44:09	sean	help
+2013-01-30 03:44:09	⇄	OperServ: OperServ commands:
+2013-01-30 03:44:09	⇄	OperServ:     AKILL          Manipulate the AKILL list
+2013-01-30 03:44:09	⇄	OperServ:     CHANKILL       AKILL all users on a specific channel
+2013-01-30 03:44:09	⇄	OperServ:     CHANLIST       Lists all channel records
+2013-01-30 03:44:09	⇄	OperServ:     CONFIG         View and change configuration file settings
+2013-01-30 03:44:09	⇄	OperServ:     EXCEPTION      Modify the session-limit exception list
+2013-01-30 03:44:09	⇄	OperServ:     FORBID         Forbid usage of nicknames, channels, and emails
+2013-01-30 03:44:09	⇄	OperServ:     GLOBAL         Send a message to all users
+2013-01-30 03:44:09	⇄	OperServ:     HELP           Displays this list and give information about commands
+2013-01-30 03:44:09	⇄	OperServ:     IGNORE         Modify the Services ignore list
+2013-01-30 03:44:09	⇄	OperServ:     JUPE           "Jupiter" a server
+2013-01-30 03:44:09	⇄	OperServ:     KICK           Kick a user from a channel
+2013-01-30 03:44:09	⇄	OperServ:     KILL           Kill a user
+2013-01-30 03:44:09	⇄	OperServ:     LOGIN          Login to OperServ
+2013-01-30 03:44:09	⇄	OperServ:     LOGONNEWS      Define messages to be shown to users at logon
+2013-01-30 03:44:09	⇄	OperServ:     LOGOUT         Logout from OperServ
+2013-01-30 03:44:09	⇄	OperServ:     LOGSEARCH      Searches logs for a matching pattern
+2013-01-30 03:44:09	⇄	OperServ:     MODE           Change channel modes
+2013-01-30 03:44:09	⇄	OperServ:     MODINFO        Info about a loaded module
+2013-01-30 03:44:09	⇄	OperServ:     MODLIST        List loaded modules
+2013-01-30 03:44:10	⇄	OperServ:     MODLOAD        Load a module
+2013-01-30 03:44:10	⇄	OperServ:     MODRELOAD      Reload a module
+2013-01-30 03:44:10	⇄	OperServ:     MODUNLOAD      Un-Load a module
+2013-01-30 03:44:10	⇄	OperServ:     NOOP           Remove all operators from a server remotely
+2013-01-30 03:44:10	⇄	OperServ:     OPER           View and change services operators
+2013-01-30 03:44:10	⇄	OperServ:     OPERNEWS       Define messages to be shown to users who oper
+2013-01-30 03:44:10	⇄	OperServ:     QUIT           Terminate Services WITHOUT saving
+2013-01-30 03:44:11	⇄	OperServ:     RANDOMNEWS     Define messages to be randomly shown to users at logon
+2013-01-30 03:44:11	⇄	OperServ:     RELOAD         Reload services' configuration file
+2013-01-30 03:44:11	⇄	OperServ:     RESTART        Save databases and restart Services
+2013-01-30 03:44:11	⇄	OperServ:     SEEN           Statistics and maintenance for seen data
+2013-01-30 03:44:11	⇄	OperServ:     SESSION        View the list of host sessions
+2013-01-30 03:44:11	⇄	OperServ:     SET            Set various global Services options
+2013-01-30 03:44:11	⇄	OperServ:     SHUTDOWN       Terminate services with save
+2013-01-30 03:44:11	⇄	OperServ:     SNLINE         Manipulate the operserv/snline list
+2013-01-30 03:44:11	⇄	OperServ:     SQLINE         Manipulate the operserv/sqline list
+2013-01-30 03:44:11	⇄	OperServ:     STATS          Show status of Services and network
+2013-01-30 03:44:11	⇄	OperServ:     SVSJOIN        Forcefully join a user to a channel
+2013-01-30 03:44:11	⇄	OperServ:     SVSNICK        Forcefully change a user's nickname
+2013-01-30 03:44:11	⇄	OperServ:     SVSPART        Forcefully part a user from a channel
+2013-01-30 03:44:11	⇄	OperServ:     UMODE          Change user modes
+2013-01-30 03:44:11	⇄	OperServ:     UPDATE         Force the Services databases to be updated immediately
+2013-01-30 03:44:11	⇄	OperServ:     USERLIST       Lists all user records
+2013-01-30 03:45:01	sean	status
+2013-01-30 03:45:01	⇄	OperServ: Unknown command status. "/msg OperServ HELP" for help.
+2013-01-30 03:45:06	sean	stats
+2013-01-30 03:45:06	⇄	OperServ: Current users: 11 (9 ops)
+2013-01-30 03:45:06	⇄	OperServ: Maximum users: 12 (Jan 28 15:29:39 2013 EST (1 day, 12 hours, 15 minutes ago))
+2013-01-30 03:45:06	⇄	OperServ: Services up 1 minute
+2013-01-30 03:45:36	sean	noop
+2013-01-30 03:45:36	⇄	OperServ: Syntax: NOOP SET server
+2013-01-30 03:45:36	⇄	OperServ:         NOOP REVOKE server
+2013-01-30 03:45:36	⇄	OperServ: /msg OperServ HELP NOOP for more information.
+2013-01-30 03:45:42	sean	noop set #m0nster-net
+2013-01-30 03:45:42	⇄	OperServ: Server #m0nster-net does not exist.
+2013-01-30 03:45:56	sean	oper
+2013-01-30 03:45:56	⇄	OperServ: Syntax: OPER ADD oper type
+2013-01-30 03:45:56	⇄	OperServ:         OPER DEL [oper]
+2013-01-30 03:45:56	⇄	OperServ:         OPER INFO [type]
+2013-01-30 03:45:56	⇄	OperServ:         OPER LIST
+2013-01-30 03:45:56	⇄	OperServ: /msg OperServ HELP OPER for more information.
+2013-01-30 03:45:59	sean	oper list
+2013-01-30 03:45:59	⇄	OperServ: Name     Type
+2013-01-30 03:45:59	⇄	OperServ: sean     root
+2013-01-30 03:45:59	⇄	OperServ:    This oper is configured in the configuration file.
+2013-01-30 03:45:59	⇄	OperServ:    sean is online using this oper block.
+2013-01-30 03:50:17	sean	shutdown
+2013-01-30 03:50:33	⇄	irc: disconnected from server
+2013-01-30 04:17:45	⇄	irc: disconnected from server
+2013-01-30 04:25:50	sean	help
+2013-01-30 04:25:50	⇄	OperServ: Access denied.
+2013-01-30 04:25:55	sean	help
+2013-01-30 04:25:56	⇄	OperServ: OperServ commands:
+2013-01-30 04:25:56	⇄	OperServ:     AKILL          Manipulate the AKILL list
+2013-01-30 04:25:56	⇄	OperServ:     CHANKILL       AKILL all users on a specific channel
+2013-01-30 04:25:56	⇄	OperServ:     CHANLIST       Lists all channel records
+2013-01-30 04:25:56	⇄	OperServ:     CONFIG         View and change configuration file settings
+2013-01-30 04:25:56	⇄	OperServ:     EXCEPTION      Modify the session-limit exception list
+2013-01-30 04:25:56	⇄	OperServ:     FORBID         Forbid usage of nicknames, channels, and emails
+2013-01-30 04:25:56	⇄	OperServ:     GLOBAL         Send a message to all users
+2013-01-30 04:25:56	⇄	OperServ:     HELP           Displays this list and give information about commands
+2013-01-30 04:25:56	⇄	OperServ:     IGNORE         Modify the Services ignore list
+2013-01-30 04:25:56	⇄	OperServ:     JUPE           "Jupiter" a server
+2013-01-30 04:25:56	⇄	OperServ:     KICK           Kick a user from a channel
+2013-01-30 04:25:56	⇄	OperServ:     KILL           Kill a user
+2013-01-30 04:25:56	⇄	OperServ:     LOGIN          Login to OperServ
+2013-01-30 04:25:56	⇄	OperServ:     LOGONNEWS      Define messages to be shown to users at logon
+2013-01-30 04:25:56	⇄	OperServ:     LOGOUT         Logout from OperServ
+2013-01-30 04:25:56	⇄	OperServ:     LOGSEARCH      Searches logs for a matching pattern
+2013-01-30 04:25:56	⇄	OperServ:     MODE           Change channel modes
+2013-01-30 04:25:56	⇄	OperServ:     MODINFO        Info about a loaded module
+2013-01-30 04:25:56	⇄	OperServ:     MODLIST        List loaded modules
+2013-01-30 04:25:57	⇄	OperServ:     MODLOAD        Load a module
+2013-01-30 04:25:57	⇄	OperServ:     MODRELOAD      Reload a module
+2013-01-30 04:25:57	⇄	OperServ:     MODUNLOAD      Un-Load a module
+2013-01-30 04:25:57	⇄	OperServ:     NOOP           Remove all operators from a server remotely
+2013-01-30 04:25:57	⇄	OperServ:     OPER           View and change services operators
+2013-01-30 04:25:57	⇄	OperServ:     OPERNEWS       Define messages to be shown to users who oper
+2013-01-30 04:25:57	⇄	OperServ:     QUIT           Terminate Services WITHOUT saving
+2013-01-30 04:25:58	⇄	OperServ:     RANDOMNEWS     Define messages to be randomly shown to users at logon
+2013-01-30 04:25:58	⇄	OperServ:     RELOAD         Reload services' configuration file
+2013-01-30 04:25:58	⇄	OperServ:     RESTART        Save databases and restart Services
+2013-01-30 04:25:58	⇄	OperServ:     SEEN           Statistics and maintenance for seen data
+2013-01-30 04:25:58	⇄	OperServ:     SESSION        View the list of host sessions
+2013-01-30 04:25:58	⇄	OperServ:     SET            Set various global Services options
+2013-01-30 04:25:58	⇄	OperServ:     SHUTDOWN       Terminate services with save
+2013-01-30 04:25:58	⇄	OperServ:     SNLINE         Manipulate the operserv/snline list
+2013-01-30 04:25:58	⇄	OperServ:     SQLINE         Manipulate the operserv/sqline list
+2013-01-30 04:25:58	⇄	OperServ:     STATS          Show status of Services and network
+2013-01-30 04:25:58	⇄	OperServ:     SVSJOIN        Forcefully join a user to a channel
+2013-01-30 04:25:58	⇄	OperServ:     SVSNICK        Forcefully change a user's nickname
+2013-01-30 04:25:58	⇄	OperServ:     SVSPART        Forcefully part a user from a channel
+2013-01-30 04:25:58	⇄	OperServ:     UMODE          Change user modes
+2013-01-30 04:25:58	⇄	OperServ:     UPDATE         Force the Services databases to be updated immediately
+2013-01-30 04:25:58	⇄	OperServ:     USERLIST       Lists all user records
+2013-01-30 04:26:00	sean	restart
+2013-01-30 04:27:04	⇄	irc: disconnected from server
+2013-01-30 04:28:26	⇄	irc: disconnected from server
+2013-01-30 04:37:26	⇄	irc: disconnected from server
+2013-01-30 04:44:05	⇄	irc: disconnected from server
+2013-01-30 04:44:42	⇄	irc: disconnected from server
+2013-01-30 04:45:49	⇄	irc: disconnected from server
+2013-01-30 04:48:21	sean	hello
+2013-01-30 04:48:21	⇄	OperServ: Access denied.
+2013-01-30 04:48:53	sean	help
+2013-01-30 04:48:53	⇄	OperServ: Access denied.
+2013-01-30 10:17:39	⇄	irc: disconnected from server
