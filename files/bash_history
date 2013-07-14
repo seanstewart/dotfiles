@@ -1,50 +1,3 @@
-ls
-RAILS_DIR='' RAILS_HOST="http://tina.local:3000" rails s
-ls
-git pull
-RAILS_DIR='' RAILS_HOST="http://tina.local:3000" rails s
-ls
-fg
-ssh sean.apple.com
-cd Desktop/
-ls
-git clone git@gitlab.sd.apple.com:sean_stewart/loctest.git 
-cd loctest/
-ls
-rails s
-rvm use
-bundle install
-ssh sean.apple.com
-cp .vimrc ~/Desktop/vimrc
-cp .profile ~/Desktop/profile
-vim .vim
-vim .vimrc 
-cscope 
-vim .vimrc
-open .vimrc
-vim .profile 
-open .profile 
-ls
-c
-ls -la
-clear
-ls
-vim .
-vim .
-clear
-ls
-vim sourceLoc 
-tmux -V
-clear
-ls
-cd Do
-ls
-cd Desktop/
-ls
-cd loctest/
-ls
-cd app/
-ls
 cd controllers/
 ls
 cd ..
@@ -498,3 +451,50 @@ ls
 cd ..
 tar -zxcf threadqueue.tar.gz threadqueue/*
 tar -zvcf threadqueue.tar.gz threadqueue/*
+ls
+vim .bash_pr
+vim ~/.bash_profile 
+cd ..
+ls
+cd .dotfiles/
+ls
+cd files/
+ls
+mkdir bash
+ls
+cd bash
+ls
+vim aliases-coreutils
+ls
+cd ..
+ls
+cd ..
+ls
+vim files/bash
+vim files/bash_profile 
+ls
+./makeSoftlinks.sh 
+cd ..
+ls
+ls- la
+ls -la
+cd .bash
+ls
+cd ..
+source .bash_profile 
+g\[ 
+ls
+vim .bash/aliases-coreutils 
+source .bash_profile 
+source .bash_profile 
+cd ..
+ls
+ls
+ls -la
+rm -rf .subversion/
+ls
+ls -la
+cd .bash
+ls
+cd ././
+vim ~/.bash_profile 

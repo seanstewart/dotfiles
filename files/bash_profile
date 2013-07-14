@@ -1,3 +1,6 @@
+#GNU CoreUtils aliases
+source ~/.bash/aliases-coreutils
+
 #Color aliases
 txtblk='\e[0;30m' # Black - Regular
 txtred='\e[0;31m' # Red
@@ -90,6 +93,8 @@ alias tags="ctags -R *"
 alias mouse-accel-off="defaults write .GlobalPreferences com.apple.mouse.scaling -1"
 alias mouse-accel-on="defaults write .GlobalPreferences com.apple.mouse.scaling 1"
 alias brb="cmatrix -ao -u9"
+alias xml1-all="for f in *.plist; do plutil -convert xml1 $f; done"
+alias bin1-all="for f in *.plist; do plutil -convert binary1 $f; done"
 
 #Set phoneback connections
 alias tunnel-up="ssh sean@synergyservers.com -p33 -D6969 -N" 
