@@ -1,0 +1,53 @@
+
+#Set GNU CoreUtils aliases
+alias ls="gls --color=auto"
+alias lls="gls -la"
+alias rm="grm"
+alias grep="ggrep --color=auto"
+
+#Set other aliases
+alias ..="cd .."
+alias .="open ."
+alias proxy-on="networksetup -setsocksfirewallproxystate Ethernet on; networksetup -setsocksfirewallproxystate Wi-Fi on"
+alias proxy-off="networksetup -setsocksfirewallproxystate Ethernet off; networksetup -setsocksfirewallproxystate Wi-Fi off"
+alias tags="ctags -R *"
+alias mouse-accel-off="defaults write .GlobalPreferences com.apple.mouse.scaling -1"
+alias mouse-accel-on="defaults write .GlobalPreferences com.apple.mouse.scaling 1"
+alias brb="cmatrix -ao -u9"
+alias xml1-all="for f in *.plist; do plutil -convert xml1 $f; done"
+alias bin1-all="for f in *.plist; do plutil -convert binary1 $f; done"
+
+#Set phoneback connections
+alias tunnel-up="ssh sean@synergyservers.com -p33 -D6969 -N" 
+alias phone-home="clear && ssh sean@home.synergyservers.com -p33"
+alias phone-m0nster="clear && ssh sean@synergyservers.com -p33"
+alias sftp-m0nster="sftp -oPort=33 sean@synergyservers.com"
+alias phone-obdurodon="clear && ssh ses119@obdurodon.org -p17171"
+
+#Set common directories
+alias cd-ling1330="cd /Users/Sean/Documents/University\ Documents/Senior\ Year/Second\ Semester/Computational\ Linguistics"
+
+#LOL!!1BASH
+alias wtf='man'
+alias rtfm='man'
+alias ohnoez='cat /var/log/system.log'
+
+alias visible='echo'
+alias invisible='vim'
+alias moar='more'
+
+alias icanhas='mkdir'
+alias donotwant='rm'
+alias rlydonotwant='srm -v'
+alias dowant='cp'
+alias gtfo='mv'
+
+alias hai='cd'
+alias plz='pwd'
+
+alias inur='mdfind'
+
+alias nom='ps aux | grep'
+alias nomnom='killall'
+
+alias kthxbai='exit'

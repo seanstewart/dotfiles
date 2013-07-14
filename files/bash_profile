@@ -1,58 +1,16 @@
-#GNU CoreUtils aliases
+#Load other files
 source ~/.bash/aliases-coreutils
+source ~/.bash/color-vars
+source ~/.bash/bash-prompts
 
-#Color aliases
-txtblk='\e[0;30m' # Black - Regular
-txtred='\e[0;31m' # Red
-txtgrn='\e[0;32m' # Green
-txtylw='\e[0;33m' # Yellow
-txtblu='\e[0;34m' # Blue
-txtpur='\e[0;35m' # Purple
-txtcyn='\e[0;36m' # Cyan
-txtwht='\e[0;37m' # White
-bldblk='\e[1;30m' # Black - Bold
-bldred='\e[1;31m' # Red
-bldgrn='\e[1;32m' # Green
-bldylw='\e[1;33m' # Yellow
-bldblu='\e[1;34m' # Blue
-bldpur='\e[1;35m' # Purple
-bldcyn='\e[1;36m' # Cyan
-bldwht='\e[1;37m' # White
-unkblk='\e[4;30m' # Black - Underline
-undred='\e[4;31m' # Red
-undgrn='\e[4;32m' # Green
-undylw='\e[4;33m' # Yellow
-undblu='\e[4;34m' # Blue
-undpur='\e[4;35m' # Purple
-undcyn='\e[4;36m' # Cyan
-undwht='\e[4;37m' # White
-bakblk='\e[40m'   # Black - Background
-bakred='\e[41m'   # Red
-badgrn='\e[42m'   # Green
-bakylw='\e[43m'   # Yellow
-bakblu='\e[44m'   # Blue
-bakpur='\e[45m'   # Purple
-bakcyn='\e[46m'   # Cyan
-bakwht='\e[47m'   # White
-txtrst='\e[0m'    # Text Reset
-
-#Prompts
-_hi="やぁ！"
-_sigh="はふぅん"
-_search="ｷｮﾛｷｮﾛ"
-_morning="おはよ"
-yeow="ギャーッ"
-success="「(^o^)"
-morning="ヾ(^∇^)"
-hello="＼(o￣∇￣o)/"
-sigh="(｡_｡)〃"
-fail="＼(>o<)／"
+# Always place this last
+source ~/.bash/aliases-general
 
 #init for RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 #Prepare for magic!
-export PS1="\[$txtrst\]sean@Tina-osx [\[$bldylw\]\W\[$txtrst\]] \`\
+export PS1="\[$txtrst\]sean@\H [\[$bldylw\]\W\[$txtrst\]] \`\
 	if [ \$? = 0 ];	
 	then
 		if [ $RANDOM -le 16383 ]; then
@@ -68,9 +26,6 @@ export PS1="\[$txtrst\]sean@Tina-osx [\[$bldylw\]\W\[$txtrst\]] \`\
 		fi
 	fi \`\[$txtrst\]$ " #Smileys depending on success of commands
 
-# Prepare for RVM
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 #export PS1="\[$txtrst\]sean@Tina-osx [\[$bldylw\]\W\[$txtrst\]] \`if [ \$? = 0 ]; then echo -e '\[$bldylw\]$success'; else echo -e '\[$bldred\]$fail$yeow'; fi \`\[$txtrst\]$ " #Smileys depending on success of commands
 #export PS1="\[$txtrst\]sean@Tina-osx [\[$bldylw\]\W\[$txtrst\]]$ "
 
@@ -79,58 +34,6 @@ if [ "$TERM" != "dumb" ]; then
 	eval `gdircolors ~/.dir_colors`
 fi
 
-#Set aliases
-alias ls="gls --color=auto"
-alias lls="ls -la"
-alias rm="rm"
-alias grep="grep --color=auto"
-alias ..="cd .."
-alias .="open ."
-alias c="clear"
-alias proxy-on="networksetup -setsocksfirewallproxystate Ethernet on; networksetup -setsocksfirewallproxystate Wi-Fi on"
-alias proxy-off="networksetup -setsocksfirewallproxystate Ethernet off; networksetup -setsocksfirewallproxystate Wi-Fi off"
-alias tags="ctags -R *"
-alias mouse-accel-off="defaults write .GlobalPreferences com.apple.mouse.scaling -1"
-alias mouse-accel-on="defaults write .GlobalPreferences com.apple.mouse.scaling 1"
-alias brb="cmatrix -ao -u9"
-alias xml1-all="for f in *.plist; do plutil -convert xml1 $f; done"
-alias bin1-all="for f in *.plist; do plutil -convert binary1 $f; done"
-
-#Set phoneback connections
-alias tunnel-up="ssh sean@synergyservers.com -p33 -D6969 -N" 
-alias phone-home="clear && ssh sean@home.synergyservers.com -p33"
-alias phone-m0nster="clear && ssh sean@synergyservers.com -p33"
-alias sftp-m0nster="sftp -oPort=33 sean@synergyservers.com"
-alias phone-arch="clear && ssh sean@arch.box"
-alias phone-obdurodon="clear && ssh ses119@obdurodon.org -p17171"
-
-#Set common directories
-alias cd-ling1330="cd /Users/Sean/Documents/University\ Documents/Senior\ Year/Second\ Semester/Computational\ Linguistics"
-
-#LOL!!1BASH
-alias wtf='man'
-alias rtfm='man'
-alias ohnoez='cat /var/log/system.log'
-
-alias visible='echo'
-alias invisible='vim'
-alias moar='more'
-
-alias icanhas='mkdir'
-alias donotwant='rm'
-alias rlydonotwant='srm -v'
-alias dowant='cp'
-alias gtfo='mv'
-
-alias hai='cd'
-alias plz='pwd'
-
-alias inur='mdfind'
-
-alias nom='ps aux | grep'
-alias nomnom='killall'
-
-alias kthxbai='exit'
 
 #Functions
 function longcat {
