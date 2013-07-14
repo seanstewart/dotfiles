@@ -1,0 +1,16 @@
+startup_message off
+
+shell -$SHELL
+defscrollback 16024
+
+defescape ^Aa
+escape ^Aa
+defflow off
+
+termcapinfo xterm-color|xterm-color256|xterm|rxvt|rxvt-unicode 'hs:ts' # show statusbar at bottom of xterm
+termcapinfo xterm-color|xterm-color256|xterm|rxvt|rxvt-unicode ti@:te@ # nowmal scrollbuffer
+
+hardstatus lastline "%{+ wk}%H %{-} %-Lw%42>%{= rw} %n%f* %t %{-}%+Lw"
+
+# Don't block terminal input if session disconnects
+nonblock on
