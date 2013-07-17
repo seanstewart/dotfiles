@@ -23,6 +23,7 @@ alias phone-home="clear && ssh sean@home.synergyservers.com -p33"
 alias phone-m0nster="clear && ssh sean@synergyservers.com -p33"
 alias sftp-m0nster="sftp -oPort=33 sean@synergyservers.com"
 alias phone-obdurodon="clear && ssh ses119@obdurodon.org -p17171"
+alias phone-tp="clear && ssh tp-admin@tp.sd.apple.com"
 
 #Set common directories
 alias cd-ling1330="cd /Users/Sean/Documents/University\ Documents/Senior\ Year/Second\ Semester/Computational\ Linguistics"
