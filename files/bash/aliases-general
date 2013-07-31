@@ -3,7 +3,7 @@
 alias ls="gls --color=auto"
 alias lls="gls -la"
 alias rm="grm"
-alias grep="ggrep --color=auto"
+alias grep="grep --color=auto"
 
 #Set other aliases
 alias ..="cd .."
