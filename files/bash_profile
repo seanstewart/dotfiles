@@ -10,24 +10,29 @@ source ~/.bash/aliases-general
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 #Prepare for magic!
-export PS1="\[$txtrst\]\u@\H [\[$bldylw\]\W\[$txtrst\]] \`\
-	if [ \$? = 0 ];	
-	then
-		if [ $RANDOM -le 16383 ]; then
-			echo -e '\[$bldylw\]$success';
+if [ $USER != "root" ]; then
+	export PS1="\[$txtrst\]\u@\H [\[$bldylw\]\W\[$txtrst\]] \`\
+		if [ \$? = 0 ];	
+		then
+			if [ $RANDOM -le 16383 ]; then
+				echo -e '\[$bldylw\]$success';
+			else
+				echo -e '\[$bldylw\]$morning';
+			fi
 		else
-			echo -e '\[$bldylw\]$morning';
-		fi
-	else
-		if [ $RANDOM -le 16383 ]; then
-			echo -e '\[$bldred\]$fail';
-		else
-			echo -e '\[$bldred\]$sigh';
-		fi
-	fi \`\[$txtrst\]$ " #Smileys depending on success of commands
+			if [ $RANDOM -le 16383 ]; then
+				echo -e '\[$bldred\]$fail';
+			else
+				echo -e '\[$bldred\]$sigh';
+			fi
+		fi \`\[$txtrst\]$ " #Smileys depending on success of commands
+else
+	export PS1="\[$txtrst\]\[$bldred\]\u@\H \[$txtrst\][\[$bldylw\]\W\[$txtrst\]]# \[$txtred\]"
+fi
 
 #export PS1="\[$txtrst\]sean@Tina-osx [\[$bldylw\]\W\[$txtrst\]] \`if [ \$? = 0 ]; then echo -e '\[$bldylw\]$success'; else echo -e '\[$bldred\]$fail$yeow'; fi \`\[$txtrst\]$ " #Smileys depending on success of commands
 #export PS1="\[$txtrst\]sean@Tina-osx [\[$bldylw\]\W\[$txtrst\]]$ "
+
 
 #Set Dir Colors (with humour)
 if [ "$TERM" != "dumb" ]; then
