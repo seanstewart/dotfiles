@@ -1,3 +1,4 @@
+if [ $SHELL = "/bin/bash" ]; then
 #Load other files
 source ~/.bash/aliases-coreutils
 source ~/.bash/color-vars
@@ -74,3 +75,4 @@ extract () {
     		#if not inside a tmux session, and if no session is started, start a new session
         	test -z "$TMUX" && (tmux attach || tmux new-session)
 	fi
+fi
