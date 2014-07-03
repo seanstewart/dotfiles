@@ -1,6 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/Sean/Projects/Nib2String'
-let g:netrw_dirhist_2='/Users/Sean/.rvm/gems/ruby-2.0.0-p195/gems/rdaw-1.0.2/lib/rdaw/controller_extensions'
-let g:netrw_dirhist_3='/Users/Sean/.dotfiles/files/bash'
-let g:netrw_dirhist_4='/Users/Sean/.weechat'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/Sean/Projects/lrerdashboard/.git/modules/lib/dscookie'
+let g:netrw_dirhist_2='/Users/Sean/Projects/locshelltools/replaceNibWithStrings'
